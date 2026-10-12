@@ -1,0 +1,87 @@
+{
+ "dialogue": "d12",
+ "condition": "session",
+ "sessionId": 14,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:53:46.043+00:00",
+ "finishedAt": "2026-10-03T17:55:08.285+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "My son, Leo, is interested in your summer coding camp.",
+   "translation": "我的儿子 Leo 对贵方的暑期编程夏令营感兴趣。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 813,
+    "completionTokens": 214
+   },
+   "latencyMs": 16041,
+   "recordId": 2667,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "He is eleven and has used Scratch before.",
+   "translation": "他今年十一岁，之前使用过 Scratch。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 971,
+    "completionTokens": 130
+   },
+   "latencyMs": 11241,
+   "recordId": 2668,
+   "sessionTurns": 1
+  },
+  {
+   "index": 2,
+   "source": "Is the beginner class too easy for him?",
+   "translation": "入门班对他来说会不会太简单？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1036,
+    "completionTokens": 64
+   },
+   "latencyMs": 23949,
+   "recordId": 2669,
+   "sessionTurns": 2
+  },
+  {
+   "index": 3,
+   "source": "His older sister took the advanced one last year and loved it.",
+   "translation": "他的姐姐去年参加了高级班，非常喜欢这个班。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1115,
+    "completionTokens": 93
+   },
+   "latencyMs": 15114,
+   "recordId": 2670,
+   "sessionTurns": 3
+  },
+  {
+   "index": 4,
+   "source": "Could Leo join the same class as his friend?",
+   "translation": "Leo 可以和他的朋友参加同一个班吗？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1181,
+    "completionTokens": 110
+   },
+   "latencyMs": 15351,
+   "recordId": 2671,
+   "sessionTurns": 4
+  }
+ ]
+}

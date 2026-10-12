@@ -1,0 +1,17 @@
+{
+ "doc": "configmap",
+ "group": "I1",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 148,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "获取一个在云端运行的容器镜像",
+   "explanation": "原文是“fetch a container image running in the cloud”，此处译成“获取一个……容器镜像”，将运行于云端的容器镜像误作需要获取的对象，改变了原意。"
+  }
+ ]
+}

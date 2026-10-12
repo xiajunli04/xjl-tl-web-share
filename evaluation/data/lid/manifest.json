@@ -1,0 +1,33 @@
+{
+  "source": {
+    "name": "FLORES-200 devtest",
+    "url": "https://dl.fbaipublicfiles.com/nllb/flores200_dataset.tar.gz",
+    "sha256": "b8b0b76783024b85797e5cc75064eb83fc5288b41e9654dabc7be6ae944011f6"
+  },
+  "seed": 20261003,
+  "languages": {
+    "zho_Hans": "zh",
+    "eng_Latn": "en",
+    "jpn_Jpan": "ja",
+    "kor_Hang": "ko",
+    "fra_Latn": "fr",
+    "deu_Latn": "de",
+    "spa_Latn": "es",
+    "rus_Cyrl": "ru",
+    "por_Latn": "pt",
+    "ita_Latn": "it",
+    "arb_Arab": "ar",
+    "tha_Thai": "th",
+    "vie_Latn": "vi",
+    "ind_Latn": "id",
+    "tur_Latn": "tr"
+  },
+  "tiers": {
+    "word": "有空格语言：≥5 个字母的词；中日泰：2–4 个字",
+    "phrase": "有空格语言：连续 2–3 个词；中日泰：5–10 个字",
+    "sentence": "devtest 原句"
+  },
+  "per_tier": 100,
+  "count": 4500,
+  "samples_sha256": "762f7739479e3de4b70d2344ab3c6ee43179f29cac8d75db8b58a8b3971da0e5"
+}

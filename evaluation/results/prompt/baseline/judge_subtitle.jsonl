@@ -1,0 +1,20 @@
+{"id": "t02", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕准确翻译了这一句，没有重复前文或添加额外说明。"}
+{"id": "t01", "run": 2, "coach_kept": false, "only_this": true, "meets_expect": false, "faithful": 4, "note": "字幕准确翻译了整句，但未保留英文示范句，也未按预期添加括号中文释义。"}
+{"id": "t01", "run": 1, "coach_kept": false, "only_this": true, "meets_expect": false, "faithful": 3, "note": "字幕表达了原句含义，但未保留英文示范句，也未按要求用括号附中文意思。"}
+{"id": "t02", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了本句，“有没有可用的”准确表达了是否有空位。"}
+{"id": "t04", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "准确表达了麻婆豆腐比较辣以及可以要求少放辣椒的意思，且只翻译了这一句。"}
+{"id": "t03", "run": 2, "coach_kept": false, "only_this": true, "meets_expect": false, "faithful": 4, "note": "字幕准确翻译了整句，但未保留英文示范句，也未按预期在括号中附中文意思。"}
+{"id": "t03", "run": 1, "coach_kept": false, "only_this": true, "meets_expect": false, "faithful": 4, "note": "字幕准确翻译了句意，但没有保留示范的英文原句，也未按预期在括号中附中文意思。"}
+{"id": "t04", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "准确将 It 指向麻婆豆腐，仅翻译了本句，意思完整自然。"}
+{"id": "t05", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": false, "faithful": 3, "note": "字幕将 They 译成“他们”而非指代博物馆，且额外添加了“晚上”。"}
+{"id": "t06", "run": 1, "coach_kept": false, "only_this": true, "meets_expect": false, "faithful": 4, "note": "译文意思基本准确，但未保留英文原句，也未按预期附上括号释义。"}
+{"id": "t07", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": false, "faithful": 4, "note": "字幕只翻译了本句且含义基本准确，但“第二种”不如预期的“第二个阶段”贴合上下文。"}
+{"id": "t05", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": false, "faithful": 3, "note": "时间和频率译对了，但“他们”把博物馆误指成了人。"}
+{"id": "t08", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了当前句，准确表达地铁更便宜但耗时更长。"}
+{"id": "t07", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 4, "note": "仅翻译了本句且将 it 正确译为“模型”，但“第二种”不如“第二个阶段”准确。"}
+{"id": "t08", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了这一句，准确表达地铁更便宜但耗时更长。"}
+{"id": "t06", "run": 2, "coach_kept": false, "only_this": true, "meets_expect": false, "faithful": 3, "note": "字幕准确翻译了句意，但未保留英文原句，也未按预期用括号附中文意思。"}
+{"id": "t09", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕简短自然地表达了“当然可以”的肯定回应。"}
+{"id": "t10", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": false, "faithful": 4, "note": "字幕保留了两处英文原句并准确翻译了句子，但示范句缺少预期的中文释义。"}
+{"id": "t09", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 4, "note": "“当然！”简洁且符合语境，虽未明确译出“可以”。"}
+{"id": "t10", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": false, "faithful": 4, "note": "两处英文原句均保留且主体意思准确，但示范句后没有附中文释义。"}

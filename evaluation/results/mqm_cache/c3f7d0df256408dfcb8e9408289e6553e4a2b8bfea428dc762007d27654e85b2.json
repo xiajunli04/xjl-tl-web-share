@@ -1,0 +1,24 @@
+{
+ "doc": "pods",
+ "group": "I3",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "映像",
+   "explanation": "容器技术语境中的 image 通常译为“镜像”，“映像”不符合常见术语惯例。"
+  },
+  {
+   "segment": 8,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "自动修复",
+   "explanation": "此处 auto-healing 指系统自动恢复或自愈，通常译为“自动自愈”或“自动恢复”；“自动修复”不够准确。"
+  }
+ ]
+}

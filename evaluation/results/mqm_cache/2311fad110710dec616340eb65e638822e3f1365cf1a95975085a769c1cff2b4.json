@@ -1,0 +1,38 @@
+{
+ "doc": "volumes",
+ "group": "I2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 281,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "major",
+   "span": "] 类型",
+   "explanation": "链接后多出一个右方括号，破坏了 Markdown 格式。"
+  },
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "major",
+   "span": "]的存在时间",
+   "explanation": "链接后多出一个右方括号，破坏了 Markdown 格式。"
+  },
+  {
+   "segment": 5,
+   "category": "fluency",
+   "severity": "major",
+   "span": "]上",
+   "explanation": "链接后多出一个右方括号，破坏了 Markdown 格式。"
+  },
+  {
+   "segment": 6,
+   "category": "fluency",
+   "severity": "major",
+   "span": "]",
+   "explanation": "链接后多出一个右方括号，破坏了 Markdown 格式。"
+  }
+ ]
+}

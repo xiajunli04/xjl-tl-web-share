@@ -1,0 +1,24 @@
+{
+ "doc": "volumes",
+ "group": "D5",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 144,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "style",
+   "severity": "minor",
+   "span": "非平凡应用",
+   "explanation": "“非平凡应用”是对 non-trivial applications 的生硬直译，技术中文中通常表述为“较复杂的应用”。"
+  },
+  {
+   "segment": 2,
+   "category": "style",
+   "severity": "minor",
+   "span": "以干净状态",
+   "explanation": "“干净状态”表达生硬，可改为“初始状态”或“干净的状态”。"
+  }
+ ]
+}

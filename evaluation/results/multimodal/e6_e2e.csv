@@ -1,0 +1,5 @@
+label,mode,variant,samples,fragmented,finalsPerSample,repliesPerSample,e2eP50,e2eP90,holdMsAvg,chrF,errors
+new,CHAT,V0,10,1,1.1,1.1,3394.0,3933.0,69,,0
+new,CHAT,V1,10,9,1.9,1.8,3144.0,3931.0,116,,1
+new,LISTEN,V0,10,2,1.2,,3207.5,3689.2000000000003,60,52.3,0
+new,LISTEN,V1,10,9,1.9,,4032.0,5135.6,74,49.7,0

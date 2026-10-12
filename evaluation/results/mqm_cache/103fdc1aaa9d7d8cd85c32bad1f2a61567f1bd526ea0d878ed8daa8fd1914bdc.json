@@ -1,0 +1,17 @@
+{
+ "doc": "configmap",
+ "group": "I3",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 139,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "ConfigMap 是一种 API 对象\n允许您存储供其他对象使用的配置",
+   "explanation": "“对象”与“允许”之间缺少衔接，句子结构不完整；可改为“ConfigMap 是一种 API 对象，可用于存储供其他对象使用的配置。”"
+  }
+ ]
+}

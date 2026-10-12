@@ -1,0 +1,24 @@
+{
+ "doc": "service",
+ "group": "D3",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 243,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "此处指 Kubernetes 的 Deployment 资源，译为“部署”会弱化其作为特定 API 资源的含义。"
+  },
+  {
+   "segment": 4,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "此处指 Kubernetes 的 Deployment 资源，译为“部署”会弱化其作为特定 API 资源的含义。"
+  }
+ ]
+}

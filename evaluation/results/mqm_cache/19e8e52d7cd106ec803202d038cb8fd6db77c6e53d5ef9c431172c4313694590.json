@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "D4",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 170,
+ "errors": [
+  {
+   "segment": 8,
+   "category": "style",
+   "severity": "minor",
+   "span": "作为滚动发布卡住的指示",
+   "explanation": "“指示”用于此处措辞生硬，技术文档中用“标志”或“信号”更自然。"
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "d3",
+  "scenario": "restaurant",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "你好，两个人",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “A table for two, please.” Certainly—right this way. Would you prefer a table by the window or in the main dining area?",
+      "summary": null
+    },
+    {
+      "text": "我们想先喝点东西，有什么推荐",
+      "tags": [
+        "substantive"
+      ],
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "You could say: “We’d like to start with some drinks. What do you recommend?” Our fresh lemonade and house iced tea are both popular, or I can offer you a glass of wine. What would you prefer?",
+      "summary": null
+    },
+    {
+      "text": "那来两杯柠檬茶吧",
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "You could say: “Two lemon teas, please.” Certainly—would you like them iced or hot?",
+      "summary": null
+    },
+    {
+      "text": "我朋友对花生过敏",
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "You could say: “My friend is allergic to peanuts.” Thank you for letting me know—we’ll alert the kitchen and avoid peanut cross-contact. Is the allergy severe?",
+      "summary": null
+    },
+    {
+      "text": "你们有什么招牌菜",
+      "tags": [
+        "substantive"
+      ],
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "You could say: “What are your signature dishes?” Our most popular dishes are the grilled salmon and the herb-roasted chicken. Since your friend has a peanut allergy, would you like me to recommend peanut-free options?",
+      "summary": null
+    },
+    {
+      "text": "这个菜辣吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "You could say: “Is this dish spicy?” Which dish are you asking about—the grilled salmon or the herb-roasted chicken? I can also ask the chef to make it mild.",
+      "summary": null
+    },
+    {
+      "text": "I want a not spicy one",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’d like something that isn’t spicy.” The herb-roasted chicken is mild, and we can prepare it without any spicy seasoning. Would you like that for your main course?",
+      "summary": null
+    },
+    {
+      "text": "那就来一份这个，再来一份炒饭",
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "You could say: “We’ll have one herb-roasted chicken and one fried rice.” Certainly. Does the fried rice need to be peanut-free as well, and would you like your lemon teas iced or hot?",
+      "summary": null
+    },
+    {
+      "text": "等等，我想问一下有没有素食",
+      "tags": [
+        "after_interrupt",
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": "You could say: “We’ll have one herb-roasted chicken and one fried rice.” Certainly.",
+      "reply": "You could say: “Wait, I’d like to ask if you have any vegetarian options.” Yes, we have a vegetable stir-fry and vegetarian fried rice. Would you like to replace the chicken or the regular fried rice?",
+      "summary": null
+    },
+    {
+      "text": "好的，素食也来一份",
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "You could say: “Okay, we’ll have one vegetarian dish as well.” Certainly—would you like the vegetable stir-fry or the vegetarian fried rice?",
+      "summary": null
+    },
+    {
+      "text": "能帮我复述一下我们点了什么吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "两杯柠檬茶",
+        "一道不辣的菜（顾客选定的那道）",
+        "一份炒饭",
+        "一份素食菜"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "You could say: “Could you repeat our order, please?” So far, you have two lemon teas, one herb-roasted chicken, one fried rice, and one vegetarian dish. Would you like the vegetable stir-fry or the vegetarian fried rice?",
+      "summary": null
+    },
+    {
+      "text": "上菜大概要多久",
+      "tags": [
+        "substantive"
+      ],
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "You could say: “How long will our food take?” The drinks should be ready in a few minutes, and the food will take about 20 to 25 minutes. Is that all right?",
+      "summary": null
+    },
+    {
+      "text": "可以先上饮料吗",
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "You could say: “Could you bring the drinks first, please?” Of course. I’ll have the two lemon teas brought out first while the kitchen prepares your food.",
+      "summary": null
+    },
+    {
+      "text": "Thanks, the food is very delicious",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "You could say: “Thanks, the food is delicious.” I’m so glad you’re enjoying it! Is there anything else I can bring you, such as more water or another drink?",
+      "summary": null
+    },
+    {
+      "text": "我们可以分开付吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You could say: “Could we pay separately?” Of course. Would you like separate checks for each person, or would you prefer to split the total evenly?",
+      "summary": null
+    },
+    {
+      "text": "我刚才说我朋友对什么过敏来着",
+      "tags": [
+        "recall"
+      ],
+      "answer": "花生",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "You could say: “What did I say my friend was allergic to?” You said your friend is allergic to peanuts.",
+      "summary": null
+    },
+    {
+      "text": "那我们点的炒饭里有花生吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "应结合花生过敏回答（确认不含花生或承诺确认），不能忽略过敏信息",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "You could say: “Does the fried rice contain peanuts?” I’ll check with the kitchen to be sure, and we can prepare a peanut-free portion for your friend.",
+      "summary": null
+    }
+  ],
+  "greeting": "Welcome in! Here are your menus. Can I start you off with something to drink?",
+  "compressions": 0
+}

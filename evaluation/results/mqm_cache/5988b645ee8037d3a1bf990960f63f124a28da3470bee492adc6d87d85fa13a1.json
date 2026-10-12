@@ -1,0 +1,24 @@
+{
+ "doc": "volumes",
+ "group": "D0",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 156,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "style",
+   "severity": "minor",
+   "span": "临时暂存空间",
+   "explanation": "“暂存空间”不够自然，且“临时”与“暂存”语义略有重复；可译为“临时工作空间”或“临时存储空间”。"
+  },
+  {
+   "segment": 8,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "根据 Pod 的详细信息，将配置信息传递给容器中运行的应用，具体取决于该容器所在的 Pod",
+   "explanation": "句子后半部分重复且结构不顺，原文表达的是依据容器所在 Pod 的详细信息传递配置信息。"
+  }
+ ]
+}

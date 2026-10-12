@@ -1,0 +1,40 @@
+{"id": "a01", "ambiguous": true, "source": "Please send it to the bank.", "span": "bank", "readings": ["银行", "河岸/堤岸"]}
+{"id": "a02", "ambiguous": true, "source": "My cousin will pick up the package tomorrow.", "span": "cousin", "readings": ["表哥", "表姐", "表弟", "表妹", "堂兄弟姐妹"]}
+{"id": "a03", "ambiguous": true, "source": "Please forward the receipt to my uncle.", "span": "uncle", "readings": ["叔叔", "伯伯", "舅舅", "姑父", "姨父"]}
+{"id": "a04", "ambiguous": true, "source": "My aunt asked me to cancel her order.", "span": "aunt", "readings": ["阿姨/姨妈", "姑姑", "舅妈", "伯母/婶婶"]}
+{"id": "a05", "ambiguous": true, "source": "My brother-in-law will sign for the delivery.", "span": "brother-in-law", "readings": ["姐夫", "妹夫", "大伯子", "小叔子", "大舅子", "小舅子"]}
+{"id": "a06", "ambiguous": true, "source": "My grandmother loves the scarf you recommended.", "span": "grandmother", "readings": ["奶奶/祖母", "外婆/外祖母"]}
+{"id": "a07", "ambiguous": true, "source": "Can you check the bill before Friday?", "span": "bill", "readings": ["账单", "法案/议案", "钞票"]}
+{"id": "a08", "ambiguous": true, "source": "Bring a light when you come to the cabin.", "span": "light", "readings": ["灯/手电筒", "打火机/火"]}
+{"id": "a09", "ambiguous": true, "source": "Watch out for the bat in the garage.", "span": "bat", "readings": ["蝙蝠", "球棒"]}
+{"id": "a10", "ambiguous": true, "source": "Please bring the case to the meeting room.", "span": "case", "readings": ["箱子/盒子", "案件材料/案例", "保护壳"]}
+{"id": "a11", "ambiguous": true, "source": "The seal on the door is broken.", "span": "seal", "readings": ["封条", "密封条/密封圈"]}
+{"id": "a12", "ambiguous": true, "source": "Check the spring before you start the machine.", "span": "spring", "readings": ["弹簧", "泉水/水源"]}
+{"id": "a13", "ambiguous": true, "source": "He left the plant last week.", "span": "plant", "readings": ["工厂", "植物"]}
+{"id": "a14", "ambiguous": true, "source": "We need two more matches for the event.", "span": "matches", "readings": ["比赛/场次", "火柴"]}
+{"id": "a15", "ambiguous": true, "source": "The date has been moved to next month.", "span": "date", "readings": ["日期", "约会"]}
+{"id": "a16", "ambiguous": true, "source": "My nephew will collect the tickets at the counter.", "span": "nephew", "readings": ["侄子", "外甥"]}
+{"id": "a17", "ambiguous": true, "source": "Leave the key under the mat for my sister-in-law.", "span": "sister-in-law", "readings": ["嫂子", "弟媳", "大姑子", "小姑子", "大姨子", "小姨子"]}
+{"id": "a18", "ambiguous": true, "source": "Can you get the pitcher from the kitchen?", "span": "pitcher", "readings": ["水罐/水壶", "投手"]}
+{"id": "a19", "ambiguous": true, "source": "The board rejected the proposal again.", "span": "board", "readings": ["董事会/委员会", "木板"]}
+{"id": "a20", "ambiguous": true, "source": "Put the glasses on the table, please.", "span": "glasses", "readings": ["眼镜", "玻璃杯"]}
+{"id": "u01", "ambiguous": false, "source": "Your order has been shipped and will arrive within three days."}
+{"id": "u02", "ambiguous": false, "source": "Please enter the verification code sent to your phone."}
+{"id": "u03", "ambiguous": false, "source": "The store opens at nine in the morning on weekdays."}
+{"id": "u04", "ambiguous": false, "source": "Thank you for your patience while we review your request."}
+{"id": "u05", "ambiguous": false, "source": "You can download the invoice from your account page."}
+{"id": "u06", "ambiguous": false, "source": "This jacket is available in three sizes: small, medium, and large."}
+{"id": "u07", "ambiguous": false, "source": "Our support team is available twenty-four hours a day."}
+{"id": "u08", "ambiguous": false, "source": "The meeting has been rescheduled to Thursday at 3 p.m."}
+{"id": "u09", "ambiguous": false, "source": "Please keep the original packaging if you plan to return the item."}
+{"id": "u10", "ambiguous": false, "source": "Free shipping applies to orders over fifty dollars."}
+{"id": "u11", "ambiguous": false, "source": "Your password must contain at least eight characters."}
+{"id": "u12", "ambiguous": false, "source": "The museum is closed on Mondays for maintenance."}
+{"id": "u13", "ambiguous": false, "source": "We have refunded the full amount to your credit card."}
+{"id": "u14", "ambiguous": false, "source": "Please restart the app after installing the update."}
+{"id": "u15", "ambiguous": false, "source": "The train to Shanghai departs from platform four."}
+{"id": "u16", "ambiguous": false, "source": "Each customer can use the coupon only once."}
+{"id": "u17", "ambiguous": false, "source": "The printer is out of paper."}
+{"id": "u18", "ambiguous": false, "source": "Your subscription has been cancelled successfully."}
+{"id": "u19", "ambiguous": false, "source": "The hotel offers free parking for guests."}
+{"id": "u20", "ambiguous": false, "source": "Please arrive at the airport two hours before departure."}

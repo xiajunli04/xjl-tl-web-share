@@ -1,0 +1,353 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+/* 矮屏（小屏笔记本 + 浏览器工具栏后可视高度 ≤ 720px）：压缩首屏装饰性内容 */
+@custom-variant short (@media (max-height: 720px));
+
+/*
+ * 设计令牌（design.md「UI/UX · 设计系统」）
+ * - 中性色：zinc 色阶；品牌色：indigo-500 → violet-500 渐变（仅用于主按钮、Agent 激活态、焦点环）
+ * - 语义色：success / warning / danger / info；圆角 0.75rem；三级阴影（card / popover / modal）
+ * - 间距沿用 Tailwind 4px 基准，组件内统一使用 8pt 的倍数（2 / 4 / 6 / 8 …）
+ * 组件中只能引用这些令牌生成的工具类，禁止硬编码颜色。
+ */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans:
+    "Inter", "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-heading: var(--font-sans);
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  /* 品牌 */
+  --color-brand: var(--brand);
+  --color-brand-from: var(--brand-from);
+  --color-brand-to: var(--brand-to);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-brand-soft: var(--brand-soft);
+
+  /* 语义色 */
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-soft: var(--warning-soft);
+  --color-danger: var(--danger);
+  --color-danger-foreground: var(--danger-foreground);
+  --color-danger-soft: var(--danger-soft);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --color-info-soft: var(--info-soft);
+
+  /* 遮罩与表面 */
+  --color-overlay: var(--overlay);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* 三级阴影 */
+  --shadow-card: var(--elevation-1);
+  --shadow-popover: var(--elevation-2);
+  --shadow-modal: var(--elevation-3);
+  --shadow-brand: var(--elevation-brand);
+
+  /* 动画 */
+  --animate-shimmer: shimmer 1.6s ease-in-out infinite;
+  --animate-pulse-ring: pulse-ring 1.6s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  --animate-caret: caret 1s steps(1) infinite;
+  --animate-breathe: breathe 2.4s ease-in-out infinite;
+  --animate-spin-slow: spin 2.4s linear infinite;
+  /* 文档工作区：定位段落 / 一致性修正后的闪烁高亮（仅颜色变化，减少动效时同样适用） */
+  --animate-flash: flash-highlight 1.8s cubic-bezier(0.22, 1, 0.36, 1) 1;
+  --animate-mascot-float: mascot-float 3.2s ease-in-out infinite;
+
+  @keyframes mascot-float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-4%);
+    }
+  }
+
+  @keyframes flash-highlight {
+    0%,
+    35% {
+      background-color: color-mix(in oklch, var(--brand) 22%, transparent);
+      box-shadow: inset 3px 0 0 var(--brand);
+    }
+    100% {
+      background-color: transparent;
+      box-shadow: inset 3px 0 0 transparent;
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(0.85);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1.9);
+      opacity: 0;
+    }
+  }
+  @keyframes caret {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  @keyframes breathe {
+    0%,
+    100% {
+      opacity: 1;
+      box-shadow: 0 0 0 0 color-mix(in oklch, currentColor 45%, transparent);
+    }
+    50% {
+      opacity: 0.75;
+      box-shadow: 0 0 0 5px color-mix(in oklch, currentColor 0%, transparent);
+    }
+  }
+}
+
+:root {
+  /* zinc 中性色 */
+  --background: oklch(0.985 0 0);
+  --foreground: oklch(0.21 0.006 285.885);
+  --surface: oklch(1 0 0);
+  --surface-raised: oklch(1 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.21 0.006 285.885);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.21 0.006 285.885);
+  --primary: oklch(0.585 0.233 277.117);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.967 0.001 286.375);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  --muted: oklch(0.967 0.001 286.375);
+  --muted-foreground: oklch(0.552 0.016 285.938);
+  --accent: oklch(0.967 0.001 286.375);
+  --accent-foreground: oklch(0.21 0.006 285.885);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.92 0.004 286.32);
+  --input: oklch(0.92 0.004 286.32);
+  --ring: oklch(0.585 0.233 277.117);
+  --chart-1: oklch(0.585 0.233 277.117);
+  --chart-2: oklch(0.606 0.25 292.717);
+  --chart-3: oklch(0.696 0.17 162.48);
+  --chart-4: oklch(0.769 0.188 70.08);
+  --chart-5: oklch(0.685 0.169 237.323);
+  --radius: 0.75rem;
+
+  --brand-from: oklch(0.585 0.233 277.117);
+  --brand-to: oklch(0.606 0.25 292.717);
+  --brand: oklch(0.585 0.233 277.117);
+  --brand-foreground: oklch(0.985 0 0);
+  --brand-soft: oklch(0.585 0.233 277.117 / 10%);
+
+  --success: oklch(0.596 0.145 163.225);
+  --success-foreground: oklch(0.985 0 0);
+  --success-soft: oklch(0.596 0.145 163.225 / 12%);
+  --warning: oklch(0.666 0.179 58.318);
+  --warning-foreground: oklch(0.985 0 0);
+  --warning-soft: oklch(0.769 0.188 70.08 / 14%);
+  --danger: oklch(0.577 0.245 27.325);
+  --danger-foreground: oklch(0.985 0 0);
+  --danger-soft: oklch(0.577 0.245 27.325 / 10%);
+  --info: oklch(0.588 0.158 241.966);
+  --info-foreground: oklch(0.985 0 0);
+  --info-soft: oklch(0.588 0.158 241.966 / 10%);
+
+  --overlay: oklch(0.21 0.006 285.885 / 32%);
+
+  --elevation-1: 0 1px 2px oklch(0.21 0.006 285.885 / 4%), 0 1px 3px oklch(0.21 0.006 285.885 / 6%);
+  --elevation-2:
+    0 4px 12px -2px oklch(0.21 0.006 285.885 / 8%), 0 2px 4px -2px oklch(0.21 0.006 285.885 / 6%);
+  --elevation-3:
+    0 24px 48px -12px oklch(0.21 0.006 285.885 / 18%), 0 8px 16px -8px oklch(0.21 0.006 285.885 / 10%);
+  --elevation-brand: 0 6px 20px -6px oklch(0.585 0.233 277.117 / 55%);
+
+  --sidebar: oklch(0.975 0.001 286.375);
+  --sidebar-foreground: oklch(0.21 0.006 285.885);
+  --sidebar-primary: oklch(0.585 0.233 277.117);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.94 0.003 286.32);
+  --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
+  --sidebar-border: oklch(0.92 0.004 286.32);
+  --sidebar-ring: oklch(0.585 0.233 277.117);
+}
+
+.dark {
+  --background: oklch(0.141 0.005 285.823);
+  --foreground: oklch(0.967 0.001 286.375);
+  --surface: oklch(0.17 0.005 285.823);
+  --surface-raised: oklch(0.21 0.006 285.885);
+  --card: oklch(0.17 0.005 285.823);
+  --card-foreground: oklch(0.967 0.001 286.375);
+  --popover: oklch(0.2 0.006 285.885);
+  --popover-foreground: oklch(0.967 0.001 286.375);
+  --primary: oklch(0.673 0.182 276.935);
+  --primary-foreground: oklch(0.141 0.005 285.823);
+  --secondary: oklch(0.274 0.006 286.033);
+  --secondary-foreground: oklch(0.967 0.001 286.375);
+  --muted: oklch(0.235 0.006 286.033);
+  --muted-foreground: oklch(0.705 0.015 286.067);
+  --accent: oklch(0.274 0.006 286.033);
+  --accent-foreground: oklch(0.967 0.001 286.375);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 9%);
+  --input: oklch(1 0 0 / 13%);
+  --ring: oklch(0.673 0.182 276.935);
+  --chart-1: oklch(0.673 0.182 276.935);
+  --chart-2: oklch(0.702 0.183 293.541);
+  --chart-3: oklch(0.765 0.177 163.223);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.746 0.16 232.661);
+
+  --brand-from: oklch(0.62 0.21 277.117);
+  --brand-to: oklch(0.64 0.22 292.717);
+  --brand: oklch(0.673 0.182 276.935);
+  --brand-foreground: oklch(0.985 0 0);
+  --brand-soft: oklch(0.673 0.182 276.935 / 16%);
+
+  --success: oklch(0.765 0.177 163.223);
+  --success-foreground: oklch(0.141 0.005 285.823);
+  --success-soft: oklch(0.765 0.177 163.223 / 14%);
+  --warning: oklch(0.828 0.189 84.429);
+  --warning-foreground: oklch(0.141 0.005 285.823);
+  --warning-soft: oklch(0.828 0.189 84.429 / 14%);
+  --danger: oklch(0.704 0.191 22.216);
+  --danger-foreground: oklch(0.141 0.005 285.823);
+  --danger-soft: oklch(0.704 0.191 22.216 / 15%);
+  --info: oklch(0.746 0.16 232.661);
+  --info-foreground: oklch(0.141 0.005 285.823);
+  --info-soft: oklch(0.746 0.16 232.661 / 15%);
+
+  --overlay: oklch(0 0 0 / 55%);
+
+  --elevation-1: 0 1px 2px oklch(0 0 0 / 30%), inset 0 1px 0 oklch(1 0 0 / 3%);
+  --elevation-2: 0 8px 24px -6px oklch(0 0 0 / 50%), inset 0 1px 0 oklch(1 0 0 / 5%);
+  --elevation-3: 0 32px 64px -16px oklch(0 0 0 / 70%), inset 0 1px 0 oklch(1 0 0 / 6%);
+  --elevation-brand: 0 6px 24px -6px oklch(0.62 0.21 277.117 / 60%);
+
+  --sidebar: oklch(0.155 0.005 285.823);
+  --sidebar-foreground: oklch(0.967 0.001 286.375);
+  --sidebar-primary: oklch(0.673 0.182 276.935);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.235 0.006 286.033);
+  --sidebar-accent-foreground: oklch(0.967 0.001 286.375);
+  --sidebar-border: oklch(1 0 0 / 7%);
+  --sidebar-ring: oklch(0.673 0.182 276.935);
+}
+
+/* 品牌渐变，只用于主按钮、Agent 激活态与焦点环 */
+@utility bg-brand-gradient {
+  background-image: linear-gradient(135deg, var(--brand-from), var(--brand-to));
+}
+@utility text-brand-gradient {
+  background-image: linear-gradient(135deg, var(--brand-from), var(--brand-to));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* 登录页背景光晕 */
+@utility bg-auth-glow {
+  background-image:
+    radial-gradient(60% 45% at 50% 0%, var(--brand-soft), transparent 70%),
+    radial-gradient(40% 35% at 85% 100%, color-mix(in oklch, var(--brand-to) 10%, transparent), transparent 70%);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    font-feature-settings: "cv11", "ss01";
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  ::selection {
+    background-color: var(--brand-soft);
+  }
+}
+
+/* 主题切换时短暂启用颜色过渡（由 ThemeToggle 添加该类，约 300ms 后移除） */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition:
+    background-color 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    color 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    fill 260ms cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+/* 细滚动条 */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-safe-only {
+    animation: none !important;
+  }
+}

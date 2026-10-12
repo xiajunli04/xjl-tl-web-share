@@ -1,0 +1,216 @@
+{"id": "zh-01-v0", "variant": "V0", "base": ["zh-01"], "lang": "zh", "text": "大家好，今天我们讨论新版本的发布计划。", "expect": 1, "durationMs": 3469}
+{"id": "zh-01-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1034, "base": ["zh-01"], "lang": "zh", "text": "大家好，今天我们讨论新版本的发布计划。", "expect": 1, "durationMs": 4069}
+{"id": "zh-01-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1034, "base": ["zh-01"], "lang": "zh", "text": "大家好，今天我们讨论新版本的发布计划。", "expect": 1, "durationMs": 4369}
+{"id": "zh-01-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1034, "base": ["zh-01"], "lang": "zh", "text": "大家好，今天我们讨论新版本的发布计划。", "expect": 1, "durationMs": 4669}
+{"id": "zh-01-v2", "variant": "V2", "cutMs": 1034, "base": ["zh-01"], "lang": "zh", "text": "大家好，今天我们讨论新版本的发布计划。", "expect": 1, "durationMs": 5328}
+{"id": "zh-02-v0", "variant": "V0", "base": ["zh-02"], "lang": "zh", "text": "这次我们会先做灰度发布，覆盖百分之五的用户。", "expect": 1, "durationMs": 4297}
+{"id": "zh-02-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 2234, "base": ["zh-02"], "lang": "zh", "text": "这次我们会先做灰度发布，覆盖百分之五的用户。", "expect": 1, "durationMs": 4897}
+{"id": "zh-02-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 2234, "base": ["zh-02"], "lang": "zh", "text": "这次我们会先做灰度发布，覆盖百分之五的用户。", "expect": 1, "durationMs": 5197}
+{"id": "zh-02-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 2234, "base": ["zh-02"], "lang": "zh", "text": "这次我们会先做灰度发布，覆盖百分之五的用户。", "expect": 1, "durationMs": 5497}
+{"id": "zh-02-v2", "variant": "V2", "cutMs": 2234, "base": ["zh-02"], "lang": "zh", "text": "这次我们会先做灰度发布，覆盖百分之五的用户。", "expect": 1, "durationMs": 6157}
+{"id": "zh-03-v0", "variant": "V0", "base": ["zh-03"], "lang": "zh", "text": "如果错误率超过千分之一，就立即回滚。", "expect": 1, "durationMs": 3585}
+{"id": "zh-03-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1895, "base": ["zh-03"], "lang": "zh", "text": "如果错误率超过千分之一，就立即回滚。", "expect": 1, "durationMs": 4185}
+{"id": "zh-03-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1895, "base": ["zh-03"], "lang": "zh", "text": "如果错误率超过千分之一，就立即回滚。", "expect": 1, "durationMs": 4485}
+{"id": "zh-03-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1895, "base": ["zh-03"], "lang": "zh", "text": "如果错误率超过千分之一，就立即回滚。", "expect": 1, "durationMs": 4785}
+{"id": "zh-03-v2", "variant": "V2", "cutMs": 1895, "base": ["zh-03"], "lang": "zh", "text": "如果错误率超过千分之一，就立即回滚。", "expect": 1, "durationMs": 5445}
+{"id": "zh-04-v0", "variant": "V0", "base": ["zh-04"], "lang": "zh", "text": "大模型的推理成本比上个季度下降了一半。", "expect": 1, "durationMs": 3613}
+{"id": "zh-04-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1264, "base": ["zh-04"], "lang": "zh", "text": "大模型的推理成本比上个季度下降了一半。", "expect": 1, "durationMs": 4213}
+{"id": "zh-04-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1264, "base": ["zh-04"], "lang": "zh", "text": "大模型的推理成本比上个季度下降了一半。", "expect": 1, "durationMs": 4513}
+{"id": "zh-04-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1264, "base": ["zh-04"], "lang": "zh", "text": "大模型的推理成本比上个季度下降了一半。", "expect": 1, "durationMs": 4813}
+{"id": "zh-04-v2", "variant": "V2", "cutMs": 1264, "base": ["zh-04"], "lang": "zh", "text": "大模型的推理成本比上个季度下降了一半。", "expect": 1, "durationMs": 5472}
+{"id": "zh-05-v0", "variant": "V0", "base": ["zh-05"], "lang": "zh", "text": "它的响应速度也提升了不少。", "expect": 1, "durationMs": 2691}
+{"id": "zh-05-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1222, "base": ["zh-05"], "lang": "zh", "text": "它的响应速度也提升了不少。", "expect": 1, "durationMs": 3291}
+{"id": "zh-05-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1222, "base": ["zh-05"], "lang": "zh", "text": "它的响应速度也提升了不少。", "expect": 1, "durationMs": 3591}
+{"id": "zh-05-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1222, "base": ["zh-05"], "lang": "zh", "text": "它的响应速度也提升了不少。", "expect": 1, "durationMs": 3891}
+{"id": "zh-05-v2", "variant": "V2", "cutMs": 1222, "base": ["zh-05"], "lang": "zh", "text": "它的响应速度也提升了不少。", "expect": 1, "durationMs": 4551}
+{"id": "zh-06-v0", "variant": "V0", "base": ["zh-06"], "lang": "zh", "text": "请问去火车站怎么走？", "expect": 1, "durationMs": 2324}
+{"id": "zh-06-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 693, "base": ["zh-06"], "lang": "zh", "text": "请问去火车站怎么走？", "expect": 1, "durationMs": 2924}
+{"id": "zh-06-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 693, "base": ["zh-06"], "lang": "zh", "text": "请问去火车站怎么走？", "expect": 1, "durationMs": 3224}
+{"id": "zh-06-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 693, "base": ["zh-06"], "lang": "zh", "text": "请问去火车站怎么走？", "expect": 1, "durationMs": 3524}
+{"id": "zh-06-v2", "variant": "V2", "cutMs": 693, "base": ["zh-06"], "lang": "zh", "text": "请问去火车站怎么走？", "expect": 1, "durationMs": 4184}
+{"id": "zh-07-v0", "variant": "V0", "base": ["zh-07"], "lang": "zh", "text": "沿着这条路一直走，到第二个路口右转。", "expect": 1, "durationMs": 3540}
+{"id": "zh-07-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1549, "base": ["zh-07"], "lang": "zh", "text": "沿着这条路一直走，到第二个路口右转。", "expect": 1, "durationMs": 4140}
+{"id": "zh-07-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1549, "base": ["zh-07"], "lang": "zh", "text": "沿着这条路一直走，到第二个路口右转。", "expect": 1, "durationMs": 4440}
+{"id": "zh-07-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1549, "base": ["zh-07"], "lang": "zh", "text": "沿着这条路一直走，到第二个路口右转。", "expect": 1, "durationMs": 4740}
+{"id": "zh-07-v2", "variant": "V2", "cutMs": 1549, "base": ["zh-07"], "lang": "zh", "text": "沿着这条路一直走，到第二个路口右转。", "expect": 1, "durationMs": 5399}
+{"id": "zh-08-v0", "variant": "V0", "base": ["zh-08"], "lang": "zh", "text": "大概要走十分钟左右。", "expect": 1, "durationMs": 1882}
+{"id": "zh-08-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 468, "base": ["zh-08"], "lang": "zh", "text": "大概要走十分钟左右。", "expect": 1, "durationMs": 2482}
+{"id": "zh-08-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 468, "base": ["zh-08"], "lang": "zh", "text": "大概要走十分钟左右。", "expect": 1, "durationMs": 2782}
+{"id": "zh-08-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 468, "base": ["zh-08"], "lang": "zh", "text": "大概要走十分钟左右。", "expect": 1, "durationMs": 3082}
+{"id": "zh-08-v2", "variant": "V2", "cutMs": 468, "base": ["zh-08"], "lang": "zh", "text": "大概要走十分钟左右。", "expect": 1, "durationMs": 3741}
+{"id": "zh-09-v0", "variant": "V0", "base": ["zh-09"], "lang": "zh", "text": "附近有没有便宜一点的酒店？", "expect": 1, "durationMs": 2229}
+{"id": "zh-09-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 660, "base": ["zh-09"], "lang": "zh", "text": "附近有没有便宜一点的酒店？", "expect": 1, "durationMs": 2829}
+{"id": "zh-09-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 660, "base": ["zh-09"], "lang": "zh", "text": "附近有没有便宜一点的酒店？", "expect": 1, "durationMs": 3129}
+{"id": "zh-09-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 660, "base": ["zh-09"], "lang": "zh", "text": "附近有没有便宜一点的酒店？", "expect": 1, "durationMs": 3429}
+{"id": "zh-09-v2", "variant": "V2", "cutMs": 660, "base": ["zh-09"], "lang": "zh", "text": "附近有没有便宜一点的酒店？", "expect": 1, "durationMs": 4088}
+{"id": "zh-10-v0", "variant": "V0", "base": ["zh-10"], "lang": "zh", "text": "我想订两晚，明天入住。", "expect": 1, "durationMs": 2495}
+{"id": "zh-10-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1063, "base": ["zh-10"], "lang": "zh", "text": "我想订两晚，明天入住。", "expect": 1, "durationMs": 3095}
+{"id": "zh-10-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1063, "base": ["zh-10"], "lang": "zh", "text": "我想订两晚，明天入住。", "expect": 1, "durationMs": 3395}
+{"id": "zh-10-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1063, "base": ["zh-10"], "lang": "zh", "text": "我想订两晚，明天入住。", "expect": 1, "durationMs": 3695}
+{"id": "zh-10-v2", "variant": "V2", "cutMs": 1063, "base": ["zh-10"], "lang": "zh", "text": "我想订两晚，明天入住。", "expect": 1, "durationMs": 4355}
+{"id": "en-01-v0", "variant": "V0", "base": ["en-01"], "lang": "en", "text": "Thanks for calling, how can I help you today?", "expect": 1, "durationMs": 2680}
+{"id": "en-01-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 818, "base": ["en-01"], "lang": "en", "text": "Thanks for calling, how can I help you today?", "expect": 1, "durationMs": 3280}
+{"id": "en-01-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 818, "base": ["en-01"], "lang": "en", "text": "Thanks for calling, how can I help you today?", "expect": 1, "durationMs": 3580}
+{"id": "en-01-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 818, "base": ["en-01"], "lang": "en", "text": "Thanks for calling, how can I help you today?", "expect": 1, "durationMs": 3880}
+{"id": "en-01-v2", "variant": "V2", "cutMs": 818, "base": ["en-01"], "lang": "en", "text": "Thanks for calling, how can I help you today?", "expect": 1, "durationMs": 3683}
+{"id": "en-02-v0", "variant": "V0", "base": ["en-02"], "lang": "en", "text": "My order arrived yesterday, but the screen is cracked.", "expect": 1, "durationMs": 3394}
+{"id": "en-02-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1488, "base": ["en-02"], "lang": "en", "text": "My order arrived yesterday, but the screen is cracked.", "expect": 1, "durationMs": 3994}
+{"id": "en-02-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1488, "base": ["en-02"], "lang": "en", "text": "My order arrived yesterday, but the screen is cracked.", "expect": 1, "durationMs": 4294}
+{"id": "en-02-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1488, "base": ["en-02"], "lang": "en", "text": "My order arrived yesterday, but the screen is cracked.", "expect": 1, "durationMs": 4594}
+{"id": "en-02-v2", "variant": "V2", "cutMs": 1488, "base": ["en-02"], "lang": "en", "text": "My order arrived yesterday, but the screen is cracked.", "expect": 1, "durationMs": 4397}
+{"id": "en-03-v0", "variant": "V0", "base": ["en-03"], "lang": "en", "text": "I'm sorry about that. Could you send us a photo of it?", "expect": 1, "durationMs": 4162}
+{"id": "en-03-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1267, "base": ["en-03"], "lang": "en", "text": "I'm sorry about that. Could you send us a photo of it?", "expect": 1, "durationMs": 4762}
+{"id": "en-03-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1267, "base": ["en-03"], "lang": "en", "text": "I'm sorry about that. Could you send us a photo of it?", "expect": 1, "durationMs": 5062}
+{"id": "en-03-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1267, "base": ["en-03"], "lang": "en", "text": "I'm sorry about that. Could you send us a photo of it?", "expect": 1, "durationMs": 5362}
+{"id": "en-03-v2", "variant": "V2", "cutMs": 1267, "base": ["en-03"], "lang": "en", "text": "I'm sorry about that. Could you send us a photo of it?", "expect": 1, "durationMs": 5165}
+{"id": "en-04-v0", "variant": "V0", "base": ["en-04"], "lang": "en", "text": "We will ship a replacement within two business days.", "expect": 1, "durationMs": 3156}
+{"id": "en-04-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1234, "base": ["en-04"], "lang": "en", "text": "We will ship a replacement within two business days.", "expect": 1, "durationMs": 3756}
+{"id": "en-04-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1234, "base": ["en-04"], "lang": "en", "text": "We will ship a replacement within two business days.", "expect": 1, "durationMs": 4056}
+{"id": "en-04-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1234, "base": ["en-04"], "lang": "en", "text": "We will ship a replacement within two business days.", "expect": 1, "durationMs": 4356}
+{"id": "en-04-v2", "variant": "V2", "cutMs": 1234, "base": ["en-04"], "lang": "en", "text": "We will ship a replacement within two business days.", "expect": 1, "durationMs": 4159}
+{"id": "en-05-v0", "variant": "V0", "base": ["en-05"], "lang": "en", "text": "You don't need to return the damaged one.", "expect": 1, "durationMs": 2703}
+{"id": "en-05-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 916, "base": ["en-05"], "lang": "en", "text": "You don't need to return the damaged one.", "expect": 1, "durationMs": 3303}
+{"id": "en-05-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 916, "base": ["en-05"], "lang": "en", "text": "You don't need to return the damaged one.", "expect": 1, "durationMs": 3603}
+{"id": "en-05-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 916, "base": ["en-05"], "lang": "en", "text": "You don't need to return the damaged one.", "expect": 1, "durationMs": 3903}
+{"id": "en-05-v2", "variant": "V2", "cutMs": 916, "base": ["en-05"], "lang": "en", "text": "You don't need to return the damaged one.", "expect": 1, "durationMs": 3705}
+{"id": "en-06-v0", "variant": "V0", "base": ["en-06"], "lang": "en", "text": "Let's move on to the quarterly revenue report.", "expect": 1, "durationMs": 3035}
+{"id": "en-06-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1012, "base": ["en-06"], "lang": "en", "text": "Let's move on to the quarterly revenue report.", "expect": 1, "durationMs": 3635}
+{"id": "en-06-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1012, "base": ["en-06"], "lang": "en", "text": "Let's move on to the quarterly revenue report.", "expect": 1, "durationMs": 3935}
+{"id": "en-06-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1012, "base": ["en-06"], "lang": "en", "text": "Let's move on to the quarterly revenue report.", "expect": 1, "durationMs": 4235}
+{"id": "en-06-v2", "variant": "V2", "cutMs": 1012, "base": ["en-06"], "lang": "en", "text": "Let's move on to the quarterly revenue report.", "expect": 1, "durationMs": 4038}
+{"id": "en-07-v0", "variant": "V0", "base": ["en-07"], "lang": "en", "text": "Revenue grew twelve percent year over year.", "expect": 1, "durationMs": 2911}
+{"id": "en-07-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1079, "base": ["en-07"], "lang": "en", "text": "Revenue grew twelve percent year over year.", "expect": 1, "durationMs": 3511}
+{"id": "en-07-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1079, "base": ["en-07"], "lang": "en", "text": "Revenue grew twelve percent year over year.", "expect": 1, "durationMs": 3811}
+{"id": "en-07-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1079, "base": ["en-07"], "lang": "en", "text": "Revenue grew twelve percent year over year.", "expect": 1, "durationMs": 4111}
+{"id": "en-07-v2", "variant": "V2", "cutMs": 1079, "base": ["en-07"], "lang": "en", "text": "Revenue grew twelve percent year over year.", "expect": 1, "durationMs": 3914}
+{"id": "en-08-v0", "variant": "V0", "base": ["en-08"], "lang": "en", "text": "Most of the growth came from the Asian market.", "expect": 1, "durationMs": 2853}
+{"id": "en-08-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 888, "base": ["en-08"], "lang": "en", "text": "Most of the growth came from the Asian market.", "expect": 1, "durationMs": 3453}
+{"id": "en-08-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 888, "base": ["en-08"], "lang": "en", "text": "Most of the growth came from the Asian market.", "expect": 1, "durationMs": 3753}
+{"id": "en-08-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 888, "base": ["en-08"], "lang": "en", "text": "Most of the growth came from the Asian market.", "expect": 1, "durationMs": 4053}
+{"id": "en-08-v2", "variant": "V2", "cutMs": 888, "base": ["en-08"], "lang": "en", "text": "Most of the growth came from the Asian market.", "expect": 1, "durationMs": 3856}
+{"id": "en-09-v0", "variant": "V0", "base": ["en-09"], "lang": "en", "text": "We plan to open two new offices there next year.", "expect": 1, "durationMs": 3041}
+{"id": "en-09-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1384, "base": ["en-09"], "lang": "en", "text": "We plan to open two new offices there next year.", "expect": 1, "durationMs": 3641}
+{"id": "en-09-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1384, "base": ["en-09"], "lang": "en", "text": "We plan to open two new offices there next year.", "expect": 1, "durationMs": 3941}
+{"id": "en-09-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1384, "base": ["en-09"], "lang": "en", "text": "We plan to open two new offices there next year.", "expect": 1, "durationMs": 4241}
+{"id": "en-09-v2", "variant": "V2", "cutMs": 1384, "base": ["en-09"], "lang": "en", "text": "We plan to open two new offices there next year.", "expect": 1, "durationMs": 4044}
+{"id": "en-10-v0", "variant": "V0", "base": ["en-10"], "lang": "en", "text": "Any questions before we wrap up?", "expect": 1, "durationMs": 2362}
+{"id": "en-10-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 747, "base": ["en-10"], "lang": "en", "text": "Any questions before we wrap up?", "expect": 1, "durationMs": 2962}
+{"id": "en-10-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 747, "base": ["en-10"], "lang": "en", "text": "Any questions before we wrap up?", "expect": 1, "durationMs": 3262}
+{"id": "en-10-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 747, "base": ["en-10"], "lang": "en", "text": "Any questions before we wrap up?", "expect": 1, "durationMs": 3562}
+{"id": "en-10-v2", "variant": "V2", "cutMs": 747, "base": ["en-10"], "lang": "en", "text": "Any questions before we wrap up?", "expect": 1, "durationMs": 3365}
+{"id": "ja-01-v0", "variant": "V0", "base": ["ja-01"], "lang": "ja", "text": "すみません、この近くに駅はありますか。", "expect": 1, "durationMs": 3169}
+{"id": "ja-01-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 919, "base": ["ja-01"], "lang": "ja", "text": "すみません、この近くに駅はありますか。", "expect": 1, "durationMs": 3769}
+{"id": "ja-01-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 919, "base": ["ja-01"], "lang": "ja", "text": "すみません、この近くに駅はありますか。", "expect": 1, "durationMs": 4069}
+{"id": "ja-01-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 919, "base": ["ja-01"], "lang": "ja", "text": "すみません、この近くに駅はありますか。", "expect": 1, "durationMs": 4369}
+{"id": "ja-01-v2", "variant": "V2", "cutMs": 919, "base": ["ja-01"], "lang": "ja", "text": "すみません、この近くに駅はありますか。", "expect": 1, "durationMs": 4199}
+{"id": "ja-02-v0", "variant": "V0", "base": ["ja-02"], "lang": "ja", "text": "まっすぐ行って、二つ目の信号を左に曲がってください。", "expect": 1, "durationMs": 4168}
+{"id": "ja-02-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1268, "base": ["ja-02"], "lang": "ja", "text": "まっすぐ行って、二つ目の信号を左に曲がってください。", "expect": 1, "durationMs": 4768}
+{"id": "ja-02-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1268, "base": ["ja-02"], "lang": "ja", "text": "まっすぐ行って、二つ目の信号を左に曲がってください。", "expect": 1, "durationMs": 5068}
+{"id": "ja-02-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1268, "base": ["ja-02"], "lang": "ja", "text": "まっすぐ行って、二つ目の信号を左に曲がってください。", "expect": 1, "durationMs": 5368}
+{"id": "ja-02-v2", "variant": "V2", "cutMs": 1268, "base": ["ja-02"], "lang": "ja", "text": "まっすぐ行って、二つ目の信号を左に曲がってください。", "expect": 1, "durationMs": 5197}
+{"id": "ja-03-v0", "variant": "V0", "base": ["ja-03"], "lang": "ja", "text": "歩いて五分ぐらいです。", "expect": 1, "durationMs": 1904}
+{"id": "ja-03-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 616, "base": ["ja-03"], "lang": "ja", "text": "歩いて五分ぐらいです。", "expect": 1, "durationMs": 2504}
+{"id": "ja-03-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 616, "base": ["ja-03"], "lang": "ja", "text": "歩いて五分ぐらいです。", "expect": 1, "durationMs": 2804}
+{"id": "ja-03-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 616, "base": ["ja-03"], "lang": "ja", "text": "歩いて五分ぐらいです。", "expect": 1, "durationMs": 3104}
+{"id": "ja-03-v2", "variant": "V2", "cutMs": 616, "base": ["ja-03"], "lang": "ja", "text": "歩いて五分ぐらいです。", "expect": 1, "durationMs": 2933}
+{"id": "ja-04-v0", "variant": "V0", "base": ["ja-04"], "lang": "ja", "text": "切符はどこで買えますか。", "expect": 1, "durationMs": 1991}
+{"id": "ja-04-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 847, "base": ["ja-04"], "lang": "ja", "text": "切符はどこで買えますか。", "expect": 1, "durationMs": 2591}
+{"id": "ja-04-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 847, "base": ["ja-04"], "lang": "ja", "text": "切符はどこで買えますか。", "expect": 1, "durationMs": 2891}
+{"id": "ja-04-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 847, "base": ["ja-04"], "lang": "ja", "text": "切符はどこで買えますか。", "expect": 1, "durationMs": 3191}
+{"id": "ja-04-v2", "variant": "V2", "cutMs": 847, "base": ["ja-04"], "lang": "ja", "text": "切符はどこで買えますか。", "expect": 1, "durationMs": 3021}
+{"id": "ja-05-v0", "variant": "V0", "base": ["ja-05"], "lang": "ja", "text": "改札の横に券売機があります。", "expect": 1, "durationMs": 2580}
+{"id": "ja-05-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 923, "base": ["ja-05"], "lang": "ja", "text": "改札の横に券売機があります。", "expect": 1, "durationMs": 3180}
+{"id": "ja-05-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 923, "base": ["ja-05"], "lang": "ja", "text": "改札の横に券売機があります。", "expect": 1, "durationMs": 3480}
+{"id": "ja-05-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 923, "base": ["ja-05"], "lang": "ja", "text": "改札の横に券売機があります。", "expect": 1, "durationMs": 3780}
+{"id": "ja-05-v2", "variant": "V2", "cutMs": 923, "base": ["ja-05"], "lang": "ja", "text": "改札の横に券売機があります。", "expect": 1, "durationMs": 3610}
+{"id": "ja-06-v0", "variant": "V0", "base": ["ja-06"], "lang": "ja", "text": "今日の会議では新しい機能について話します。", "expect": 1, "durationMs": 3500}
+{"id": "ja-06-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1095, "base": ["ja-06"], "lang": "ja", "text": "今日の会議では新しい機能について話します。", "expect": 1, "durationMs": 4100}
+{"id": "ja-06-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1095, "base": ["ja-06"], "lang": "ja", "text": "今日の会議では新しい機能について話します。", "expect": 1, "durationMs": 4400}
+{"id": "ja-06-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1095, "base": ["ja-06"], "lang": "ja", "text": "今日の会議では新しい機能について話します。", "expect": 1, "durationMs": 4700}
+{"id": "ja-06-v2", "variant": "V2", "cutMs": 1095, "base": ["ja-06"], "lang": "ja", "text": "今日の会議では新しい機能について話します。", "expect": 1, "durationMs": 4529}
+{"id": "ja-07-v0", "variant": "V0", "base": ["ja-07"], "lang": "ja", "text": "来月から大規模言語モデルを導入する予定です。", "expect": 1, "durationMs": 3718}
+{"id": "ja-07-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1961, "base": ["ja-07"], "lang": "ja", "text": "来月から大規模言語モデルを導入する予定です。", "expect": 1, "durationMs": 4318}
+{"id": "ja-07-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1961, "base": ["ja-07"], "lang": "ja", "text": "来月から大規模言語モデルを導入する予定です。", "expect": 1, "durationMs": 4618}
+{"id": "ja-07-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1961, "base": ["ja-07"], "lang": "ja", "text": "来月から大規模言語モデルを導入する予定です。", "expect": 1, "durationMs": 4918}
+{"id": "ja-07-v2", "variant": "V2", "cutMs": 1961, "base": ["ja-07"], "lang": "ja", "text": "来月から大規模言語モデルを導入する予定です。", "expect": 1, "durationMs": 4748}
+{"id": "ja-08-v0", "variant": "V0", "base": ["ja-08"], "lang": "ja", "text": "まずは社内の問い合わせ対応で試します。", "expect": 1, "durationMs": 3042}
+{"id": "ja-08-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1365, "base": ["ja-08"], "lang": "ja", "text": "まずは社内の問い合わせ対応で試します。", "expect": 1, "durationMs": 3642}
+{"id": "ja-08-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1365, "base": ["ja-08"], "lang": "ja", "text": "まずは社内の問い合わせ対応で試します。", "expect": 1, "durationMs": 3942}
+{"id": "ja-08-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1365, "base": ["ja-08"], "lang": "ja", "text": "まずは社内の問い合わせ対応で試します。", "expect": 1, "durationMs": 4242}
+{"id": "ja-08-v2", "variant": "V2", "cutMs": 1365, "base": ["ja-08"], "lang": "ja", "text": "まずは社内の問い合わせ対応で試します。", "expect": 1, "durationMs": 4072}
+{"id": "ja-09-v0", "variant": "V0", "base": ["ja-09"], "lang": "ja", "text": "効果が良ければ、お客様向けにも展開します。", "expect": 1, "durationMs": 3708}
+{"id": "ja-09-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1127, "base": ["ja-09"], "lang": "ja", "text": "効果が良ければ、お客様向けにも展開します。", "expect": 1, "durationMs": 4308}
+{"id": "ja-09-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1127, "base": ["ja-09"], "lang": "ja", "text": "効果が良ければ、お客様向けにも展開します。", "expect": 1, "durationMs": 4608}
+{"id": "ja-09-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1127, "base": ["ja-09"], "lang": "ja", "text": "効果が良ければ、お客様向けにも展開します。", "expect": 1, "durationMs": 4908}
+{"id": "ja-09-v2", "variant": "V2", "cutMs": 1127, "base": ["ja-09"], "lang": "ja", "text": "効果が良ければ、お客様向けにも展開します。", "expect": 1, "durationMs": 4737}
+{"id": "ja-10-v0", "variant": "V0", "base": ["ja-10"], "lang": "ja", "text": "何か質問があれば、遠慮なく聞いてください。", "expect": 1, "durationMs": 3563}
+{"id": "ja-10-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1427, "base": ["ja-10"], "lang": "ja", "text": "何か質問があれば、遠慮なく聞いてください。", "expect": 1, "durationMs": 4163}
+{"id": "ja-10-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1427, "base": ["ja-10"], "lang": "ja", "text": "何か質問があれば、遠慮なく聞いてください。", "expect": 1, "durationMs": 4463}
+{"id": "ja-10-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1427, "base": ["ja-10"], "lang": "ja", "text": "何か質問があれば、遠慮なく聞いてください。", "expect": 1, "durationMs": 4763}
+{"id": "ja-10-v2", "variant": "V2", "cutMs": 1427, "base": ["ja-10"], "lang": "ja", "text": "何か質問があれば、遠慮なく聞いてください。", "expect": 1, "durationMs": 4592}
+{"id": "ko-01-v0", "variant": "V0", "base": ["ko-01"], "lang": "ko", "text": "안녕하세요, 예약을 확인하고 싶어요.", "expect": 1, "durationMs": 3181}
+{"id": "ko-01-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 953, "base": ["ko-01"], "lang": "ko", "text": "안녕하세요, 예약을 확인하고 싶어요.", "expect": 1, "durationMs": 3781}
+{"id": "ko-01-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 953, "base": ["ko-01"], "lang": "ko", "text": "안녕하세요, 예약을 확인하고 싶어요.", "expect": 1, "durationMs": 4081}
+{"id": "ko-01-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 953, "base": ["ko-01"], "lang": "ko", "text": "안녕하세요, 예약을 확인하고 싶어요.", "expect": 1, "durationMs": 4381}
+{"id": "ko-01-v2", "variant": "V2", "cutMs": 953, "base": ["ko-01"], "lang": "ko", "text": "안녕하세요, 예약을 확인하고 싶어요.", "expect": 1, "durationMs": 4062}
+{"id": "ko-02-v0", "variant": "V0", "base": ["ko-02"], "lang": "ko", "text": "성함이 어떻게 되세요?", "expect": 1, "durationMs": 1973}
+{"id": "ko-02-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 640, "base": ["ko-02"], "lang": "ko", "text": "성함이 어떻게 되세요?", "expect": 1, "durationMs": 2573}
+{"id": "ko-02-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 640, "base": ["ko-02"], "lang": "ko", "text": "성함이 어떻게 되세요?", "expect": 1, "durationMs": 2873}
+{"id": "ko-02-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 640, "base": ["ko-02"], "lang": "ko", "text": "성함이 어떻게 되세요?", "expect": 1, "durationMs": 3173}
+{"id": "ko-02-v2", "variant": "V2", "cutMs": 640, "base": ["ko-02"], "lang": "ko", "text": "성함이 어떻게 되세요?", "expect": 1, "durationMs": 2854}
+{"id": "ko-03-v0", "variant": "V0", "base": ["ko-03"], "lang": "ko", "text": "김민수입니다. 이틀 묵을 예정이에요.", "expect": 1, "durationMs": 4356}
+{"id": "ko-03-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1404, "base": ["ko-03"], "lang": "ko", "text": "김민수입니다. 이틀 묵을 예정이에요.", "expect": 1, "durationMs": 4956}
+{"id": "ko-03-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1404, "base": ["ko-03"], "lang": "ko", "text": "김민수입니다. 이틀 묵을 예정이에요.", "expect": 1, "durationMs": 5256}
+{"id": "ko-03-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1404, "base": ["ko-03"], "lang": "ko", "text": "김민수입니다. 이틀 묵을 예정이에요.", "expect": 1, "durationMs": 5556}
+{"id": "ko-03-v2", "variant": "V2", "cutMs": 1404, "base": ["ko-03"], "lang": "ko", "text": "김민수입니다. 이틀 묵을 예정이에요.", "expect": 1, "durationMs": 5237}
+{"id": "ko-04-v0", "variant": "V0", "base": ["ko-04"], "lang": "ko", "text": "아침 식사는 몇 시부터인가요?", "expect": 1, "durationMs": 2555}
+{"id": "ko-04-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1244, "base": ["ko-04"], "lang": "ko", "text": "아침 식사는 몇 시부터인가요?", "expect": 1, "durationMs": 3155}
+{"id": "ko-04-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1244, "base": ["ko-04"], "lang": "ko", "text": "아침 식사는 몇 시부터인가요?", "expect": 1, "durationMs": 3455}
+{"id": "ko-04-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1244, "base": ["ko-04"], "lang": "ko", "text": "아침 식사는 몇 시부터인가요?", "expect": 1, "durationMs": 3755}
+{"id": "ko-04-v2", "variant": "V2", "cutMs": 1244, "base": ["ko-04"], "lang": "ko", "text": "아침 식사는 몇 시부터인가요?", "expect": 1, "durationMs": 3436}
+{"id": "ko-05-v0", "variant": "V0", "base": ["ko-05"], "lang": "ko", "text": "일곱 시부터 열 시까지 일 층 식당에서 드실 수 있습니다.", "expect": 1, "durationMs": 4594}
+{"id": "ko-05-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 2488, "base": ["ko-05"], "lang": "ko", "text": "일곱 시부터 열 시까지 일 층 식당에서 드실 수 있습니다.", "expect": 1, "durationMs": 5194}
+{"id": "ko-05-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 2488, "base": ["ko-05"], "lang": "ko", "text": "일곱 시부터 열 시까지 일 층 식당에서 드실 수 있습니다.", "expect": 1, "durationMs": 5494}
+{"id": "ko-05-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 2488, "base": ["ko-05"], "lang": "ko", "text": "일곱 시부터 열 시까지 일 층 식당에서 드실 수 있습니다.", "expect": 1, "durationMs": 5794}
+{"id": "ko-05-v2", "variant": "V2", "cutMs": 2488, "base": ["ko-05"], "lang": "ko", "text": "일곱 시부터 열 시까지 일 층 식당에서 드실 수 있습니다.", "expect": 1, "durationMs": 5475}
+{"id": "ko-06-v0", "variant": "V0", "base": ["ko-06"], "lang": "ko", "text": "이번 분기 매출이 목표를 넘었습니다.", "expect": 1, "durationMs": 2942}
+{"id": "ko-06-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1319, "base": ["ko-06"], "lang": "ko", "text": "이번 분기 매출이 목표를 넘었습니다.", "expect": 1, "durationMs": 3542}
+{"id": "ko-06-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1319, "base": ["ko-06"], "lang": "ko", "text": "이번 분기 매출이 목표를 넘었습니다.", "expect": 1, "durationMs": 3842}
+{"id": "ko-06-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1319, "base": ["ko-06"], "lang": "ko", "text": "이번 분기 매출이 목표를 넘었습니다.", "expect": 1, "durationMs": 4142}
+{"id": "ko-06-v2", "variant": "V2", "cutMs": 1319, "base": ["ko-06"], "lang": "ko", "text": "이번 분기 매출이 목표를 넘었습니다.", "expect": 1, "durationMs": 3823}
+{"id": "ko-07-v0", "variant": "V0", "base": ["ko-07"], "lang": "ko", "text": "특히 온라인 판매가 크게 늘었습니다.", "expect": 1, "durationMs": 2958}
+{"id": "ko-07-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1355, "base": ["ko-07"], "lang": "ko", "text": "특히 온라인 판매가 크게 늘었습니다.", "expect": 1, "durationMs": 3558}
+{"id": "ko-07-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1355, "base": ["ko-07"], "lang": "ko", "text": "특히 온라인 판매가 크게 늘었습니다.", "expect": 1, "durationMs": 3858}
+{"id": "ko-07-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1355, "base": ["ko-07"], "lang": "ko", "text": "특히 온라인 판매가 크게 늘었습니다.", "expect": 1, "durationMs": 4158}
+{"id": "ko-07-v2", "variant": "V2", "cutMs": 1355, "base": ["ko-07"], "lang": "ko", "text": "특히 온라인 판매가 크게 늘었습니다.", "expect": 1, "durationMs": 3839}
+{"id": "ko-08-v0", "variant": "V0", "base": ["ko-08"], "lang": "ko", "text": "다음 달에는 신제품을 출시할 계획입니다.", "expect": 1, "durationMs": 3190}
+{"id": "ko-08-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1176, "base": ["ko-08"], "lang": "ko", "text": "다음 달에는 신제품을 출시할 계획입니다.", "expect": 1, "durationMs": 3790}
+{"id": "ko-08-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1176, "base": ["ko-08"], "lang": "ko", "text": "다음 달에는 신제품을 출시할 계획입니다.", "expect": 1, "durationMs": 4090}
+{"id": "ko-08-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1176, "base": ["ko-08"], "lang": "ko", "text": "다음 달에는 신제품을 출시할 계획입니다.", "expect": 1, "durationMs": 4390}
+{"id": "ko-08-v2", "variant": "V2", "cutMs": 1176, "base": ["ko-08"], "lang": "ko", "text": "다음 달에는 신제품을 출시할 계획입니다.", "expect": 1, "durationMs": 4071}
+{"id": "ko-09-v0", "variant": "V0", "base": ["ko-09"], "lang": "ko", "text": "마케팅 예산도 조금 늘릴 예정입니다.", "expect": 1, "durationMs": 3013}
+{"id": "ko-09-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1074, "base": ["ko-09"], "lang": "ko", "text": "마케팅 예산도 조금 늘릴 예정입니다.", "expect": 1, "durationMs": 3613}
+{"id": "ko-09-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1074, "base": ["ko-09"], "lang": "ko", "text": "마케팅 예산도 조금 늘릴 예정입니다.", "expect": 1, "durationMs": 3913}
+{"id": "ko-09-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1074, "base": ["ko-09"], "lang": "ko", "text": "마케팅 예산도 조금 늘릴 예정입니다.", "expect": 1, "durationMs": 4213}
+{"id": "ko-09-v2", "variant": "V2", "cutMs": 1074, "base": ["ko-09"], "lang": "ko", "text": "마케팅 예산도 조금 늘릴 예정입니다.", "expect": 1, "durationMs": 3894}
+{"id": "ko-10-v0", "variant": "V0", "base": ["ko-10"], "lang": "ko", "text": "오늘 회의는 여기서 마치겠습니다.", "expect": 1, "durationMs": 2782}
+{"id": "ko-10-v1-600", "variant": "V1", "gapMs": 600, "cutMs": 1023, "base": ["ko-10"], "lang": "ko", "text": "오늘 회의는 여기서 마치겠습니다.", "expect": 1, "durationMs": 3382}
+{"id": "ko-10-v1-900", "variant": "V1", "gapMs": 900, "cutMs": 1023, "base": ["ko-10"], "lang": "ko", "text": "오늘 회의는 여기서 마치겠습니다.", "expect": 1, "durationMs": 3682}
+{"id": "ko-10-v1-1200", "variant": "V1", "gapMs": 1200, "cutMs": 1023, "base": ["ko-10"], "lang": "ko", "text": "오늘 회의는 여기서 마치겠습니다.", "expect": 1, "durationMs": 3982}
+{"id": "ko-10-v2", "variant": "V2", "cutMs": 1023, "base": ["ko-10"], "lang": "ko", "text": "오늘 회의는 여기서 마치겠습니다.", "expect": 1, "durationMs": 3663}
+{"id": "zh-meeting-12-v3", "variant": "V3", "base": ["zh-01", "zh-02"], "lang": "zh", "text": "大家好，今天我们讨论新版本的发布计划。这次我们会先做灰度发布，覆盖百分之五的用户。", "expect": 2, "gapMs": 700, "durationMs": 7867}
+{"id": "zh-meeting-34-v3", "variant": "V3", "base": ["zh-03", "zh-04"], "lang": "zh", "text": "如果错误率超过千分之一，就立即回滚。大模型的推理成本比上个季度下降了一半。", "expect": 2, "gapMs": 700, "durationMs": 7298}
+{"id": "zh-travel-67-v3", "variant": "V3", "base": ["zh-06", "zh-07"], "lang": "zh", "text": "请问去火车站怎么走？沿着这条路一直走，到第二个路口右转。", "expect": 2, "gapMs": 700, "durationMs": 5965}
+{"id": "zh-travel-89-v3", "variant": "V3", "base": ["zh-08", "zh-09"], "lang": "zh", "text": "大概要走十分钟左右。附近有没有便宜一点的酒店？", "expect": 2, "gapMs": 700, "durationMs": 4211}
+{"id": "en-support-12-v3", "variant": "V3", "base": ["en-01", "en-02"], "lang": "en", "text": "Thanks for calling, how can I help you today? My order arrived yesterday, but the screen is cracked.", "expect": 2, "gapMs": 700, "durationMs": 6175}
+{"id": "en-support-34-v3", "variant": "V3", "base": ["en-03", "en-04"], "lang": "en", "text": "I'm sorry about that. Could you send us a photo of it? We will ship a replacement within two business days.", "expect": 2, "gapMs": 700, "durationMs": 7419}
+{"id": "en-revenue-67-v3", "variant": "V3", "base": ["en-06", "en-07"], "lang": "en", "text": "Let's move on to the quarterly revenue report. Revenue grew twelve percent year over year.", "expect": 2, "gapMs": 700, "durationMs": 6047}
+{"id": "en-revenue-89-v3", "variant": "V3", "base": ["en-08", "en-09"], "lang": "en", "text": "Most of the growth came from the Asian market. We plan to open two new offices there next year.", "expect": 2, "gapMs": 700, "durationMs": 5995}
+{"id": "ja-station-12-v3", "variant": "V3", "base": ["ja-01", "ja-02"], "lang": "ja", "text": "すみません、この近くに駅はありますか。まっすぐ行って、二つ目の信号を左に曲がってください。", "expect": 2, "gapMs": 700, "durationMs": 7438}
+{"id": "ja-station-34-v3", "variant": "V3", "base": ["ja-03", "ja-04"], "lang": "ja", "text": "歩いて五分ぐらいです。切符はどこで買えますか。", "expect": 2, "gapMs": 700, "durationMs": 3996}
+{"id": "ja-llm-67-v3", "variant": "V3", "base": ["ja-06", "ja-07"], "lang": "ja", "text": "今日の会議では新しい機能について話します。来月から大規模言語モデルを導入する予定です。", "expect": 2, "gapMs": 700, "durationMs": 7319}
+{"id": "ja-llm-89-v3", "variant": "V3", "base": ["ja-08", "ja-09"], "lang": "ja", "text": "まずは社内の問い合わせ対応で試します。効果が良ければ、お客様向けにも展開します。", "expect": 2, "gapMs": 700, "durationMs": 6851}
+{"id": "ko-hotel-12-v3", "variant": "V3", "base": ["ko-01", "ko-02"], "lang": "ko", "text": "안녕하세요, 예약을 확인하고 싶어요. 성함이 어떻게 되세요?", "expect": 2, "gapMs": 700, "durationMs": 5254}
+{"id": "ko-hotel-34-v3", "variant": "V3", "base": ["ko-03", "ko-04"], "lang": "ko", "text": "김민수입니다. 이틀 묵을 예정이에요. 아침 식사는 몇 시부터인가요?", "expect": 2, "gapMs": 700, "durationMs": 7011}
+{"id": "ko-sales-67-v3", "variant": "V3", "base": ["ko-06", "ko-07"], "lang": "ko", "text": "이번 분기 매출이 목표를 넘었습니다. 특히 온라인 판매가 크게 늘었습니다.", "expect": 2, "gapMs": 700, "durationMs": 6000}
+{"id": "ko-sales-89-v3", "variant": "V3", "base": ["ko-08", "ko-09"], "lang": "ko", "text": "다음 달에는 신제품을 출시할 계획입니다. 마케팅 예산도 조금 늘릴 예정입니다.", "expect": 2, "gapMs": 700, "durationMs": 6303}

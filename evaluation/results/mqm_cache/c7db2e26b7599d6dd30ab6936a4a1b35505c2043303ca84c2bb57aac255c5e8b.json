@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "D4",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "issue",
+   "explanation": "“issue”未翻译；此处指代码库中的问题或议题，可译为“问题”。"
+  }
+ ]
+}

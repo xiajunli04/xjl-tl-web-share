@@ -1,0 +1,176 @@
+{
+  "id": "d2",
+  "scenario": "free",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "我下个月要去大阪出差，顺便玩两天",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m going to Osaka on a business trip next month, and I’ll stay for two extra days to explore.” That sounds exciting—have you already decided what you’d like to see or eat there?",
+      "summary": null
+    },
+    {
+      "text": "大阪有什么必去的地方",
+      "tags": [
+        "substantive"
+      ],
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "You could say: “What are the must-see places in Osaka?” I’d recommend Dotonbori for food and nightlife, Osaka Castle for history, and Umeda Sky Building for the city view. If you have time, Universal Studios Japan is also popular. What kind of places do you enjoy?",
+      "summary": null
+    },
+    {
+      "text": "从关西机场到市区怎么走比较方便",
+      "tags": [
+        "substantive"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "You could say: “What’s the most convenient way to get from Kansai International Airport to downtown Osaka?” The Nankai train is best for Namba, while JR Haruka is convenient for Tennoji or Shin-Osaka; airport buses are easiest if you have lots of luggage. Where will you be staying?",
+      "summary": null
+    },
+    {
+      "text": "那住哪个区域比较好",
+      "tags": [
+        "substantive"
+      ],
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "You could say: “Which area would be best to stay in?” For a first visit, I’d recommend Namba for food, nightlife, and easy airport access; Umeda is better for business and transportation. Which area is your office in?",
+      "summary": null
+    },
+    {
+      "text": "帮我总结一下你刚才的建议",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "必去的景点",
+        "关西机场到市区的交通方式",
+        "推荐的住宿区域"
+      ],
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "You could say: “Could you summarize your recommendations so far?” For your Osaka trip, visit Dotonbori, Osaka Castle, and Umeda Sky Building; consider Universal Studios if you have time. Take the Nankai train to Namba or JR Haruka to Tennoji or Shin-Osaka, and stay in Namba for sightseeing or Umeda for business and transport.",
+      "summary": null
+    },
+    {
+      "text": "I am very exciting about this trip",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m very excited about this trip.” Osaka is a great mix of business, food, and sightseeing. What are you looking forward to most?",
+      "summary": null
+    },
+    {
+      "text": "我对日本料理很感兴趣，你推荐吃什么",
+      "tags": [
+        "substantive"
+      ],
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m really interested in Japanese cuisine. What do you recommend trying?” In Osaka, don’t miss takoyaki, okonomiyaki, kushikatsu, and kitsune udon. Are you more interested in street food or traditional restaurants?",
+      "summary": null
+    },
+    {
+      "text": "大阪烧和章鱼烧有什么区别",
+      "tags": [
+        "substantive"
+      ],
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "You could say: “What’s the difference between okonomiyaki and takoyaki?” Okonomiyaki is a savory pancake cooked on a griddle, while takoyaki are small, crispy-on-the-outside balls filled with octopus. Both are topped with sauce, mayonnaise, and bonito flakes. Which one would you like to try first?",
+      "summary": null
+    },
+    {
+      "text": "那里的人说话和东京有什么不同吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "You could say: “Is the way people speak there different from in Tokyo?” Yes, Osaka has a distinct Kansai accent, which often sounds more lively and expressive than standard Tokyo Japanese. You may also hear “ookini” for “thank you.” Would you like to learn a few useful Osaka phrases?",
+      "summary": null
+    },
+    {
+      "text": "我日语只会说谢谢",
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "You could say: “I only know how to say ‘thank you’ in Japanese.” That’s a good start—“sumimasen” means “excuse me” or “sorry,” and it’s very useful in Japan. Would you like to learn a few more travel phrases?",
+      "summary": null
+    },
+    {
+      "text": "我应该带多少现金",
+      "tags": [
+        "substantive"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "You could say: “How much cash should I bring?” For Osaka, 10,000 to 20,000 yen in cash is usually enough for two days, since cards are widely accepted. Keep some smaller bills for street food and small shops, and use an ATM if needed.",
+      "summary": null
+    },
+    {
+      "text": "等等，那里的地铁卡怎么买",
+      "tags": [
+        "after_interrupt",
+        "substantive"
+      ],
+      "i": 12,
+      "interrupted_kept": "You could say: “How much cash should I bring?” For Osaka, 10,000 to 20,000 yen in cash is usually enough for two days, since cards are widely accepted.",
+      "reply": "You could say: “Wait, how do I buy a subway card there?” You can buy an ICOCA card from a ticket machine or service counter at Kansai Airport or major stations, then add money as needed. You can also use Apple Wallet on your phone if your device supports it.",
+      "summary": null
+    },
+    {
+      "text": "好的，我会记下来的",
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "You could say: “Okay, I’ll make a note of that.” You’ll be well prepared for Osaka! Is there anything else you’d like to plan before your trip?",
+      "summary": null
+    },
+    {
+      "text": "天气的话需要带伞吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "You could say: “Should I bring an umbrella, depending on the weather?” It’s a good idea to pack a small, foldable umbrella, especially during the rainy season. When are you traveling?",
+      "summary": null
+    },
+    {
+      "text": "谢谢，你帮了我很多",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You could say: “Thank you, you’ve been a great help.” You’re very welcome! I hope you have an amazing trip to Osaka. What are you most excited to see?",
+      "summary": null
+    },
+    {
+      "text": "我下个月要去哪个城市来着，你还记得吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "大阪",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "You could say: “Which city am I going to next month? Do you remember?” You’re going to Osaka, Japan, and you’re planning to enjoy its food, sightseeing, and lively atmosphere.",
+      "summary": null
+    },
+    {
+      "text": "我去那边主要是为了什么",
+      "tags": [
+        "recall"
+      ],
+      "answer": "出差（顺便玩两天）",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "You could say: “What’s the main purpose of my trip there?” I don’t think you’ve told me yet. So far, you’ve mentioned enjoying Osaka’s food, sightseeing, and local culture. Is it mainly for business or vacation?",
+      "summary": null
+    }
+  ],
+  "greeting": "Hi! I’m Lumi, your friendly conversation partner. What would you like to talk about today?",
+  "compressions": 0
+}

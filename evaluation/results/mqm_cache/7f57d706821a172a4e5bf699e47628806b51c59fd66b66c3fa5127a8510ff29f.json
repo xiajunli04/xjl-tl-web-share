@@ -1,0 +1,38 @@
+{
+ "doc": "pods",
+ "group": "D1",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 134,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "Pod",
+   "explanation": "原文为复数标题“Pods”，译文使用单数，未保留资源名称的复数形式。"
+  },
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "_Pod_",
+   "explanation": "原文“_Pods_”为复数，译文改为单数“_Pod_”，与原文不一致。"
+  },
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "豌豆荚中的 pod",
+   "explanation": "“pea pod”中的“pod”未译出，应译为“豌豆荚”。"
+  },
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "模拟了",
+   "explanation": "“models”在此表示 Pod 对应用特定逻辑主机的抽象建模或表示，译为“模拟”容易产生执行仿真的含义。"
+  }
+ ]
+}

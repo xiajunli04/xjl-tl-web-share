@@ -1,0 +1,31 @@
+{
+ "doc": "deployment",
+ "group": "D4",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 170,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "terminology",
+   "severity": "major",
+   "span": "Pod 模板规约",
+   "explanation": "PodTemplateSpec 是 Kubernetes API 类型名，译成中文后无法准确指向该类型。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "major",
+   "span": "Pod 模板规约",
+   "explanation": "PodTemplateSpec 是 Kubernetes API 类型名，译成中文后无法准确指向该类型。"
+  },
+  {
+   "segment": 8,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "作为发布卡住的指示",
+   "explanation": "表达生硬，不符合中文技术文档习惯；可改为“作为发布停滞的标志”。"
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "d6",
+  "scenario": "free",
+  "my": "en",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "Hi, I'm Sam, and I'm a nurse working night shifts.",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "Nice to meet you, Sam. Night-shift nursing sounds demanding, so I hope you’re getting enough rest between shifts.",
+      "summary": null
+    },
+    {
+      "text": "Can you explain how sleep cycles work?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "Sleep cycles are repeating patterns your brain and body move through during sleep. Each cycle lasts roughly 80 to 110 minutes and includes light sleep, deep sleep, and REM sleep, when most vivid dreaming occurs. Deep sleep is usually more common earlier in the sleep period, while REM sleep becomes longer toward the end. Most adults go through about four to six cycles, though the timing varies. For night-shift work, darkness, a cool room, and consistent sleep hours can help your body maintain its rhythm.",
+      "summary": null
+    },
+    {
+      "text": "What's REM sleep exactly?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "REM stands for rapid eye movement sleep. It’s the stage when brain activity becomes more active, vivid dreams are common, and most muscles are temporarily relaxed so you don’t physically act out your dreams. It supports memory, learning, and emotional processing, and it tends to occur in longer periods later in your sleep.",
+      "summary": null
+    },
+    {
+      "text": "How can night shift workers sleep better?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "A consistent sleep schedule and a very dark, quiet, cool bedroom can make a big difference. After a shift, wear sunglasses outside if daylight makes you alert, avoid caffeine late in the shift, and keep screens and bright light low before bed. Short naps before or during a shift may help, but avoid driving if you’re dangerously sleepy. If insomnia, loud snoring, or severe daytime sleepiness continues, talk with a healthcare professional.",
+      "summary": null
+    },
+    {
+      "text": "Could you sum up the tips you just gave me?",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "sleep cycles",
+        "what REM sleep is",
+        "sleep tips for night shift workers"
+      ],
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "Keep your sleep schedule as consistent as possible, and make your bedroom dark, quiet, and cool. Limit bright light after work, use sunglasses outdoors if needed, and avoid caffeine late in your shift. Short naps can help, but don’t drive when you’re dangerously sleepy. If poor sleep, loud snoring, or severe daytime sleepiness persists, speak with a healthcare professional.",
+      "summary": null
+    },
+    {
+      "text": "I also have a cat named Biscuit.",
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "Biscuit is an adorable name for a cat. Does Biscuit sleep with you, or tend to get active when you’re trying to rest?",
+      "summary": null
+    },
+    {
+      "text": "She's always waking me up during the day.",
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "Biscuit may be reacting to daytime light, sounds, or a learned feeding routine. Try giving her playtime and a meal before bed, keeping the room dark and quiet, and not rewarding wake-ups with attention or food. If her nighttime or daytime restlessness is new or extreme, a vet check could be wise.",
+      "summary": null
+    },
+    {
+      "text": "Any ideas to keep her quiet?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "Try a vigorous play session followed by a meal before you sleep, then use an automatic feeder or puzzle toy to keep Biscuit occupied. Keep the room dark and avoid giving attention when she wakes you, since even scolding can reinforce the behavior. If this is sudden or she seems distressed, have a vet check her.",
+      "summary": null
+    },
+    {
+      "text": "What should I cook for a quick dinner?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "Try a quick chicken and vegetable stir-fry with rice or noodles. It’s filling, flexible, and usually takes about 15 minutes. You could also make scrambled eggs with toast and avocado if you want something even easier.",
+      "summary": null
+    },
+    {
+      "text": "Wait, actually, what about breakfast ideas?",
+      "tags": [
+        "after_interrupt",
+        "substantive"
+      ],
+      "i": 10,
+      "interrupted_kept": "Try a quick chicken and vegetable stir-fry with rice or noodles.",
+      "reply": "Try overnight oats, scrambled eggs on toast, or Greek yogurt with fruit and nuts. For a filling option before or after a night shift, a breakfast burrito with eggs, beans, and vegetables is quick and easy.",
+      "summary": null
+    },
+    {
+      "text": "Do you like cooking?",
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "I don’t cook myself, but I love helping people come up with easy, tasty meals. For a busy nurse, I’d especially suggest recipes that are quick, nutritious, and easy to reheat.",
+      "summary": null
+    },
+    {
+      "text": "I'm thinking of taking a vacation next month.",
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "That sounds like a great idea, Sam. A vacation could be a refreshing reset after night shifts, especially if you choose somewhere that matches your energy level—restful, outdoorsy, or full of activities.",
+      "summary": null
+    },
+    {
+      "text": "Somewhere warm, maybe Spain.",
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "Spain sounds wonderful for a warm getaway, with sunny beaches, great food, and plenty of culture. The Canary Islands, Andalusia, and the Costa del Sol are all good options, depending on whether you want relaxation, sightseeing, or nightlife. Do you picture yourself staying by the coast or exploring cities?",
+      "summary": null
+    },
+    {
+      "text": "What should I pack?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "Pack light, breathable clothes, comfortable walking shoes, swimwear, sunscreen, sunglasses, and a hat. Also bring a light layer for cool evenings, any medications, travel documents, and a reusable water bottle. Since you work nights, consider an eye mask and earplugs to help you adjust to a new sleep schedule.",
+      "summary": null
+    },
+    {
+      "text": "Thanks, that's helpful.",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You’re very welcome, Sam. I hope your trip to Spain is sunny, relaxing, and full of good food.",
+      "summary": null
+    },
+    {
+      "text": "Do you remember what my job is?",
+      "tags": [
+        "recall"
+      ],
+      "answer": "a nurse working night shifts",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "Yes, you’re a nurse who works night shifts.",
+      "summary": "用户信息：用户名为 Sam，是一名上夜班的护士。\n\n话题与要点：  \n1. Lumi 介绍睡眠周期：每个周期约 80 到 110 分钟，包含浅睡、深睡和 REM 睡眠；成人通常经历约四到六个周期。  \n2. REM 睡眠即快速眼动睡眠，常有生动梦境、肌肉暂时放松，并支持记忆、学习和情绪处理。  \n3. 夜班改善睡眠建议：保持规律作息，使用黑暗、安静、凉爽的卧室；下班后可戴太阳镜，避免夜班后段摄入咖啡因及睡前强光；适当小睡，但困倦危险时不要驾驶。若失眠、鼾声大或日间严重嗜睡持续，应咨询医疗专业人士。\n\n用户的问题：睡眠周期如何运作；REM 睡眠具体是什么；夜班工作人员如何睡得更好。\n\n待办与约定：无"
+    },
+    {
+      "text": "And what's my name?",
+      "tags": [
+        "recall"
+      ],
+      "answer": "Sam",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "Your name is Sam.",
+      "summary": "用户信息：用户名为 Sam，是一名上夜班的护士。\n\n话题与要点：  \n1. Lumi 介绍睡眠周期：每个周期约 80 到 110 分钟，包含浅睡、深睡和 REM 睡眠；成人通常经历约四到六个周期。  \n2. REM 睡眠即快速眼动睡眠，常有生动梦境、肌肉暂时放松，并支持记忆、学习和情绪处理。  \n3. 夜班改善睡眠建议：保持规律作息，使用黑暗、安静、凉爽的卧室；下班后可戴太阳镜，避免夜班后段摄入咖啡因及睡前强光；适当小睡，但困倦危险时不要驾驶。若失眠、鼾声大或日间严重嗜睡持续，应咨询医疗专业人士。\n\n用户的问题：睡眠周期如何运作；REM 睡眠具体是什么；夜班工作人员如何睡得更好。\n\n待办与约定：无"
+    }
+  ],
+  "greeting": "Hi, I’m Lumi, your friendly conversation partner. What would you like to talk about today?",
+  "compressions": 1
+}

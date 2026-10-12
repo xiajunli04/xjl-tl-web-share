@@ -1,0 +1,194 @@
+# ==================================================
+# 通用
+# ==================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE / 编辑器
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.fleet/
+*.sublime-*
+
+# 环境变量与密钥(保留示例文件)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Local databases and runtime state
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Local AI and automation tool state
+.codex/
+.agents/
+.openai/
+
+# Claude Code 本地配置(共享的 commands/skills 保留)
+.claude/settings.local.json
+
+# 本地文件存储（原图、译图）
+springboot-backend/data/
+
+# ==================================================
+# Python (python-backend)
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# 测试 / 覆盖率 / 类型检查
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==================================================
+# Java / Spring Boot (springboot-bakcend)
+# ==================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+
+# Eclipse / STS / NetBeans
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Spring Boot 本地配置
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# ==================================================
+# Next.js / Node (web)
+# ==================================================
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+.next/
+out/
+.vercel/
+.turbo/
+next-env.d.ts
+*.tsbuildinfo
+
+# 测试
+coverage/
+/playwright-report/
+/test-results/
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Claude Code 子 agent worktree 与 Playwright MCP 临时产物
+.claude/worktrees/
+.playwright-mcp/
+
+# JVM 崩溃日志
+hs_err_pid*.log
+
+# 评测工程
+evaluation/.venv/
+evaluation/.cache/
+evaluation/**/__pycache__/
+evaluation/results/prompt/manual/audio/
+python-backend/coverage.xml
+python-backend/.coverage
+
+# 测试结果输出
+python-backend/.reports/
+web/.reports/
+
+# 本地模型缓存与临时契约文件
+python-backend/.cache/
+/.cache/
+evaluation/data/speech_pause/audio/

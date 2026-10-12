@@ -1,0 +1,24 @@
+{
+ "doc": "configmap",
+ "group": "I2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 139,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "对象\n可用于",
+   "explanation": "两个分句之间缺少标点，读起来衔接不畅。"
+  },
+  {
+   "segment": 2,
+   "category": "style",
+   "severity": "minor",
+   "span": "接受键值对作为其值",
+   "explanation": "措辞生硬，可改为“其值为键值对”。"
+  }
+ ]
+}

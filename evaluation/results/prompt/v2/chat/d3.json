@@ -1,0 +1,171 @@
+{
+  "id": "d3",
+  "scenario": "restaurant",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "你好，两个人",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “A table for two, please.” Of course, welcome! What would you like to drink?",
+      "summary": null
+    },
+    {
+      "text": "我们想先喝点东西，有什么推荐",
+      "tags": [
+        "substantive"
+      ],
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "You could say: “We’d like something to drink first. What do you recommend?” I recommend our house lemonade, iced tea, or sparkling water. Would you prefer something sweet, refreshing, or non-carbonated?",
+      "summary": null
+    },
+    {
+      "text": "那来两杯柠檬茶吧",
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "You could say: “We’ll have two glasses of lemon tea, please.” Certainly—would you like them iced or hot?",
+      "summary": null
+    },
+    {
+      "text": "我朋友对花生过敏",
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "Thank you for letting me know. I’ll inform the kitchen and make sure your friend’s dishes contain no peanuts. Are there any other allergies or dietary restrictions?",
+      "summary": null
+    },
+    {
+      "text": "你们有什么招牌菜",
+      "tags": [
+        "substantive"
+      ],
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "Our signature dishes are herb-roasted chicken for $18, seafood pasta for $21, and grilled vegetable risotto for $16. Since your friend has a peanut allergy, I’ll ask the kitchen to prepare everything safely; which type of food sounds best to you?",
+      "summary": null
+    },
+    {
+      "text": "这个菜辣吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "Which dish do you mean? I can check the spice level and ask the kitchen to make it mild if needed.",
+      "summary": null
+    },
+    {
+      "text": "I want a not spicy one",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’d like something that isn’t spicy.” Our grilled vegetable risotto is mild and costs $16; would you like to order that?",
+      "summary": null
+    },
+    {
+      "text": "那就来一份这个，再来一份炒饭",
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "Certainly—one grilled vegetable risotto and one fried rice. I’ll make both mild and peanut-free; what kind of fried rice would you like?",
+      "summary": null
+    },
+    {
+      "text": "等等，我想问一下有没有素食",
+      "tags": [
+        "after_interrupt",
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": "Certainly—one grilled vegetable risotto and one fried rice.",
+      "reply": "You could say: “Do you have any vegetarian dishes?” Yes, our grilled vegetable risotto is vegetarian, and I can prepare the fried rice with vegetables only. Would you like the fried rice without egg as well?",
+      "summary": null
+    },
+    {
+      "text": "好的，素食也来一份",
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "You could say: “Okay, we’ll have one vegetarian fried rice as well.” Certainly—I’ll prepare it without meat or peanuts; would you like it with egg or without egg?",
+      "summary": null
+    },
+    {
+      "text": "能帮我复述一下我们点了什么吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "两杯柠檬茶",
+        "一道不辣的菜（顾客选定的那道）",
+        "一份炒饭",
+        "一份素食菜"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "You’ve ordered two glasses of lemon tea, one grilled vegetable risotto, one fried rice, and one vegetarian fried rice. The dishes should be non-spicy and contain no peanuts, but we still need to confirm whether the lemon tea should be iced or hot, and whether the vegetarian fried rice should include egg.",
+      "summary": null
+    },
+    {
+      "text": "上菜大概要多久",
+      "tags": [
+        "substantive"
+      ],
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "I’ll check with the kitchen for you. The exact time depends on how busy we are, and I’ll let you know as soon as I have an estimate.",
+      "summary": null
+    },
+    {
+      "text": "可以先上饮料吗",
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "Of course, we’ll bring the drinks first. Would you like the two lemon teas iced or hot?",
+      "summary": null
+    },
+    {
+      "text": "Thanks, the food is very delicious",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "I’m glad you’re enjoying the food! Please let me know if you need anything else.",
+      "summary": null
+    },
+    {
+      "text": "我们可以分开付吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "Yes, you can pay separately. Would you like us to split the bill evenly or by each person’s items?",
+      "summary": null
+    },
+    {
+      "text": "我刚才说我朋友对什么过敏来着",
+      "tags": [
+        "recall"
+      ],
+      "answer": "花生",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "Your friend is allergic to peanuts.",
+      "summary": "用户信息：两个人用餐；用户的朋友对花生过敏。  \n话题与要点：用户想先喝点东西，Lumi推荐店内柠檬水、冰茶或气泡水；用户点了两杯柠檬茶，尚未说明冷热；Lumi会通知厨房，确保朋友的菜不含花生。  \n用户的问题：有什么推荐？  \n待办与约定：确认两杯柠檬茶要冰的还是热的；确认是否还有其他过敏或饮食限制。"
+    },
+    {
+      "text": "那我们点的炒饭里有花生吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "应结合花生过敏回答（确认不含花生或承诺确认），不能忽略过敏信息",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "No, we’ll prepare both fried rice dishes without peanuts. I’ll remind the kitchen to prevent any cross-contact because of your friend’s allergy.",
+      "summary": "用户信息：两个人用餐；用户的朋友对花生过敏。  \n话题与要点：用户想先喝点东西，Lumi推荐店内柠檬水、冰茶或气泡水；用户点了两杯柠檬茶，尚未说明冷热；Lumi会通知厨房，确保朋友的菜不含花生。  \n用户的问题：有什么推荐？  \n待办与约定：确认两杯柠檬茶要冰的还是热的；确认是否还有其他过敏或饮食限制。"
+    }
+  ],
+  "greeting": "Welcome! Please have a seat. Here are your menus—what would you like to drink?",
+  "compressions": 1
+}

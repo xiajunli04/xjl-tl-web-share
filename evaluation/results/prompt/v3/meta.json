@@ -1,0 +1,10 @@
+{
+  "label": "v3",
+  "adapter": "v3",
+  "prompt_version": "interpret-v3/chat-v3/memory-v1",
+  "model": "gpt-5.6-luna",
+  "judge_model": "gpt-6-luna",
+  "commit": "8289d5e+工作区",
+  "updated_at": "2026-10-06T05:58:49+00:00",
+  "note": "interpret-v3 / chat-v3 的工作区代码，未单独提交；chat-v3 已随 a6fc3bb 提交，interpret-v3 已被 v4 取代"
+}

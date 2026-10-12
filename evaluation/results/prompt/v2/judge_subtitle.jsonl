@@ -1,0 +1,20 @@
+{"id": "t02", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 4, "note": "字幕只翻译了本句，意思基本准确，但“我帮你看看”比原文略有增译。"}
+{"id": "t01", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "保留了英文示范句，并附上括号中文释义，没有添加其他内容。"}
+{"id": "t02", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了这一句，意思准确且没有重复前文。"}
+{"id": "t03", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "保留了英文示范句，并附上对应中文释义，没有添加额外内容。"}
+{"id": "t01", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "保留了英文示范句，并附上中文释义，字幕忠实翻译了本句。"}
+{"id": "t04", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "准确表达了这道菜有辣味以及可以要求少放辣椒，且只翻译了本句。"}
+{"id": "t03", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "保留了英文示范句，并按预期在括号中附上中文释义。"}
+{"id": "t04", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "准确翻译了本句，且将 It 指代为这道菜，没有添加其他内容。"}
+{"id": "t06", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕保留了英文示范句，并附上对应中文意思，没有添加额外内容。"}
+{"id": "t06", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕保留了英文示范句，并在括号中附上中文意思，内容准确且没有额外信息。"}
+{"id": "t05", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": false, "faithful": 3, "note": "关门时间译对了，但“他们”没有明确表达预期中的“博物馆”。"}
+{"id": "t05", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": false, "faithful": 3, "note": "字幕只翻译了本句，但“他们”没有明确指向博物馆，未符合预期译法。"}
+{"id": "t07", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "准确翻译了本句，并将 it 译为“模型”，没有添加额外内容。"}
+{"id": "t08", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了本句，准确表达了地铁更便宜但耗时更长。"}
+{"id": "t08", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了本句，准确表达地铁更便宜但耗时更长。"}
+{"id": "t07", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "准确翻译了本句，且将 it 译为“模型”，未重复前文或添加额外内容。"}
+{"id": "t09", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕准确简短地译为“当然可以！”，符合预期。"}
+{"id": "t09", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕准确简短地翻译了应答。"}
+{"id": "t10", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "两处英文原句均原样保留，示范句附有准确的中文释义，字幕也只翻译了这一句。"}
+{"id": "t10", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕保留了两处英文原句，并为示范句附上了中文意思，译意准确。"}

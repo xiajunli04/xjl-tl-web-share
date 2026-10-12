@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "D1",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 170,
+ "errors": [
+  {
+   "segment": 8,
+   "category": "style",
+   "severity": "minor",
+   "span": "作为发布陷入停滞的指示",
+   "explanation": "“作为……的指示”表达生硬，技术文档中用“作为发布陷入停滞的信号”更自然。"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "doc": "service",
+ "group": "I3",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 5,
+   "category": "terminology",
+   "severity": "major",
+   "span": "金丝雀 Deployment",
+   "explanation": "此处的 deployments 指金丝雀部署这一发布策略，并非 Kubernetes 的 Deployment 资源；应译为“金丝雀部署”。"
+  },
+  {
+   "segment": 6,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "Service 目标所针对的 Pod 集合",
+   "explanation": "“目标所针对”表达重复且不自然，可改为“Service 所指向的 Pod 集合”或“Service 选中的 Pod 集合”。"
+  }
+ ]
+}

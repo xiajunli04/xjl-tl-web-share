@@ -1,0 +1,38 @@
+{
+ "doc": "pods",
+ "group": "D1",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 7,
+   "category": "style",
+   "severity": "minor",
+   "span": "位于同一位置的容器",
+   "explanation": "“co-located”直译为“位于同一位置”略显生硬，也容易让人理解为物理位置相同；可改为“共同部署的容器”等更自然的技术表达。"
+  },
+  {
+   "segment": 7,
+   "category": "style",
+   "severity": "minor",
+   "span": "紧密统一的单元",
+   "explanation": "“紧密统一”搭配不够自然；可改为“紧密协作的整体”等表达。"
+  },
+  {
+   "segment": 8,
+   "category": "style",
+   "severity": "minor",
+   "span": "位于同一位置且由同一 Pod 管理",
+   "explanation": "“位于同一位置”是对“co-located”的生硬直译，可改为“共同部署”等更自然的技术表达。"
+  },
+  {
+   "segment": 9,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "弹性",
+   "explanation": "此处“resilience”指面对故障时的韧性或容错能力，而“弹性”在技术文档中通常更易被理解为弹性伸缩。"
+  }
+ ]
+}

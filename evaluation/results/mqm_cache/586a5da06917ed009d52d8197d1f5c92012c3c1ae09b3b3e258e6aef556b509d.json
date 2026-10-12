@@ -1,0 +1,31 @@
+{
+ "doc": "pods",
+ "group": "I2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "[使用 Pod]](#working-with-pods)",
+   "explanation": "链接文本后多出一个右方括号，导致 Markdown 链接格式错误。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "副本扩展",
+   "explanation": "此处的 _replication_ 指通过副本实现复制，译为“副本扩展”不符合 Kubernetes 术语惯例。"
+  },
+  {
+   "segment": 8,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "[Pod 和控制器]](#pods-and-controllers)",
+   "explanation": "链接文本后多出一个右方括号，导致 Markdown 链接格式错误。"
+  }
+ ]
+}

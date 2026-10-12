@@ -1,0 +1,24 @@
+{
+ "doc": "pods",
+ "group": "D0",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 134,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "豌豆荚中的 pod",
+   "explanation": "此处的 pod 是普通名词双关，并非 Kubernetes 资源名；保留英文未译，宜译为“豌豆荚”或调整表达以保留原文含义。"
+  },
+  {
+   "segment": 3,
+   "category": "style",
+   "severity": "minor",
+   "span": "对应用程序特定的“逻辑主机”进行了建模",
+   "explanation": "“对……进行了建模”的表达较生硬，可改为“将应用程序特定的‘逻辑主机’建模为……”。"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "zh-05",
+    "point": "它 → 指大模型（Its / The LLM's）",
+    "reference": "Its response speed has also improved considerably.",
+    "cascade_full": "His response speed has improved a lot.",
+    "cascade_plain": "",
+    "qwen": "",
+    "text_upper": ""
+  },
+  {
+    "id": "en-03",
+    "point": "it → 指屏幕（屏幕的照片，而非订单）",
+    "reference": "很抱歉。您能给我们发一张屏幕的照片吗？",
+    "cascade_full": "很抱歉。你能给我们发张照片吗？",
+    "cascade_plain": "",
+    "qwen": "",
+    "text_upper": ""
+  },
+  {
+    "id": "en-05",
+    "point": "the damaged one → 指损坏的设备（那台）",
+    "reference": "损坏的那台不需要退回。",
+    "cascade_full": "你不需要退回损坏的那件。",
+    "cascade_plain": "",
+    "qwen": "",
+    "text_upper": ""
+  },
+  {
+    "id": "en-09",
+    "point": "there → 指亚洲（在亚洲开设）",
+    "reference": "我们计划明年在亚洲开设两个新办公室。",
+    "cascade_full": "我们计划明年在那里开设两家新办公室。",
+    "cascade_plain": "",
+    "qwen": "",
+    "text_upper": ""
+  },
+  {
+    "id": "ja-09",
+    "point": "主语省略 → 指大模型的引入",
+    "reference": "如果效果好，也会推广给客户使用。",
+    "cascade_full": "如果效果好的话，也会向客户推广。",
+    "cascade_plain": "",
+    "qwen": "",
+    "text_upper": ""
+  }
+]

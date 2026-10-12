@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "I2",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 170,
+ "errors": [
+  {
+   "segment": 8,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "作为发布卡住的指示",
+   "explanation": "“指示”在此处用作 indicator 不自然，宜译为“信号”或“指标”。"
+  }
+ ]
+}

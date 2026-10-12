@@ -1,0 +1,45 @@
+{
+ "doc": "configmap",
+ "group": "I2",
+ "chunk": 3,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 340,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "data",
+   "explanation": "“data”未译为“数据”，在此处并非需要保留的代码标识符。"
+  },
+  {
+   "segment": 4,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "单行值",
+   "explanation": "原文指具有单个值的键，并非值只占一行；译文改变了描述的含义。"
+  },
+  {
+   "segment": 6,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "容器命令和参数中的内容",
+   "explanation": "原文指在容器的 command 和 args 中使用 ConfigMap；译文加入“内容”，且未清楚表达这两种配置方式。"
+  },
+  {
+   "segment": 10,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "data",
+   "explanation": "两处“data”均未译为“数据”，在此处并非需要保留的代码标识符。"
+  },
+  {
+   "segment": 11,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "data",
+   "explanation": "“data”未译为“数据”，在此处并非需要保留的代码标识符。"
+  }
+ ]
+}

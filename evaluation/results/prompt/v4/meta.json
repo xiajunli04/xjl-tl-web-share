@@ -1,0 +1,10 @@
+{
+  "label": "v4",
+  "adapter": "v3",
+  "prompt_version": "interpret-v4/chat-v3/memory-v1",
+  "model": "gpt-5.6-luna",
+  "judge_model": "gpt-6-luna",
+  "commit": "a6fc3bb",
+  "updated_at": "2026-10-06T06:19:39+00:00",
+  "note": "同传与字幕为 interpret-v4（示例与评测集不重合）；本目录不含对话结果，对话以 v3 为准（chat-v3 提示词未变）"
+}

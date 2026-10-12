@@ -1,0 +1,17 @@
+{
+ "doc": "pods",
+ "group": "D4",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "复制的 Pod",
+   "explanation": "在 Kubernetes 扩缩容语境中，通常称为“副本 Pod”；“复制的 Pod”不够符合领域惯例。"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "doc": "pods",
+ "group": "I1",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "复制",
+   "explanation": "在 Kubernetes 工作负载语境中，replication 通常译为“副本”或“副本机制”；“复制”不够符合领域惯例。"
+  }
+ ]
+}

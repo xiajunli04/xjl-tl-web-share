@@ -1,0 +1,35 @@
+{
+  "tasks": 20,
+  "users": 10,
+  "completed": 20,
+  "failed": 0,
+  "wall_seconds": 52.9,
+  "tasks_per_min": 22.69,
+  "latency_ms_p50": 4087.0,
+  "latency_ms_max": 4130.0,
+  "task_ids": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "statuses": {
+    "COMPLETED": 20
+  }
+}

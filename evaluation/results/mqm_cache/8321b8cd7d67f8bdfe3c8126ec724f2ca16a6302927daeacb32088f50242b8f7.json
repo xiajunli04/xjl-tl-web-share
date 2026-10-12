@@ -1,0 +1,24 @@
+{
+ "doc": "pods",
+ "group": "D2",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": ")\\n，以便",
+   "explanation": "换行后逗号前多出空格，标点与前文衔接不当。"
+  },
+  {
+   "segment": 9,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "提供复制",
+   "explanation": "此处的 replication 指通过多个副本实现冗余，不宜直译为“复制”；“提供冗余”或“运行多个副本”更符合技术语境。"
+  }
+ ]
+}

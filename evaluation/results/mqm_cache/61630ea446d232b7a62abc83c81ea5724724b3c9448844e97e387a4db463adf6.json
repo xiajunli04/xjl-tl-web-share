@@ -1,0 +1,31 @@
+{
+ "doc": "deployment",
+ "group": "D6",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 725,
+ "errors": [
+  {
+   "segment": 18,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "ready/desired",
+   "explanation": "此处描述字段值的格式，译文保留英文状态术语，建议译为“就绪/期望”以保持中文表述一致。"
+  },
+  {
+   "segment": 23,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "发布状态",
+   "explanation": "Deployment rollout status 指 Deployment 的滚动更新状态或进度，“发布状态”未准确体现该技术概念。"
+  },
+  {
+   "segment": 37,
+   "category": "style",
+   "severity": "minor",
+   "span": "确保存在三个",
+   "explanation": "“确保存在三个 Pod”措辞略显生硬，技术文档中可改为“确保有三个 Pod”。"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "doc": "pods",
+ "group": "I1",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "style",
+   "severity": "minor",
+   "span": "节点内",
+   "explanation": "技术文档中通常说在节点上安装运行时，“节点内”表达生硬。"
+  },
+  {
+   "segment": 3,
+   "category": "style",
+   "severity": "minor",
+   "span": "其他隔离方面",
+   "explanation": "“facets of isolation”在此指其他隔离特性或机制，“隔离方面”表达不够自然。"
+  },
+  {
+   "segment": 7,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "紧密协作单元",
+   "explanation": "“cohesive unit”强调组成一个紧密、统一的整体，并不特指协作；译文略微改变了含义。"
+  },
+  {
+   "segment": 8,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "由共同管理的容器",
+   "explanation": "“由共同管理的”结构生硬，可简化为“共同管理的容器”。"
+  }
+ ]
+}

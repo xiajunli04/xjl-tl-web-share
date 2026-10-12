@@ -1,0 +1,31 @@
+{
+ "doc": "pods",
+ "group": "D2",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 134,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "Pod",
+   "explanation": "原文为复数资源名“Pods”，译文误用了单数形式。"
+  },
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "_Pod_",
+   "explanation": "原文为复数“_Pods_”，译文误用了单数形式。"
+  },
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "Pod 模拟了",
+   "explanation": "原文“models”表示 Pod 将应用抽象为一种逻辑主机；“模拟”容易理解为仿真，偏离了原意。"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "literary-source-en.mp3",
+    "text": "Long after the rain had passed, the old house kept its fragrance of wet cedar, as though the years we had lost were still waiting quietly beneath the eaves for someone to call them home.",
+    "voice": "Cherry",
+    "model": "qwen3-tts-flash",
+    "duration": 12.16
+  },
+  {
+    "file": "literary-target-zh.mp3",
+    "text": "雨过许久，老屋依然留着雨湿雪松的香气，仿佛那些失去的岁月仍静静守候在檐下，等着有人唤它们回家。",
+    "voice": "Cherry",
+    "model": "qwen3-tts-flash",
+    "duration": 9.76
+  },
+  {
+    "file": "classical-source-zh.mp3",
+    "text": "莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+    "voice": "Cherry",
+    "model": "qwen3-tts-flash",
+    "duration": 8.24
+  },
+  {
+    "file": "classical-target-en.mp3",
+    "text": "Pay no heed to the rain beating through the trees and on the leaves;\nwhy not hum and whistle as I stroll along at ease?\nWith a bamboo staff and straw sandals, I am more at ease than on horseback.\nWho’s afraid?\nIn a straw cape amid mist and rain, I shall live out my days.",
+    "voice": "Cherry",
+    "model": "qwen3-tts-flash",
+    "duration": 20.24
+  }
+]

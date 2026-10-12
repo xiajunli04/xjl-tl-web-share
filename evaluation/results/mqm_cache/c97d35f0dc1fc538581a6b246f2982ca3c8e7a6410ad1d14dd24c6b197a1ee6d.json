@@ -1,0 +1,17 @@
+{
+ "doc": "volumes",
+ "group": "I3",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 144,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "style",
+   "severity": "minor",
+   "span": "非简单应用",
+   "explanation": "“非简单应用”表达生硬，技术文档中可改为“复杂应用”或“较复杂的应用”。"
+  }
+ ]
+}

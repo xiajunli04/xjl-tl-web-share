@@ -1,0 +1,87 @@
+{
+ "dialogue": "d06",
+ "condition": "nosession",
+ "sessionId": null,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:39:21.950+00:00",
+ "finishedAt": "2026-10-03T17:40:41.082+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "Good evening, Ms. Rivera. Welcome to the Harbor Hotel.",
+   "translation": "晚上好，里维拉女士。欢迎入住港湾酒店。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 811,
+    "completionTokens": 146
+   },
+   "latencyMs": 12274,
+   "recordId": 2602,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "Your room is on the eighth floor, facing the sea.",
+   "translation": "您的房间在八楼，面朝大海。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 806,
+    "completionTokens": 75
+   },
+   "latencyMs": 11995,
+   "recordId": 2603,
+   "sessionTurns": 0
+  },
+  {
+   "index": 2,
+   "source": "Breakfast is served in the lobby restaurant until ten.",
+   "translation": "早餐供应至十点，地点在大堂餐厅。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 801,
+    "completionTokens": 203
+   },
+   "latencyMs": 19213,
+   "recordId": 2604,
+   "sessionTurns": 0
+  },
+  {
+   "index": 3,
+   "source": "Would you like us to book a table there for dinner as well?",
+   "translation": "您还希望我们也在那里预订一张晚餐桌吗？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 765,
+    "completionTokens": 225
+   },
+   "latencyMs": 16290,
+   "recordId": 2605,
+   "sessionTurns": 0
+  },
+  {
+   "index": 4,
+   "source": "Ms. Rivera, your luggage will be brought up shortly.",
+   "translation": "里维拉女士，您的行李很快就会送上来。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 810,
+    "completionTokens": 94
+   },
+   "latencyMs": 18842,
+   "recordId": 2606,
+   "sessionTurns": 0
+  }
+ ]
+}

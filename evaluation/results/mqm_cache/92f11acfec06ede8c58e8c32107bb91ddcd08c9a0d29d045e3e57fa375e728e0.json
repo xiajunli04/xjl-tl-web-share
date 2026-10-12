@@ -1,0 +1,31 @@
+{
+ "doc": "configmap",
+ "group": "I3",
+ "chunk": 3,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 340,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "单行值",
+   "explanation": "原文指键对应的单个值，而非单行值；译文错误地将“single values”理解为“single-line values”。"
+  },
+  {
+   "segment": 6,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "容器命令和参数内部",
+   "explanation": "表达生硬且语序不自然，建议译为“在容器的命令和参数中”。"
+  },
+  {
+   "segment": 10,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "适用于对所使用的数据进行不同的建模方式",
+   "explanation": "句式搭配不自然，建议改为“适合以不同方式对所使用的数据进行建模”。"
+  }
+ ]
+}

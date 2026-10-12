@@ -1,0 +1,5 @@
+Machine translation has come a long way. Early systems relied on hand-written rules, while modern systems learn from large parallel corpora.
+
+Large language models can now translate whole documents. They keep terminology consistent when they are given a glossary and enough context.
+
+However, human review is still important for legal and medical texts, where a single mistranslated term can have serious consequences.

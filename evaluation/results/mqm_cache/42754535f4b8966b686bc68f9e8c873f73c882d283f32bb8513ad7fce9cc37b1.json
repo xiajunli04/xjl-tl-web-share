@@ -1,0 +1,31 @@
+{
+ "doc": "service",
+ "group": "I2",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "以及如何使这些 Pod 可访问的策略",
+   "explanation": "结构略显生硬，建议改为“以及关于如何使这些 Pod 可访问的策略”。"
+  },
+  {
+   "segment": 5,
+   "category": "style",
+   "severity": "minor",
+   "span": "使用金丝雀部署发布",
+   "explanation": "标题表达不够自然，可改为“使用金丝雀部署来部署版本”。"
+  },
+  {
+   "segment": 7,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "将集群中分别运行的工作负载的多个组件，通过单个监听器公开出来",
+   "explanation": "“分别运行的工作负载的多个组件”修饰关系不清，且“组件”与“通过……公开”的语序生硬。"
+  }
+ ]
+}

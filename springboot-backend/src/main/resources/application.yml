@@ -1,0 +1,134 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  config:
+    # 本地开发时读取仓库根目录 .env（从 springboot-backend 目录启动）；不存在则忽略
+    import: optional:file:../.env[.properties]
+  application:
+    name: tl-backend
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSTGRES_PORT:5432}/${POSTGRES_DB:xjl_tl}?currentSchema=biz,public
+    username: ${TL_APP_DB_USER:tl_app}
+    password: ${TL_APP_DB_PASSWORD}
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6380}
+      password: ${REDIS_PASSWORD:}
+      database: ${REDIS_DATABASE:0}
+  flyway:
+    # Flyway 先创建 biz/ai 两个 schema（历史表放在 biz），V1 中的 CREATE SCHEMA 使用 IF NOT EXISTS
+    schemas: biz,ai
+    default-schema: biz
+    placeholders:
+      ai_role: ${TL_AI_DB_USER:tl_ai}
+  threads:
+    virtual:
+      enabled: true
+  servlet:
+    multipart:
+      # 术语 CSV（最多 5000 行）、文档、听写音频与图片（≤10 MB，业务层再按类型校验）
+      max-file-size: 20MB
+      max-request-size: 21MB
+
+mybatis-plus:
+  global-config:
+    banner: false
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: "true"
+      logic-not-delete-value: "false"
+  configuration:
+    map-underscore-to-camel-case: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  default-produces-media-type: application/json
+
+app:
+  security:
+    jwt-secret: ${JWT_SECRET}
+    access-token-ttl: 2h
+    refresh-token-ttl: 7d
+  crypto:
+    model-key-secret: ${MODEL_KEY_SECRET}
+  admin:
+    username: ${ADMIN_USERNAME:}
+    password: ${ADMIN_PASSWORD:}
+  cors:
+    allowed-origins: ${WEB_ORIGIN:http://localhost:3000}
+  ai:
+    base-url: ${AI_SERVICE_URL:http://localhost:8000}
+    internal-token: ${INTERNAL_TOKEN:}
+    connect-timeout: 3s
+    read-timeout: 60s
+  translate:
+    max-text-length: 5000
+    # 限流：Redis 固定窗口（每用户每分钟）
+    translate-limit-per-minute: 20
+    detect-limit-per-minute: 120
+    heartbeat-interval: 15s
+    timeout: 180s
+    max-glossaries: 10
+  media:
+    # 原图、译图等文件的存储根目录（相对 Spring 工作目录；部署时挂载卷）
+    storage-dir: ${STORAGE_DIR:./data/storage}
+    image-max-bytes: 10485760
+    image-min-side: 32
+    image-max-side: 8192
+    transcribe-max-seconds: 60
+    tts-max-chars: 2000
+    insights-max-chars: 2000
+    # 同传：票据有效期、并发与房间上限（design D2 / D9）
+    ws-ticket-ttl: 60s
+    max-streams: ${INTERPRET_MAX_STREAMS:20}
+    room-max-members: 8
+    room-max-languages-cascade: 6
+    room-max-languages-s2s: 4
+    rejoin-grace: 30s
+    idle-end-after: 60s
+    segment-flush-interval: 1s
+    segment-flush-batch: 20
+    # 级联链路的译文定稿要等首段译音合成出来，慢时可达 6–8 s；超时后迟到的译文仍会回填
+    segment-wait-timeout: 15s
+    # Python 同传 WebSocket 地址，缺省由 app.ai.base-url 推导
+    interpret-ws-url: ${INTERPRET_WS_URL:}
+  doc:
+    max-text-length: 50000
+    # 每个用户同时处于 PENDING / 运行中的任务上限（AWAITING_CONFIRM 不计入）
+    max-running-per-user: 2
+    max-glossaries: 10
+    heartbeat-interval: 15s
+    # 运行中任务超过该时长没有任何事件即标记为 FAILED（可重试）
+    stale-timeout: 30m
+    stale-check-interval-ms: 60000
+    consumer-enabled: true
+    tasks-stream: tl:doc-tasks
+    events-stream: tl:doc-events
+    worker-group: ai-worker
+    spring-group: spring
+    # 消费者名称，缺省为 spring-<主机名>
+    consumer-name: ${DOC_CONSUMER_NAME:}
+    # 启动时 / 周期性认领闲置超过该时长的 pending 事件
+    claim-min-idle: 60s
+    claim-interval-ms: 30000
+    poll-timeout: 2s
+    batch-size: 20
+
+logging:
+  pattern:
+    level: "%5p [%X{traceId:-}]"

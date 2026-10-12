@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" font-family="'Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#g)"/>
+  <circle cx="760" cy="140" r="180" fill="#ffffff" opacity="0.06"/>
+  <circle cx="120" cy="1080" r="240" fill="#ffffff" opacity="0.05"/>
+  <circle cx="450" cy="650" r="60" fill="none" stroke="#c4b5fd" stroke-width="3" opacity="0.6"/>
+  <circle cx="450" cy="650" r="22" fill="#c4b5fd" opacity="0.8"/>
+  <text x="450" y="300" text-anchor="middle" font-size="120" font-weight="800" fill="#ffffff" textLength="504" lengthAdjust="spacingAndGlyphs">SPRING</text>
+  <text x="450" y="400" text-anchor="middle" font-size="64" font-weight="700" fill="#e9d5ff" textLength="640" lengthAdjust="spacingAndGlyphs">TECH FORUM 2026</text>
+  <text x="450" y="520" text-anchor="middle" font-size="40" fill="#c4b5fd" textLength="520" lengthAdjust="spacingAndGlyphs">AI · Cloud · Open Source</text>
+  <text x="450" y="820" text-anchor="middle" font-size="56" font-weight="700" fill="#ffffff" textLength="480" lengthAdjust="spacingAndGlyphs">May 18 · Hall B</text>
+  <text x="450" y="1000" text-anchor="middle" font-size="36" fill="#ddd6fe" textLength="500" lengthAdjust="spacingAndGlyphs">Free admission for students</text>
+</svg>

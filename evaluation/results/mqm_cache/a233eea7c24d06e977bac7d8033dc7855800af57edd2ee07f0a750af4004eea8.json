@@ -1,0 +1,24 @@
+{
+ "doc": "pods",
+ "group": "D4",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "映像",
+   "explanation": "容器技术语境中，image 通常译为“镜像”；“映像”不符合常见术语用法。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "major",
+   "span": "*副本*",
+   "explanation": "此处 replication 指通过创建多个实例实现的“副本”机制或“复制”，译为“副本”未准确表达该概念。"
+  }
+ ]
+}

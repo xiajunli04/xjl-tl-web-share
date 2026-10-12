@@ -1,0 +1,40 @@
+[project]
+name = "xjl-tl-eval"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "edge-tts>=7.2.8,<7.3",
+    "fastapi>=0.142.2",
+    "fasttext-wheel>=0.9.2",
+    "httpx>=0.28.1",
+    "imageio-ffmpeg>=0.6",
+    "langdetect>=1.0.9",
+    "lingua-language-detector>=2.2.0",
+    "locust>=2.46.6",
+    "matplotlib>=3.11.2",
+    "numpy>=2",
+    "openai>=3.24.0",
+    "pandas>=3.0.6",
+    "pillow>=11",
+    "sacrebleu>=2.6.0",
+    "uvicorn[standard]>=0.54.0",
+    "websockets>=15",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

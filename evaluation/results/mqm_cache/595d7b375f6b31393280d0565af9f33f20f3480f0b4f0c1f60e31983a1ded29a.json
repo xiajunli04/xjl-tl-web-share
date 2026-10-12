@@ -1,0 +1,17 @@
+{
+ "doc": "volumes",
+ "group": "D5",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 156,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "临时暂存空间",
+   "explanation": "“scratch space”通常指临时工作或存储空间，“暂存空间”容易被理解为用于暂存的特定空间，术语不够准确。"
+  }
+ ]
+}

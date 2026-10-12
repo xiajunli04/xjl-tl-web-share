@@ -1,0 +1,24 @@
+{
+ "doc": "configmap",
+ "group": "D4",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 35,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "terminology",
+   "severity": "major",
+   "span": "配置映射",
+   "explanation": "ConfigMaps 是 Kubernetes 资源名，通常保留英文；翻译后不易与实际资源名称对应。"
+  },
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "major",
+   "span": "配置映射",
+   "explanation": "ConfigMap 是 Kubernetes 资源名，通常保留英文；此处译为“配置映射”会使其与 API 资源名称不对应。"
+  }
+ ]
+}

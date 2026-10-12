@@ -1,0 +1,17 @@
+{
+ "doc": "service",
+ "group": "D6",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 243,
+ "errors": [
+  {
+   "segment": 6,
+   "category": "style",
+   "severity": "minor",
+   "span": "进入_服务_。",
+   "explanation": "“Enter Services”是引出新概念的表达，直译为“进入服务”不符合中文技术文档的自然表达。"
+  }
+ ]
+}

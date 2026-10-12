@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','Noto Sans SC',sans-serif">
+  <rect width="1200" height="900" fill="#f5ecd9"/>
+  <rect x="30" y="30" width="1140" height="840" rx="18" fill="none" stroke="#8b2d1f" stroke-width="3"/>
+  <rect x="44" y="44" width="1112" height="812" rx="12" fill="none" stroke="#8b2d1f" stroke-width="1" stroke-dasharray="6 6"/>
+  <circle cx="200" cy="120" r="8" fill="#c0392b"/>
+  <circle cx="1000" cy="120" r="8" fill="#c0392b"/>
+  <text x="600" y="140" text-anchor="middle" font-size="56" font-weight="700" fill="#8b2d1f" textLength="480" lengthAdjust="spacingAndGlyphs">川味小馆 · 今日菜单</text>
+  <line x1="150" y1="200" x2="1050" y2="200" stroke="#8b2d1f" stroke-width="2"/>
+  <g font-size="44" font-weight="600" fill="#2b2118">
+    <text x="150" y="300" textLength="176" lengthAdjust="spacingAndGlyphs">宫保鸡丁</text>
+    <text x="150" y="430" textLength="176" lengthAdjust="spacingAndGlyphs">麻婆豆腐</text>
+    <text x="150" y="560" textLength="176" lengthAdjust="spacingAndGlyphs">鱼香肉丝</text>
+    <text x="660" y="300" textLength="176" lengthAdjust="spacingAndGlyphs">水煮牛肉</text>
+    <text x="660" y="430" textLength="132" lengthAdjust="spacingAndGlyphs">回锅肉</text>
+    <text x="660" y="560" textLength="132" lengthAdjust="spacingAndGlyphs">酸辣汤</text>
+  </g>
+  <g font-size="24" fill="#7a6a58">
+    <text x="150" y="344" textLength="192" lengthAdjust="spacingAndGlyphs">鸡丁配花生，微辣</text>
+    <text x="150" y="474" textLength="192" lengthAdjust="spacingAndGlyphs">嫩豆腐，麻辣鲜香</text>
+    <text x="150" y="604" textLength="168" lengthAdjust="spacingAndGlyphs">酸甜微辣，下饭</text>
+    <text x="660" y="344" textLength="168" lengthAdjust="spacingAndGlyphs">红油牛肉，特辣</text>
+    <text x="660" y="474" textLength="168" lengthAdjust="spacingAndGlyphs">蒜苗爆炒二刀肉</text>
+    <text x="660" y="604" textLength="96" lengthAdjust="spacingAndGlyphs">开胃暖身</text>
+  </g>
+  <g stroke="#b9a88f" stroke-width="2" stroke-dasharray="2 8">
+    <line x1="360" y1="292" x2="450" y2="292"/>
+    <line x1="360" y1="422" x2="450" y2="422"/>
+    <line x1="360" y1="552" x2="450" y2="552"/>
+    <line x1="870" y1="292" x2="960" y2="292"/>
+    <line x1="830" y1="422" x2="960" y2="422"/>
+    <line x1="830" y1="552" x2="960" y2="552"/>
+  </g>
+  <g font-size="40" font-weight="700" fill="#8b2d1f" text-anchor="end" font-family="Georgia,serif">
+    <text x="540" y="300">¥38</text>
+    <text x="540" y="430">¥26</text>
+    <text x="540" y="560">¥32</text>
+    <text x="1050" y="300">¥58</text>
+    <text x="1050" y="430">¥36</text>
+    <text x="1050" y="560">¥18</text>
+  </g>
+  <path d="M560 690 q40 -40 80 0 q-40 40 -80 0z" fill="#c0392b" opacity="0.85"/>
+  <text x="600" y="800" text-anchor="middle" font-size="32" fill="#8b2d1f" textLength="288" lengthAdjust="spacingAndGlyphs">辣度可调 · 欢迎品尝</text>
+</svg>

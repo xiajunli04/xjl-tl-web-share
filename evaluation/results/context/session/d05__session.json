@@ -1,0 +1,87 @@
+{
+ "dialogue": "d05",
+ "condition": "session",
+ "sessionId": 7,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:38:12.677+00:00",
+ "finishedAt": "2026-10-03T17:39:21.948+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "Your Pro plan will renew automatically on June 1.",
+   "translation": "您的 Pro 计划将于 6 月 1 日自动续订。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 807,
+    "completionTokens": 58
+   },
+   "latencyMs": 13804,
+   "recordId": 2597,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "The charge will appear as TLX*PRO on your statement.",
+   "translation": "该笔费用将在您的账单上显示为 TLX*PRO。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 980,
+    "completionTokens": 111
+   },
+   "latencyMs": 15333,
+   "recordId": 2598,
+   "sessionTurns": 1
+  },
+  {
+   "index": 2,
+   "source": "If you'd like to cancel, you can do it in Settings.",
+   "translation": "如果您想取消，可以在“设置”中操作。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1011,
+    "completionTokens": 78
+   },
+   "latencyMs": 10546,
+   "recordId": 2599,
+   "sessionTurns": 2
+  },
+  {
+   "index": 3,
+   "source": "You'll keep access until the end of the current period.",
+   "translation": "您将继续享有访问权限，直到当前周期结束。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1134,
+    "completionTokens": 191
+   },
+   "latencyMs": 12084,
+   "recordId": 2600,
+   "sessionTurns": 3
+  },
+  {
+   "index": 4,
+   "source": "We can also switch you to the Basic plan, which costs half as much.",
+   "translation": "我们也可以帮您切换到 Basic 计划，费用为目前的一半。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1226,
+    "completionTokens": 188
+   },
+   "latencyMs": 16897,
+   "recordId": 2601,
+   "sessionTurns": 4
+  }
+ ]
+}

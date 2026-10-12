@@ -1,0 +1,24 @@
+{
+ "doc": "service",
+ "group": "I2",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 5,
+   "category": "style",
+   "severity": "minor",
+   "span": "使用 Canary 部署发布",
+   "explanation": "措辞不够自然，容易读成“用 Canary 部署来发布”；可改为“使用 Canary 部署发布版本”。"
+  },
+  {
+   "segment": 6,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "Service 选择的 Pod 集合",
+   "explanation": "原文指由 Service 指向或选中的 Pod 集合；此处表述容易误解为 Service 本身执行选择。"
+  }
+ ]
+}

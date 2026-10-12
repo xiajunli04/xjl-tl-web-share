@@ -1,0 +1,24 @@
+{
+ "doc": "configmap",
+ "group": "I3",
+ "chunk": 3,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 340,
+ "errors": [
+  {
+   "segment": 6,
+   "category": "fluency",
+   "severity": "major",
+   "span": "容器命令和参数内部",
+   "explanation": "语序不自然且含义不清，容易被理解为“命令和参数的内部”；原文指在容器的命令和参数中使用 ConfigMap。"
+  },
+  {
+   "segment": 14,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "挂载到 `demo` 容器中作为 `/config`",
+   "explanation": "将卷挂载到容器中的挂载路径表达成了容器本身“作为” `/config`，未准确说明应挂载到容器内的 `/config` 路径。"
+  }
+ ]
+}

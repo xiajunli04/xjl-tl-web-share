@@ -1,0 +1,38 @@
+{
+ "doc": "pods",
+ "group": "I1",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 134,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "Pod",
+   "explanation": "原文为复数“Pods”，译文使用单数，未保留原文的数。"
+  },
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "*Pod*",
+   "explanation": "原文“Pods”为复数，译文改为单数“Pod”。"
+  },
+  {
+   "segment": 3,
+   "category": "fluency",
+   "severity": "major",
+   "span": "共同 размещ并",
+   "explanation": "混入俄语词“размещ”，导致句子不通顺且含义不完整。"
+  },
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "pod 或豌豆荚中的 pod",
+   "explanation": "此处的普通名词“pod”用于解释词源，应译为中文；保留英文造成未翻译。"
+  }
+ ]
+}

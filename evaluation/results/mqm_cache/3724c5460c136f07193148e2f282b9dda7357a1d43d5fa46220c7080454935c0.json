@@ -1,0 +1,17 @@
+{
+ "doc": "service",
+ "group": "D0",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 7,
+   "category": "fluency",
+   "severity": "major",
+   "span": "从而能够在集群中分别运行的工作负载的多个组件通过单个监听器对外公开",
+   "explanation": "句子结构不通顺，多个修饰成分堆叠，导致“多个组件”与“通过单个监听器对外公开”的关系不清晰。"
+  }
+ ]
+}

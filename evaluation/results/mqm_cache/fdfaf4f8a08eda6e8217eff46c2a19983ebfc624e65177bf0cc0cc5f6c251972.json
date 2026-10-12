@@ -1,0 +1,24 @@
+{
+ "doc": "volumes",
+ "group": "D0",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 281,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "持久卷的存在超出任何单个 Pod 的生命周期",
+   "explanation": "“存在超出……”搭配生硬，建议改为“持久卷的生命周期超出任何单个 Pod 的生命周期”。"
+  },
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "数据都会在容器重启期间保留",
+   "explanation": "原文表示数据在容器重启后仍然保留（across restarts），译文“重启期间”容易被理解为仅在重启过程中保留。"
+  }
+ ]
+}

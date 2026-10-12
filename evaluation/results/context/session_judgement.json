@@ -1,0 +1,839 @@
+{
+ "phenomena": [
+  {
+   "dialogue": "d01",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "They",
+   "correct": false
+  },
+  {
+   "dialogue": "d01",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "polysemy",
+   "span": "charging",
+   "correct": true
+  },
+  {
+   "dialogue": "d01",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d01",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "them",
+   "correct": false
+  },
+  {
+   "dialogue": "d01",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "polysemy",
+   "span": "the case",
+   "correct": false
+  },
+  {
+   "dialogue": "d01",
+   "turn": 1,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "They",
+   "correct": true
+  },
+  {
+   "dialogue": "d01",
+   "turn": 1,
+   "condition": "session",
+   "type": "polysemy",
+   "span": "charging",
+   "correct": true
+  },
+  {
+   "dialogue": "d01",
+   "turn": 2,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d01",
+   "turn": 3,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "them",
+   "correct": true
+  },
+  {
+   "dialogue": "d01",
+   "turn": 4,
+   "condition": "session",
+   "type": "polysemy",
+   "span": "the case",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "gender",
+   "span": "She",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "gender",
+   "span": "her",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "The old one",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "register",
+   "span": "Mrs. Chen",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 1,
+   "condition": "session",
+   "type": "gender",
+   "span": "She",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 2,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 2,
+   "condition": "session",
+   "type": "gender",
+   "span": "her",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 3,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "The old one",
+   "correct": true
+  },
+  {
+   "dialogue": "d02",
+   "turn": 4,
+   "condition": "session",
+   "type": "register",
+   "span": "Mrs. Chen",
+   "correct": true
+  },
+  {
+   "dialogue": "d03",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d03",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "The black one",
+   "correct": true
+  },
+  {
+   "dialogue": "d03",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d03",
+   "turn": 2,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d03",
+   "turn": 3,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "The black one",
+   "correct": true
+  },
+  {
+   "dialogue": "d03",
+   "turn": 4,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d04",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "gender",
+   "span": "He",
+   "correct": true
+  },
+  {
+   "dialogue": "d04",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "gender",
+   "span": "him",
+   "correct": true
+  },
+  {
+   "dialogue": "d04",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "entity",
+   "span": "David",
+   "correct": true
+  },
+  {
+   "dialogue": "d04",
+   "turn": 1,
+   "condition": "session",
+   "type": "gender",
+   "span": "He",
+   "correct": true
+  },
+  {
+   "dialogue": "d04",
+   "turn": 2,
+   "condition": "session",
+   "type": "gender",
+   "span": "him",
+   "correct": true
+  },
+  {
+   "dialogue": "d04",
+   "turn": 4,
+   "condition": "session",
+   "type": "entity",
+   "span": "David",
+   "correct": true
+  },
+  {
+   "dialogue": "d05",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "polysemy",
+   "span": "The charge",
+   "correct": true
+  },
+  {
+   "dialogue": "d05",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d05",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "half as much",
+   "correct": true
+  },
+  {
+   "dialogue": "d05",
+   "turn": 1,
+   "condition": "session",
+   "type": "polysemy",
+   "span": "The charge",
+   "correct": true
+  },
+  {
+   "dialogue": "d05",
+   "turn": 2,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d05",
+   "turn": 4,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "half as much",
+   "correct": true
+  },
+  {
+   "dialogue": "d06",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "register",
+   "span": "Your",
+   "correct": true
+  },
+  {
+   "dialogue": "d06",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "there",
+   "correct": true
+  },
+  {
+   "dialogue": "d06",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "register",
+   "span": "you",
+   "correct": true
+  },
+  {
+   "dialogue": "d06",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "entity",
+   "span": "Ms. Rivera",
+   "correct": true
+  },
+  {
+   "dialogue": "d06",
+   "turn": 1,
+   "condition": "session",
+   "type": "register",
+   "span": "Your",
+   "correct": true
+  },
+  {
+   "dialogue": "d06",
+   "turn": 3,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "there",
+   "correct": true
+  },
+  {
+   "dialogue": "d06",
+   "turn": 3,
+   "condition": "session",
+   "type": "register",
+   "span": "you",
+   "correct": true
+  },
+  {
+   "dialogue": "d06",
+   "turn": 4,
+   "condition": "session",
+   "type": "entity",
+   "span": "Ms. Rivera",
+   "correct": true
+  },
+  {
+   "dialogue": "d07",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d07",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "If not",
+   "correct": true
+  },
+  {
+   "dialogue": "d07",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "the ones",
+   "correct": true
+  },
+  {
+   "dialogue": "d07",
+   "turn": 1,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d07",
+   "turn": 2,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "If not",
+   "correct": true
+  },
+  {
+   "dialogue": "d07",
+   "turn": 4,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "the ones",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "They",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "three",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "theirs",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "those three",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 1,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "They",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 1,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "three",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 2,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "theirs",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 3,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "those three",
+   "correct": true
+  },
+  {
+   "dialogue": "d08",
+   "turn": 4,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d09",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "gender",
+   "span": "She",
+   "correct": true
+  },
+  {
+   "dialogue": "d09",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "a smaller size",
+   "correct": true
+  },
+  {
+   "dialogue": "d09",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "gender",
+   "span": "she",
+   "correct": true
+  },
+  {
+   "dialogue": "d09",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "entity",
+   "span": "Momo",
+   "correct": true
+  },
+  {
+   "dialogue": "d09",
+   "turn": 1,
+   "condition": "session",
+   "type": "gender",
+   "span": "She",
+   "correct": true
+  },
+  {
+   "dialogue": "d09",
+   "turn": 2,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "a smaller size",
+   "correct": true
+  },
+  {
+   "dialogue": "d09",
+   "turn": 3,
+   "condition": "session",
+   "type": "gender",
+   "span": "she",
+   "correct": true
+  },
+  {
+   "dialogue": "d09",
+   "turn": 4,
+   "condition": "session",
+   "type": "entity",
+   "span": "Momo",
+   "correct": true
+  },
+  {
+   "dialogue": "d10",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d10",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "The 6:40 one",
+   "correct": true
+  },
+  {
+   "dialogue": "d10",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": false
+  },
+  {
+   "dialogue": "d10",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "polysemy",
+   "span": "transferred",
+   "correct": true
+  },
+  {
+   "dialogue": "d10",
+   "turn": 1,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d10",
+   "turn": 2,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "The 6:40 one",
+   "correct": true
+  },
+  {
+   "dialogue": "d10",
+   "turn": 3,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d10",
+   "turn": 4,
+   "condition": "session",
+   "type": "polysemy",
+   "span": "transferred",
+   "correct": true
+  },
+  {
+   "dialogue": "d11",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "the larger one",
+   "correct": true
+  },
+  {
+   "dialogue": "d11",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "entity",
+   "span": "The chairs",
+   "correct": false
+  },
+  {
+   "dialogue": "d11",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "before then",
+   "correct": true
+  },
+  {
+   "dialogue": "d11",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d11",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "the legs",
+   "correct": true
+  },
+  {
+   "dialogue": "d11",
+   "turn": 1,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "the larger one",
+   "correct": true
+  },
+  {
+   "dialogue": "d11",
+   "turn": 2,
+   "condition": "session",
+   "type": "entity",
+   "span": "The chairs",
+   "correct": false
+  },
+  {
+   "dialogue": "d11",
+   "turn": 3,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "before then",
+   "correct": true
+  },
+  {
+   "dialogue": "d11",
+   "turn": 4,
+   "condition": "session",
+   "type": "pronoun",
+   "span": "it",
+   "correct": true
+  },
+  {
+   "dialogue": "d11",
+   "turn": 4,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "the legs",
+   "correct": false
+  },
+  {
+   "dialogue": "d12",
+   "turn": 1,
+   "condition": "nosession",
+   "type": "gender",
+   "span": "He",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 2,
+   "condition": "nosession",
+   "type": "gender",
+   "span": "him",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "ellipsis",
+   "span": "the advanced one",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 3,
+   "condition": "nosession",
+   "type": "kinship",
+   "span": "His older sister",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 4,
+   "condition": "nosession",
+   "type": "entity",
+   "span": "Leo",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 1,
+   "condition": "session",
+   "type": "gender",
+   "span": "He",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 2,
+   "condition": "session",
+   "type": "gender",
+   "span": "him",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 3,
+   "condition": "session",
+   "type": "ellipsis",
+   "span": "the advanced one",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 3,
+   "condition": "session",
+   "type": "kinship",
+   "span": "His older sister",
+   "correct": true
+  },
+  {
+   "dialogue": "d12",
+   "turn": 4,
+   "condition": "session",
+   "type": "entity",
+   "span": "Leo",
+   "correct": true
+  }
+ ],
+ "pairwise": [
+  {
+   "dialogue": "d01",
+   "winner": "session"
+  },
+  {
+   "dialogue": "d02",
+   "winner": "session"
+  },
+  {
+   "dialogue": "d03",
+   "winner": "tie"
+  },
+  {
+   "dialogue": "d04",
+   "winner": "tie"
+  },
+  {
+   "dialogue": "d05",
+   "winner": "nosession"
+  },
+  {
+   "dialogue": "d06",
+   "winner": "tie"
+  },
+  {
+   "dialogue": "d07",
+   "winner": "session"
+  },
+  {
+   "dialogue": "d08",
+   "winner": "session"
+  },
+  {
+   "dialogue": "d09",
+   "winner": "tie"
+  },
+  {
+   "dialogue": "d10",
+   "winner": "session"
+  },
+  {
+   "dialogue": "d11",
+   "winner": "tie"
+  },
+  {
+   "dialogue": "d12",
+   "winner": "session"
+  }
+ ],
+ "judgeCalls": 108
+}

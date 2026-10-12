@@ -1,0 +1,17 @@
+{
+ "doc": "configmap",
+ "group": "I2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 139,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "style",
+   "severity": "minor",
+   "span": "这些字段接受键值对作为其值",
+   "explanation": "措辞略显生硬，可改为“这些字段的值为键值对”。"
+  }
+ ]
+}

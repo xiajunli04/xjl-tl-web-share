@@ -1,0 +1,17 @@
+{
+ "doc": "service",
+ "group": "D5",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 243,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "style",
+   "severity": "minor",
+   "span": "你不应期待某个单独的 Pod 可靠且持久",
+   "explanation": "“期待”用于表达此处的预期较生硬；“某个单独的”也略显冗余。"
+  }
+ ]
+}

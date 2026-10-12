@@ -1,0 +1,45 @@
+{
+ "doc": "pods",
+ "group": "I2",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 6,
+   "category": "style",
+   "severity": "minor",
+   "span": "封装器",
+   "explanation": "“封装器”在此处表达生硬，技术文档中通常说“封装”或“包装层”。"
+  },
+  {
+   "segment": 7,
+   "category": "style",
+   "severity": "minor",
+   "span": "共同位于同一位置",
+   "explanation": "对“co-located”的直译不自然，可简洁译为“同处一地”或“共同部署”。"
+  },
+  {
+   "segment": 7,
+   "category": "style",
+   "severity": "minor",
+   "span": "紧密统一",
+   "explanation": "“紧密统一”搭配生硬，未自然表达“single cohesive unit”的整体性。"
+  },
+  {
+   "segment": 8,
+   "category": "style",
+   "severity": "minor",
+   "span": "共同位于同一位置",
+   "explanation": "对“co-located”的直译不自然，可译为“同处一地”或“共同部署”。"
+  },
+  {
+   "segment": 9,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "提供副本",
+   "explanation": "原文指通过运行多个容器实现冗余或满足容量需求；“提供副本”未准确表达“provide replication”的含义。"
+  }
+ ]
+}

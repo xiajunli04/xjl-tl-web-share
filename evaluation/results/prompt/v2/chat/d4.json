@@ -1,0 +1,171 @@
+{
+  "id": "d4",
+  "scenario": "business",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "你好，我是星辰科技的王磊，负责海外采购",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “Hello, I’m Lei Wang from Xingchen Technology, and I’m responsible for overseas procurement.”\n\nIt’s a pleasure to meet you, Mr. Wang. I’m responsible for business development on our side, and today I’d like to discuss your procurement needs, potential cooperation, timelines, and pricing.",
+      "summary": null
+    },
+    {
+      "text": "我们这次主要想谈一下智能手表的代工合作",
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "You could say: “We’d mainly like to discuss an OEM partnership for smartwatches.”\n\nThat sounds like a promising opportunity. We can review your product requirements, expected order volume, development timeline, and target pricing first.",
+      "summary": null
+    },
+    {
+      "text": "你们的月产能大概是多少",
+      "tags": [
+        "substantive"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "You could say: “What is your approximate monthly production capacity?”\n\nIt depends on the model and configuration, so I don’t want to give you an inaccurate figure before reviewing the specifications. Could you share your expected monthly order volume and product requirements?",
+      "summary": null
+    },
+    {
+      "text": "我们第一批订单大概五千台，价格能做到多少",
+      "tags": [
+        "substantive"
+      ],
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "You could say: “Our initial order would be around 5,000 units. What price could you offer?”\n\nFor 5,000 units, the price would depend on the model, features, materials, packaging, and certification requirements. If you share those specifications, we can prepare a formal quotation and see whether an initial-order discount is possible.",
+      "summary": null
+    },
+    {
+      "text": "这个价格有点高，能不能再降一些",
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "You could say: “That price is a little high. Could you offer a lower price?”\n\nWe may have some flexibility, especially if the specifications are standardized or if you can commit to a larger follow-up order. If you share your target price, I’ll see what we can do while maintaining the required quality.",
+      "summary": null
+    },
+    {
+      "text": "交货期一般要多久",
+      "tags": [
+        "substantive"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "You could say: “What is the typical lead time?”\n\nFor an initial order, delivery time would depend on product customization, component availability, and certification requirements. Once the specifications and sample are approved, we can confirm a firm production schedule and shipping date.",
+      "summary": null
+    },
+    {
+      "text": "如果我们订一万台呢",
+      "tags": [
+        "substantive"
+      ],
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You could say: “What if we order 10,000 units?”\n\nAt 10,000 units, we may be able to offer a more competitive unit price and prioritize production scheduling. Once we confirm the specifications and target delivery date, we can prepare a revised quotation.",
+      "summary": null
+    },
+    {
+      "text": "质量问题你们怎么处理",
+      "tags": [
+        "substantive"
+      ],
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "You could say: “How do you handle quality issues?”\n\nWe conduct quality inspections during production and before shipment, and we can agree on inspection standards, warranty terms, and a process for handling defective units in the contract. We can include replacement, repair, or other solutions depending on the cause and scope of the issue.",
+      "summary": null
+    },
+    {
+      "text": "能把刚才谈到的条件总结一下吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "月产能",
+        "五千台的报价",
+        "降价或一万台的报价",
+        "交货期",
+        "质量问题的处理方式"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "Here’s a summary of what we discussed.\n\nFirst, you’re considering an OEM partnership for smartwatches, with an initial order of about 5,000 units and possibly 10,000 units. Pricing depends on the model, features, materials, packaging, and certification requirements, and we may offer a better unit price for 10,000 units or a larger follow-up order. Lead time depends on customization, component availability, and certifications, and we’ll confirm it after the specifications and sample are approved. For quality, we can agree on inspection standards, warranty terms, and solutions such as replacement or repair. The next step is to confirm the specifications, target price, and delivery date so we can prepare a formal quotation.",
+      "summary": null
+    },
+    {
+      "text": "We hope can start next month",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "You could say: “We hope to start next month.”\n\nThat may be possible, but we’ll need the specifications, sample approval, and purchase order in advance. Once we receive those details, we can confirm the earliest realistic production and delivery schedule.",
+      "summary": null
+    },
+    {
+      "text": "付款方式有哪些",
+      "tags": [
+        "substantive"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "We can discuss several payment options.\n\nFor example, a common arrangement is a deposit before production and the balance before shipment; a letter of credit or another agreed method may also be possible, subject to our finance team’s approval. Which payment terms does your company usually prefer?",
+      "summary": null
+    },
+    {
+      "text": "我们需要先看样品",
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "You could say: “We need to review the sample first.”\n\nThat’s completely reasonable. We can arrange a sample based on the agreed specifications, and after your approval, we can finalize the quotation, payment terms, and production schedule. Please send us your target specifications so we can prepare the sample request.",
+      "summary": null
+    },
+    {
+      "text": "样品要收费吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "You could say: “Is there a charge for the sample?”\n\nThe sample may be charged, depending on the model and customization required. We can discuss refunding the sample fee after a confirmed bulk order, subject to the final quotation and order terms.",
+      "summary": null
+    },
+    {
+      "text": "好的，我回去和团队商量一下",
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "You could say: “Okay, I’ll discuss it with my team when I get back.”\n\nThat sounds good. After your internal discussion, please send us your specifications, target price, and preferred timeline, and we’ll prepare the sample and a formal quotation. I look forward to continuing our cooperation.",
+      "summary": null
+    },
+    {
+      "text": "下次会面你们方便什么时候",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You could say: “When would be convenient for you to meet next time?”\n\nWe’d be happy to arrange the next meeting after your team reviews the details. Please suggest two or three possible dates and times, and we’ll confirm our availability.",
+      "summary": null
+    },
+    {
+      "text": "你还记得我是哪家公司的吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "星辰科技",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "Yes, you’re from Xingchen Technology, and your name is Lei Wang. You’re responsible for overseas procurement, and we’ve been discussing an OEM partnership for smartwatches.",
+      "summary": "用户信息：王磊，来自星辰科技，负责海外采购；代表公司洽谈智能手表 OEM 合作。\n\n话题与要点：双方计划讨论合作方式并确定下一步；本次重点是智能手表代工，需评估产品要求、订单量、开发周期和目标价格；月产能取决于型号和配置，需先审核规格；首批约 5,000 台，价格取决于型号、功能、材料、包装及认证要求。\n\n用户的问题：你们的月产能大概是多少？5,000 台首批订单价格能做到多少？\n\n待办与约定：用户提供预期月订单量及产品规格；供应方据此准备正式报价，并评估首单折扣可能性。"
+    },
+    {
+      "text": "我们一开始说要合作什么产品",
+      "tags": [
+        "recall"
+      ],
+      "answer": "智能手表（代工）",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "We initially discussed an OEM partnership for smartwatches. We focused on product specifications, order volume, lead time, pricing, samples, and quality standards.",
+      "summary": "用户信息：王磊，来自星辰科技，负责海外采购；代表公司洽谈智能手表 OEM 合作。\n\n话题与要点：双方计划讨论合作方式并确定下一步；本次重点是智能手表代工，需评估产品要求、订单量、开发周期和目标价格；月产能取决于型号和配置，需先审核规格；首批约 5,000 台，价格取决于型号、功能、材料、包装及认证要求。\n\n用户的问题：你们的月产能大概是多少？5,000 台首批订单价格能做到多少？\n\n待办与约定：用户提供预期月订单量及产品规格；供应方据此准备正式报价，并评估首单折扣可能性。"
+    }
+  ],
+  "greeting": "It’s a pleasure to meet you. Thank you for visiting us today; I’m looking forward to discussing how our companies might work together and agreeing on the next steps.",
+  "compressions": 1
+}

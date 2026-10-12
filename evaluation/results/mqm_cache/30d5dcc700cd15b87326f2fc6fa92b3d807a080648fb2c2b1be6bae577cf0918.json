@@ -1,0 +1,24 @@
+{
+ "doc": "deployment",
+ "group": "I2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 725,
+ "errors": [
+  {
+   "segment": 9,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "Pod 使用 `.metadata.labels` 字段标记为 `app: nginx`。",
+   "explanation": "“标记为”在此处搭配生硬，应改为“添加标签”或“标记为具有……标签”。"
+  },
+  {
+   "segment": 10,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "该容器运行 `nginx` [Docker Hub](https://hub.docker.com/) 镜像的 1.14.2 版本",
+   "explanation": "原文指运行 Docker Hub 上的 nginx 镜像，译文容易被理解为运行“nginx Docker Hub 镜像”，修饰关系不清。"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "dialogue": "d01",
+ "condition": "nosession",
+ "sessionId": null,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:27:46.595+00:00",
+ "finishedAt": "2026-10-03T17:28:53.510+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "Hi, I bought the X200 headphones from your store last week.",
+   "translation": "您好，我上周从你们店里购买了X200耳机。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1018,
+    "completionTokens": 61
+   },
+   "latencyMs": 10478,
+   "recordId": 2552,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "They stopped charging yesterday.",
+   "translation": "他们昨天停止充电了。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 778,
+    "completionTokens": 157
+   },
+   "latencyMs": 15453,
+   "recordId": 2553,
+   "sessionTurns": 0
+  },
+  {
+   "index": 2,
+   "source": "I already tried a different cable, but it didn't help.",
+   "translation": "我已经尝试更换另一根线缆，但没有帮助。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 809,
+    "completionTokens": 137
+   },
+   "latencyMs": 12300,
+   "recordId": 2554,
+   "sessionTurns": 0
+  },
+  {
+   "index": 3,
+   "source": "Can I get a replacement, or do I need to send them back first?",
+   "translation": "我可以获得替换品吗，还是需要先将商品寄回？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 822,
+    "completionTokens": 143
+   },
+   "latencyMs": 14882,
+   "recordId": 2555,
+   "sessionTurns": 0
+  },
+  {
+   "index": 4,
+   "source": "Also, the case has a small crack.",
+   "translation": "此外，外壳上有一道小裂缝。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 748,
+    "completionTokens": 125
+   },
+   "latencyMs": 12973,
+   "recordId": 2556,
+   "sessionTurns": 0
+  }
+ ]
+}

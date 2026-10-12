@@ -1,0 +1,145 @@
+{
+  "k8s": {
+    "repo": "kubernetes/website",
+    "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+    "files": [
+      {
+        "file": "k8s/pods.en.md",
+        "doc": "pods",
+        "lang": "en",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/en/docs/concepts/workloads/pods/_index.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Working with Pods",
+        "chars": 3830,
+        "h2": 2,
+        "sha256": "cf89c13ffb282debe45230f32129b022877ebca5159c48b6963c787b7e549e8e"
+      },
+      {
+        "file": "k8s/pods.zh.md",
+        "doc": "pods",
+        "lang": "zh",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/zh-cn/docs/concepts/workloads/pods/_index.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Working with Pods",
+        "chars": 1664,
+        "h2": 2,
+        "sha256": "b915b21932fc8e80c6b5f23cdf9af3bc0057893582c9e927c75af22ada2cacf4"
+      },
+      {
+        "file": "k8s/deployment.en.md",
+        "doc": "deployment",
+        "lang": "en",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/en/docs/concepts/workloads/controllers/deployment.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Updating a Deployment",
+        "chars": 7747,
+        "h2": 2,
+        "sha256": "2b3acb10732e36a13ca5343869fb042ac9f8f3306be5cb7e260c857eb4942652"
+      },
+      {
+        "file": "k8s/deployment.zh.md",
+        "doc": "deployment",
+        "lang": "zh",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/zh-cn/docs/concepts/workloads/controllers/deployment.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Updating a Deployment",
+        "chars": 4646,
+        "h2": 1,
+        "sha256": "ce9187d57ae06157e09ef18f8faa3a08664e2bfef53e8b4e61736486c26464e8"
+      },
+      {
+        "file": "k8s/service.en.md",
+        "doc": "service",
+        "lang": "en",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/en/docs/concepts/services-networking/service.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Defining a Service",
+        "chars": 3864,
+        "h2": 1,
+        "sha256": "2cde7fdc1338bb326e8e39f50ff5c8b44a1e75ef350527e9ae0d08940de03bb0"
+      },
+      {
+        "file": "k8s/service.zh.md",
+        "doc": "service",
+        "lang": "zh",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/zh-cn/docs/concepts/services-networking/service.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Defining a Service",
+        "chars": 1658,
+        "h2": 1,
+        "sha256": "a5e11bc57603678d5f77e8bab4b5214d69c81da3af3ce5a0a2dc1d927c77de81"
+      },
+      {
+        "file": "k8s/configmap.en.md",
+        "doc": "configmap",
+        "lang": "en",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/en/docs/concepts/configuration/configmap.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Using ConfigMaps",
+        "chars": 4476,
+        "h2": 3,
+        "sha256": "84a649b92c5614f7aa71ba01f9512805ba4df62c7b1b9299b8f5a25968146920"
+      },
+      {
+        "file": "k8s/configmap.zh.md",
+        "doc": "configmap",
+        "lang": "zh",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/zh-cn/docs/concepts/configuration/configmap.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Using ConfigMaps",
+        "chars": 2326,
+        "h2": 3,
+        "sha256": "a44c6550f8cb776cc0f84505b16bad0bdd18437eb2765ab380b8ffc49ad50281"
+      },
+      {
+        "file": "k8s/volumes.en.md",
+        "doc": "volumes",
+        "lang": "en",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/en/docs/concepts/storage/volumes.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Types of volumes",
+        "chars": 3719,
+        "h2": 2,
+        "sha256": "9bc9bcf635913fb6d4351bc50151b6197783f7e6fd6ab2793d4dd0826ca5654b"
+      },
+      {
+        "file": "k8s/volumes.zh.md",
+        "doc": "volumes",
+        "lang": "zh",
+        "url": "https://raw.githubusercontent.com/kubernetes/website/192e45e734c55f41d7691d965ccf567dea9cbd0e/content/zh-cn/docs/concepts/storage/volumes.md",
+        "commit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+        "cutBeforeHeading": "Types of volumes",
+        "chars": 1473,
+        "h2": 2,
+        "sha256": "4e186e9035d1e924d922603c370b8646d1a20a597adcf7616cdddda284c1a989"
+      }
+    ]
+  },
+  "flores": {
+    "url": "https://dl.fbaipublicfiles.com/nllb/flores200_dataset.tar.gz",
+    "tarballSha256": "b8b0b76783024b85797e5cc75064eb83fc5288b41e9654dabc7be6ae944011f6",
+    "files": [
+      {
+        "file": "flores/en-zh.100.jsonl",
+        "split": "devtest",
+        "source": "eng_Latn",
+        "target": "zho_Hans",
+        "lines": "0-99",
+        "sha256": "2b2824c15355253a1b9ead06e5a41b30b2839c086b6f3eec649a63b81bf64805"
+      }
+    ]
+  },
+  "k8sTerms": {
+    "file": "k8s/terms.json",
+    "origin": "人工整理：依据清洗后的中英文参考译文与 Kubernetes 中文本地化惯例",
+    "basedOnCommit": "192e45e734c55f41d7691d965ccf567dea9cbd0e",
+    "entries": {
+      "pods": 14,
+      "deployment": 18,
+      "service": 18,
+      "configmap": 14,
+      "volumes": 14
+    },
+    "sha256": "93e664e4c2be851ccfe45c4c6eeafe95631afd120d316ccf7cf09b68548441ae"
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "doc": "pods",
+ "group": "D4",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 134,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "style",
+   "severity": "minor",
+   "span": "应用特定的",
+   "explanation": "措辞略显生硬，建议改为“特定于应用的”。"
+  }
+ ]
+}

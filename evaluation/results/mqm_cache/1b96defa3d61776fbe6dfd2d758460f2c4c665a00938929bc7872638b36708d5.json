@@ -1,0 +1,17 @@
+{
+ "doc": "volumes",
+ "group": "D6",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 281,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "数据都会在容器重启期间得到保留",
+   "explanation": "“across container restarts”指数据在容器重启前后仍然保留；“重启期间”则表示仅在重启过程中保留，改变了持久性保证的含义。"
+  }
+ ]
+}

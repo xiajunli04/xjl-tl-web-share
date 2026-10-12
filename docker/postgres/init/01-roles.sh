@@ -1,0 +1,13 @@
+#!/bin/bash
+# 首次初始化数据目录时执行：创建应用角色。schema、表与授权由 Spring 侧 Flyway 负责。
+set -euo pipefail
+
+psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-EOSQL
+  CREATE ROLE ${TL_APP_DB_USER} LOGIN PASSWORD '${TL_APP_DB_PASSWORD}';
+  CREATE ROLE ${TL_AI_DB_USER} LOGIN PASSWORD '${TL_AI_DB_PASSWORD}';
+  GRANT CONNECT, CREATE ON DATABASE ${POSTGRES_DB} TO ${TL_APP_DB_USER};
+  GRANT CONNECT ON DATABASE ${POSTGRES_DB} TO ${TL_AI_DB_USER};
+  -- vector 扩展需超级用户创建；Flyway 中使用 IF NOT EXISTS 保持幂等
+  CREATE EXTENSION IF NOT EXISTS vector;
+  CREATE EXTENSION IF NOT EXISTS pg_trgm;
+EOSQL

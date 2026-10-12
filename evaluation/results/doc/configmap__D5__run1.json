@@ -1,0 +1,928 @@
+{
+ "doc": "configmap",
+ "group": "D5",
+ "run": 1,
+ "config": {
+  "title": "eval-configmap__D5__run1",
+  "format": "md",
+  "sourceLang": "en",
+  "targetLang": "zh",
+  "style": "faithful",
+  "strategy": "parallel",
+  "options": {
+   "contextWindow": true,
+   "globalSummary": true,
+   "termExtraction": true,
+   "review": true
+  },
+  "confirmTerms": false,
+  "glossaryIds": [],
+  "modelConfigId": 2
+ },
+ "model": {
+  "id": 2,
+  "name": "GPT-5.6 Luna（OpenAI兼容）",
+  "provider": "OPENAI_COMPATIBLE",
+  "modelName": "gpt-5.6-luna",
+  "baseUrl": "https://subapi.orzle.xyz/v1",
+  "params": {
+   "timeoutSeconds": 30
+  }
+ },
+ "gitCommit": "63e1f345631f094534a31af90c806d9538870db8",
+ "startedAt": "2026-10-03T10:03:39.320+00:00",
+ "finishedAt": "2026-10-03T10:05:09.709+00:00",
+ "taskId": 93,
+ "status": "COMPLETED",
+ "error": null,
+ "retries": 0,
+ "retryHistory": [],
+ "usage": {
+  "promptTokens": 13507,
+  "completionTokens": 6541,
+  "latencyMs": 88393
+ },
+ "task": {
+  "id": 93,
+  "title": "eval-configmap__D5__run1",
+  "format": "md",
+  "charCount": 4476,
+  "sourceLang": "en",
+  "detectedLang": null,
+  "targetLang": "zh",
+  "style": "faithful",
+  "domain": "容器编排",
+  "genre": "技术文档",
+  "glossaryIds": [],
+  "modelConfigId": 2,
+  "strategy": "parallel",
+  "confirmTerms": false,
+  "options": {
+   "contextWindow": true,
+   "globalSummary": true,
+   "termExtraction": true,
+   "review": true
+  },
+  "status": "COMPLETED",
+  "phase": "assembling",
+  "progressDone": 4,
+  "progressTotal": 4,
+  "summary": "本文介绍 Kubernetes 中 ConfigMap 的用途、限制和使用方式。ConfigMap 用于将配置数据与应用代码分离，但不提供保密或加密功能，数据大小不得超过 1 MiB；敏感信息应使用 Secret。文档说明了 ConfigMap 对象的 data、binaryData 和 immutable 字段、键名及命名规则，并介绍如何在 Pod 中通过命令参数、环境变量、只读卷文件或 Kubernetes API 使用配置数据，同时说明命名空间、静态 Pod 和配置更新等注意事项。",
+  "consistencyReport": {
+   "issues": []
+  },
+  "stats": {
+   "chunks": 4,
+   "refined": 0,
+   "compliance": {
+    "ok": 48,
+    "total": 48
+   },
+   "cachedChunks": 0
+  },
+  "errorCode": null,
+  "errorMessage": null,
+  "retryable": false,
+  "promptTokens": 13507,
+  "completionTokens": 6541,
+  "latencyMs": 88393,
+  "createdAt": "2026-10-03T10:03:39.3395Z",
+  "startedAt": "2026-10-03T10:03:39.520564Z",
+  "finishedAt": "2026-10-03T10:05:08.261817Z"
+ },
+ "segments": [
+  {
+   "seq": 0,
+   "blockType": "heading",
+   "level": 1,
+   "prefix": "# ",
+   "source": "ConfigMaps",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 0,
+   "target": "配置映射",
+   "status": "DONE",
+   "reviewScore": 98,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 1,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "ConfigMap does not provide secrecy or encryption.\nIf the data you want to store are confidential, use a\nSecret rather than a ConfigMap,\nor use additional (third party) tools to keep your data private.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 0,
+   "target": "配置映射不提供保密性或加密功能。\n如果要存储的数据是机密信息，请使用 Secret\n而不是配置映射，\n或者使用额外的（第三方）工具来确保数据的私密性。",
+   "status": "DONE",
+   "reviewScore": 98,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "data",
+     "target": "数据",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 2,
+   "blockType": "heading",
+   "level": 2,
+   "prefix": "## ",
+   "source": "Motivation",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "动机",
+   "status": "DONE",
+   "reviewScore": 97,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 3,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Use a ConfigMap for setting configuration data separately from application code.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "使用配置映射将配置数据与应用代码分开设置。",
+   "status": "DONE",
+   "reviewScore": 97,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "data",
+     "target": "数据",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 4,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "For example, imagine that you are developing an application that you can run on your\nown computer (for development) and in the cloud (to handle real traffic).\nYou write the code to look in an environment variable named `DATABASE_HOST`.\nLocally, you set that variable to `localhost`. In the cloud, you set it to\nrefer to a Kubernetes Service\nthat exposes the database component to your cluster.\nThis lets you fetch a container image running in the cloud and\ndebug the exact same code locally if needed.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "例如，设想你正在开发一个应用，该应用既可以在你自己的计算机上运行（用于开发），也可以在云中运行（用于处理实际流量）。\n你编写代码，使其查找名为 `DATABASE_HOST` 的环境变量。\n在本地，你将该变量设置为 `localhost`。在云中，你将其设置为指向一个 Kubernetes Service，该 Service 向你的集群公开数据库组件。\n这样，你就可以获取一个在云中运行的容器镜像，并在需要时在本地调试完全相同的代码。",
+   "status": "DONE",
+   "reviewScore": 97,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "container",
+     "target": "容器",
+     "compliant": true
+    },
+    {
+     "source": "Kubernetes",
+     "target": "Kubernetes",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 5,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "A ConfigMap is not designed to hold large chunks of data. The data stored in a\nConfigMap cannot exceed 1 MiB. If you need to store settings that are\nlarger than this limit, you may want to consider mounting a volume or use a\nseparate database or file service.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "配置映射并非用于存储大块数据。存储在配置映射中的数据不能超过 1 MiB。如果你需要存储大于此限制的设置，可以考虑挂载卷，或使用单独的数据库或文件服务。",
+   "status": "DONE",
+   "reviewScore": 97,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "data",
+     "target": "数据",
+     "compliant": true
+    },
+    {
+     "source": "volume",
+     "target": "卷",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 6,
+   "blockType": "heading",
+   "level": 2,
+   "prefix": "## ",
+   "source": "ConfigMap object",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 2,
+   "target": "配置映射对象",
+   "status": "DONE",
+   "reviewScore": 98,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 7,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "A ConfigMap is an API object\nthat lets you store configuration for other objects to use. Unlike most\nKubernetes objects that have a `spec`, a ConfigMap has `data` and `binaryData`\nfields. These fields accept key-value pairs as their values.  Both the `data`\nfield and the `binaryData` are optional. The `data` field is designed to\ncontain UTF-8 strings while the `binaryData` field is designed to\ncontain binary data as base64-encoded strings.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 2,
+   "target": "配置映射是一种 API 对象\n可让您存储供其他对象使用的配置。与大多数具有 `spec` 的\nKubernetes 对象不同，配置映射具有 `data` 和 `binaryData`\n字段。这些字段接受键值对作为其值。`data` 字段和 `binaryData`\n都是可选的。`data` 字段用于存储 UTF-8 字符串，而 `binaryData` 字段用于\n存储以 Base64 编码字符串表示的二进制数据。",
+   "status": "DONE",
+   "reviewScore": 98,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "data",
+     "target": "数据",
+     "compliant": true
+    },
+    {
+     "source": "Kubernetes",
+     "target": "Kubernetes",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 8,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "The name of a ConfigMap must be a valid\n[DNS subdomain name](/docs/concepts/overview/working-with-objects/names#dns-subdomain-names).",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 2,
+   "target": "配置映射的名称必须是有效的\n[DNS 子域名](/docs/concepts/overview/working-with-objects/names#dns-subdomain-names)。",
+   "status": "DONE",
+   "reviewScore": 98,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 9,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Each key under the `data` or the `binaryData` field must consist of\nalphanumeric characters, `-`, `_` or `.`. The keys stored in `data` must not\noverlap with the keys in the `binaryData` field.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 2,
+   "target": "`data` 或 `binaryData` 字段下的每个键都必须由字母数字字符、`-`、`_` 或 `.` 组成。存储在 `data` 中的键不得\n与 `binaryData` 字段中的键重叠。",
+   "status": "DONE",
+   "reviewScore": 98,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 10,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Starting from v1.19, you can add an `immutable` field to a ConfigMap\ndefinition to create an [immutable ConfigMap](#configmap-immutable).",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 2,
+   "target": "从 v1.19 开始，您可以将 `immutable` 字段添加到配置映射\n定义中，以创建[不可变配置映射](#configmap-immutable)。",
+   "status": "DONE",
+   "reviewScore": 98,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 11,
+   "blockType": "heading",
+   "level": 2,
+   "prefix": "## ",
+   "source": "ConfigMaps and Pods",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "ConfigMap 和 Pod",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 12,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "You can write a Pod `spec` that refers to a ConfigMap and configures the container(s)\nin that Pod based on the data in the ConfigMap. The Pod and the ConfigMap must be in\nthe same namespace.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "你可以编写一个引用配置映射的 Pod `spec`，并根据配置映射中的数据配置该 Pod 中的容器。\nPod 和配置映射必须位于同一命名空间中。",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "Pod",
+     "target": "Pod",
+     "compliant": true
+    },
+    {
+     "source": "data",
+     "target": "数据",
+     "compliant": true
+    },
+    {
+     "source": "container",
+     "target": "容器",
+     "compliant": true
+    },
+    {
+     "source": "namespace",
+     "target": "命名空间",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 13,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "The `spec` of a static Pod cannot refer to a ConfigMap\nor any other API objects.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "静态 Pod 的 `spec` 不能引用配置映射或任何其他 API 对象。",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "Pod",
+     "target": "Pod",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 14,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Here's an example ConfigMap that has some keys with single values,\nand other keys where the value looks like a fragment of a configuration\nformat.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "下面是一个示例配置映射，其中一些键具有单行值，\n而其他键的值看起来像某种配置格式的片段。",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 15,
+   "blockType": "code",
+   "level": null,
+   "prefix": "",
+   "source": "```yaml\napiVersion: v1\nkind: ConfigMap\nmetadata:\n  name: game-demo\ndata:\n  # property-like keys; each key maps to a simple value\n  player_initial_lives: \"3\"\n  ui_properties_file_name: \"user-interface.properties\"\n\n  # file-like keys\n  game.properties: |\n    enemy.types=aliens,monsters\n    player.maximum-lives=5\n  user-interface.properties: |\n    color.good=purple\n    color.bad=yellow\n    allow.textmode=true\n```",
+   "suffix": "\n\n",
+   "translatable": false,
+   "chunkIndex": 3,
+   "target": null,
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": null,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 16,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "There are four different ways that you can use a ConfigMap to configure\na container inside a Pod:",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "你可以通过四种不同的方式使用配置映射来配置 Pod 内的容器：",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "Pod",
+     "target": "Pod",
+     "compliant": true
+    },
+    {
+     "source": "container",
+     "target": "容器",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 17,
+   "blockType": "list_item",
+   "level": 1,
+   "prefix": "1. ",
+   "source": "Inside a container command and args",
+   "suffix": "\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "在容器命令和参数中",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "container",
+     "target": "容器",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 18,
+   "blockType": "list_item",
+   "level": 1,
+   "prefix": "1. ",
+   "source": "Environment variables for a container",
+   "suffix": "\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "容器的环境变量",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "container",
+     "target": "容器",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 19,
+   "blockType": "list_item",
+   "level": 1,
+   "prefix": "1. ",
+   "source": "Add a file in read-only volume, for the application to read",
+   "suffix": "\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "在只读卷中添加一个文件，供应用读取",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "volume",
+     "target": "卷",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 20,
+   "blockType": "list_item",
+   "level": 1,
+   "prefix": "1. ",
+   "source": "Write code to run inside the Pod that uses the Kubernetes API to read a ConfigMap",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "编写在 Pod 内运行的代码，使用 Kubernetes API 读取配置映射",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "Pod",
+     "target": "Pod",
+     "compliant": true
+    },
+    {
+     "source": "Kubernetes",
+     "target": "Kubernetes",
+     "compliant": true
+    },
+    {
+     "source": "Kubernetes API",
+     "target": "Kubernetes API",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 21,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "These different methods lend themselves to different ways of modeling\nthe data being consumed.\nFor the first three methods, the\nkubelet uses the data from\nthe ConfigMap when it launches container(s) for a Pod.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "这些不同的方法适用于对所使用的数据进行不同的建模方式。\n对于前三种方法，\nkubelet 会在为 Pod 启动容器时使用配置映射中的数据。",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "Pod",
+     "target": "Pod",
+     "compliant": true
+    },
+    {
+     "source": "data",
+     "target": "数据",
+     "compliant": true
+    },
+    {
+     "source": "container",
+     "target": "容器",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 22,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "The fourth method means you have to write code to read the ConfigMap and its data.\nHowever, because you're using the Kubernetes API directly, your application can\nsubscribe to get updates whenever the ConfigMap changes, and react\nwhen that happens. By accessing the Kubernetes API directly, this\ntechnique also lets you access a ConfigMap in a different namespace.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "第四种方法意味着你必须编写代码来读取配置映射及其数据。\n不过，由于你直接使用 Kubernetes API，应用可以订阅配置映射的更新，并在配置映射发生变化时作出响应。通过直接访问 Kubernetes API，这种技术还允许你访问其他命名空间中的配置映射。",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "data",
+     "target": "数据",
+     "compliant": true
+    },
+    {
+     "source": "Kubernetes",
+     "target": "Kubernetes",
+     "compliant": true
+    },
+    {
+     "source": "Kubernetes API",
+     "target": "Kubernetes API",
+     "compliant": true
+    },
+    {
+     "source": "namespace",
+     "target": "命名空间",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 23,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Here's an example Pod that uses values from `game-demo` to configure a Pod:",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "下面是一个使用 `game-demo` 中的值来配置 Pod 的示例 Pod：",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "Pod",
+     "target": "Pod",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 24,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "A ConfigMap doesn't differentiate between single line property values and\nmulti-line file-like values.\nWhat matters is how Pods and other objects consume those values.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "配置映射不会区分单行属性值和\n多行文件形式的值。\n重要的是 Pod 和其他对象如何使用这些值。",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  },
+  {
+   "seq": 25,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "For this example, defining a volume and mounting it inside the `demo`\ncontainer as `/config` creates two files,\n`/config/game.properties` and `/config/user-interface.properties`,\neven though there are four keys in the ConfigMap. This is because the Pod\ndefinition specifies an `items` array in the `volumes` section.\nIf you omit the `items` array entirely, every key  in the ConfigMap becomes\na file with the same name as the key, and you get 4 files.",
+   "suffix": "\n",
+   "translatable": true,
+   "chunkIndex": 3,
+   "target": "在此示例中，定义一个卷并将其挂载到 `demo`\n容器中作为 `/config` 会创建两个文件，\n`/config/game.properties` 和 `/config/user-interface.properties`，\n即使配置映射中有四个键。这是因为 Pod\n定义在 `volumes` 部分指定了一个 `items` 数组。\n如果完全省略 `items` 数组，配置映射中的每个键都会成为\n一个与该键同名的文件，这样你就会得到 4 个文件。",
+   "status": "DONE",
+   "reviewScore": 87,
+   "reviewRounds": 0,
+   "compliance": [
+    {
+     "source": "ConfigMap",
+     "target": "配置映射",
+     "compliant": true
+    },
+    {
+     "source": "Pod",
+     "target": "Pod",
+     "compliant": true
+    },
+    {
+     "source": "container",
+     "target": "容器",
+     "compliant": true
+    },
+    {
+     "source": "volume",
+     "target": "卷",
+     "compliant": true
+    }
+   ],
+   "edited": false
+  }
+ ],
+ "traces": [
+  {
+   "seq": 1,
+   "node": "parse",
+   "chunkIndex": null,
+   "status": "completed",
+   "summary": "解析 26 段（可翻译 25 段），切分为 4 块，源语言为英语（用户指定）",
+   "latencyMs": 53,
+   "promptTokens": null,
+   "completionTokens": null,
+   "createdAt": "2026-10-03T10:03:39.615464Z"
+  },
+  {
+   "seq": 2,
+   "node": "analyze",
+   "chunkIndex": null,
+   "status": "completed",
+   "summary": "生成全文摘要；领域：容器编排；文体：技术文档；抽取 20 个候选术语",
+   "latencyMs": 30610,
+   "promptTokens": 1662,
+   "completionTokens": 1553,
+   "createdAt": "2026-10-03T10:04:10.34971Z"
+  },
+  {
+   "seq": 3,
+   "node": "align_terms",
+   "chunkIndex": null,
+   "status": "completed",
+   "summary": "术语库命中 0 条，抽取 8 条，合并后 8 条候选（过滤低频 12 条）；未开启人工确认，自动采用全部候选",
+   "latencyMs": 17,
+   "promptTokens": null,
+   "completionTokens": null,
+   "createdAt": "2026-10-03T10:04:10.368653Z"
+  },
+  {
+   "seq": 4,
+   "node": "translate_chunk",
+   "chunkIndex": 0,
+   "status": "completed",
+   "summary": "第 1/4 块：翻译 2 段，评审 98 分",
+   "latencyMs": 12842,
+   "promptTokens": 2235,
+   "completionTokens": 474,
+   "createdAt": "2026-10-03T10:04:23.414339Z"
+  },
+  {
+   "seq": 5,
+   "node": "translate_chunk",
+   "chunkIndex": 1,
+   "status": "completed",
+   "summary": "第 2/4 块：翻译 4 段，评审 97 分",
+   "latencyMs": 23355,
+   "promptTokens": 2731,
+   "completionTokens": 985,
+   "createdAt": "2026-10-03T10:04:33.936585Z"
+  },
+  {
+   "seq": 6,
+   "node": "translate_chunk",
+   "chunkIndex": 2,
+   "status": "completed",
+   "summary": "第 3/4 块：翻译 5 段，评审 98 分",
+   "latencyMs": 27775,
+   "promptTokens": 3039,
+   "completionTokens": 1259,
+   "createdAt": "2026-10-03T10:04:38.372068Z"
+  },
+  {
+   "seq": 7,
+   "node": "translate_chunk",
+   "chunkIndex": 3,
+   "status": "completed",
+   "summary": "第 4/4 块：翻译 14 段，评审 87 分",
+   "latencyMs": 44655,
+   "promptTokens": 3840,
+   "completionTokens": 2270,
+   "createdAt": "2026-10-03T10:05:08.138728Z"
+  },
+  {
+   "seq": 8,
+   "node": "consistency",
+   "chunkIndex": null,
+   "status": "completed",
+   "summary": "未发现不一致",
+   "latencyMs": 6,
+   "promptTokens": null,
+   "completionTokens": null,
+   "createdAt": "2026-10-03T10:05:08.211305Z"
+  }
+ ],
+ "terms": [
+  {
+   "id": 181,
+   "source": "ConfigMap",
+   "target": "配置映射",
+   "origin": "extracted",
+   "frequency": 25,
+   "status": "CONFIRMED"
+  },
+  {
+   "id": 182,
+   "source": "Pod",
+   "target": "Pod",
+   "origin": "extracted",
+   "frequency": 10,
+   "status": "CONFIRMED"
+  },
+  {
+   "id": 183,
+   "source": "data",
+   "target": "数据",
+   "origin": "extracted",
+   "frequency": 10,
+   "status": "CONFIRMED"
+  },
+  {
+   "id": 184,
+   "source": "container",
+   "target": "容器",
+   "origin": "extracted",
+   "frequency": 7,
+   "status": "CONFIRMED"
+  },
+  {
+   "id": 185,
+   "source": "Kubernetes",
+   "target": "Kubernetes",
+   "origin": "extracted",
+   "frequency": 5,
+   "status": "CONFIRMED"
+  },
+  {
+   "id": 186,
+   "source": "Kubernetes API",
+   "target": "Kubernetes API",
+   "origin": "extracted",
+   "frequency": 3,
+   "status": "CONFIRMED"
+  },
+  {
+   "id": 187,
+   "source": "volume",
+   "target": "卷",
+   "origin": "extracted",
+   "frequency": 3,
+   "status": "CONFIRMED"
+  },
+  {
+   "id": 188,
+   "source": "namespace",
+   "target": "命名空间",
+   "origin": "extracted",
+   "frequency": 2,
+   "status": "CONFIRMED"
+  }
+ ]
+}

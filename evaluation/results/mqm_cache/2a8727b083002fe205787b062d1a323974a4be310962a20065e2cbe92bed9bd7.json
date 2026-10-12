@@ -1,0 +1,31 @@
+{
+ "doc": "deployment",
+ "group": "I2",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "部署",
+   "explanation": "此处指 Kubernetes 的 Deployment 资源，译为普通含义的“部署”与后文保留英文资源名不一致。"
+  },
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "*部署*",
+   "explanation": "Deployment 是资源名，译为普通含义的“部署”与后文保留英文资源名不一致。"
+  },
+  {
+   "segment": 4,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "由 Deployment 管理",
+   "explanation": "原文 owned 表示 ReplicaSet 由 Deployment 拥有或控制，不只是由其管理；译文弱化了资源所有权关系。"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "doc": "deployment",
+ "group": "I3",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 170,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "上线",
+   "explanation": "此处 rollout 指 Kubernetes 部署的滚动更新流程，译为“上线”不符合该领域惯例，容易造成概念混淆。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "major",
+   "span": "上线",
+   "explanation": "此处 rollout 应译为“滚动更新”；“暂停上线”和“恢复上线”未准确表达暂停及恢复滚动更新流程。"
+  },
+  {
+   "segment": 8,
+   "category": "terminology",
+   "severity": "major",
+   "span": "上线",
+   "explanation": "此处 rollout 指滚动更新流程，译为“上线”不符合 Kubernetes 领域惯例。"
+  }
+ ]
+}

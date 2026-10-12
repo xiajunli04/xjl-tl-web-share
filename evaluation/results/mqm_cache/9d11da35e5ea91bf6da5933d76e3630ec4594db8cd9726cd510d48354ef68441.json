@@ -1,0 +1,17 @@
+{
+ "doc": "pods",
+ "group": "D5",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 6,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "单例 Pod",
+   "explanation": "“singleton Pods”在此指单实例 Pod；“单例”容易与软件设计中的单例模式混淆。"
+  }
+ ]
+}

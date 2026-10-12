@@ -1,0 +1,38 @@
+[
+  {
+    "source": "灰度发布",
+    "target": "canary release",
+    "sourceLang": "zh",
+    "targetLang": "en"
+  },
+  {
+    "source": "大模型",
+    "target": "LLM",
+    "sourceLang": "zh",
+    "targetLang": "en"
+  },
+  {
+    "source": "回滚",
+    "target": "roll back",
+    "sourceLang": "zh",
+    "targetLang": "en"
+  },
+  {
+    "source": "replacement",
+    "target": "换货",
+    "sourceLang": "en",
+    "targetLang": "zh"
+  },
+  {
+    "source": "大規模言語モデル",
+    "target": "大模型",
+    "sourceLang": "ja",
+    "targetLang": "zh"
+  },
+  {
+    "source": "매출",
+    "target": "销售额",
+    "sourceLang": "ko",
+    "targetLang": "zh"
+  }
+]

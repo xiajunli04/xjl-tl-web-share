@@ -1,0 +1,9 @@
+{
+ "doc": "volumes",
+ "group": "D4",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 281,
+ "errors": []
+}

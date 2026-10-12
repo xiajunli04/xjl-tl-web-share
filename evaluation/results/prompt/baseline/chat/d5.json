@@ -1,0 +1,164 @@
+{
+  "id": "d5",
+  "scenario": "interview",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "你好，我来面试前端开发岗位",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m here for an interview for the frontend developer position.” Could you briefly introduce yourself and describe your experience with frontend development?",
+      "summary": null
+    },
+    {
+      "text": "我叫陈晨，去年毕业于华中科技大学，学的是软件工程",
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "You could say: “My name is Chen Chen. I graduated from Huazhong University of Science and Technology last year with a degree in Software Engineering.” What frontend technologies or projects have you worked with?",
+      "summary": null
+    },
+    {
+      "text": "I have two years experience of React",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "You could say: “I have two years of experience with React.” Could you tell me about a React project you’re particularly proud of?",
+      "summary": null
+    },
+    {
+      "text": "我做过一个电商后台管理系统，负责前端架构",
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "You could say: “I worked on an e-commerce admin system and was responsible for the frontend architecture.” What key architectural decisions did you make, and how did they improve the project?",
+      "summary": null
+    },
+    {
+      "text": "最大的挑战是性能优化，首屏加载从五秒降到一秒半",
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "You could say: “The biggest challenge was performance optimization. I reduced the initial loading time from five seconds to 1.5 seconds.” What specific techniques did you use to achieve that improvement?",
+      "summary": null
+    },
+    {
+      "text": "我离职是因为想做更有挑战的产品",
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "You could say: “I left my previous job because I wanted to work on more challenging products.” What kind of products or technical challenges are you hoping to work on in your next role?",
+      "summary": null
+    },
+    {
+      "text": "我的优点是学习能力强，缺点是有时候太追求细节",
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You could say: “One of my strengths is that I learn quickly, while one weakness is that I sometimes focus too much on details.” How do you manage this tendency and make sure you meet deadlines?",
+      "summary": null
+    },
+    {
+      "text": "等一下，我能先问一个问题吗",
+      "tags": [
+        "after_interrupt"
+      ],
+      "i": 8,
+      "interrupted_kept": "You could say: “One of my strengths is that I learn quickly, while one weakness is that I",
+      "reply": "Of course. Please go ahead and ask your question.",
+      "summary": null
+    },
+    {
+      "text": "你们团队用什么技术栈",
+      "tags": [
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "You could say: “What technology stack does your team use?” We mainly use React, TypeScript, and Next.js, with Node.js services and PostgreSQL on the backend. Do you have experience with TypeScript or Next.js?",
+      "summary": null
+    },
+    {
+      "text": "这个岗位需要经常加班吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "You could say: “Does this position require frequent overtime?” We sometimes work extra hours before major releases, but we try to maintain a healthy work-life balance. How do you usually manage tight deadlines?",
+      "summary": null
+    },
+    {
+      "text": "你能总结一下我刚才回答里的亮点和不足吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "电商后台管理系统的前端架构经验",
+        "首屏加载从 5 秒优化到 1.5 秒",
+        "离职原因：想做更有挑战的产品",
+        "优点学习能力强、缺点过于追求细节"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "You could say: “Could you summarize the strengths and weaknesses in my answers?” Your highlights were your React experience, ownership of frontend architecture, and strong measurable performance improvement. Your answers were sometimes too brief, so add specific techniques, results, and examples, and complete your answer about your weakness.",
+      "summary": null
+    },
+    {
+      "text": "我期望的薪资是两万左右",
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "You could say: “My salary expectation is around 20,000 yuan per month.” That’s helpful to know. Could you explain what factors you considered when deciding on this expectation?",
+      "summary": null
+    },
+    {
+      "text": "什么时候能知道结果",
+      "tags": [
+        "substantive"
+      ],
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "You could say: “When can I expect to hear back about the result?” We usually provide feedback within one week after the interview. Do you have any other questions about the role or the hiring process?",
+      "summary": null
+    },
+    {
+      "text": "I'm very looking forward to join your team",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m really looking forward to joining your team.” We appreciate your enthusiasm. Before we wrap up, is there anything else you’d like to add about your experience?",
+      "summary": null
+    },
+    {
+      "text": "谢谢你的时间",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You could say: “Thank you for your time.” It was a pleasure speaking with you, and we’ll be in touch within a week.",
+      "summary": null
+    },
+    {
+      "text": "我是哪所学校毕业的来着",
+      "tags": [
+        "recall"
+      ],
+      "answer": "华中科技大学",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "I don’t think you’ve mentioned which university you graduated from yet. What school did you attend, and what did you study?",
+      "summary": null
+    },
+    {
+      "text": "我应聘的是什么岗位",
+      "tags": [
+        "recall"
+      ],
+      "answer": "前端开发",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "You could say: “What position am I applying for?” You haven’t mentioned the specific position yet. Which role would you like to practice interviewing for?",
+      "summary": null
+    }
+  ],
+  "greeting": "Welcome, and thanks for joining us today. I’m Lumi, your interviewer; could you start by telling me a little about yourself?",
+  "compressions": 0
+}

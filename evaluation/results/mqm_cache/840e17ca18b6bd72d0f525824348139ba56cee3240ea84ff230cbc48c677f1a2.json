@@ -1,0 +1,31 @@
+{
+ "doc": "service",
+ "group": "D2",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 10,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "匹配的 EndpointSlice",
+   "explanation": "原文使用复数资源名 EndpointSlices；此处写成单数，未准确保留 API 资源名称。"
+  },
+  {
+   "segment": 10,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "该 Service 的 EndpointSlice",
+   "explanation": "原文使用复数资源名 EndpointSlices；此处写成单数，未准确保留 API 资源名称。"
+  },
+  {
+   "segment": 11,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "非云原生应用",
+   "explanation": "non-native applications 指非原生应用，并不等同于非云原生应用；译文扩大了所指范围。"
+  }
+ ]
+}

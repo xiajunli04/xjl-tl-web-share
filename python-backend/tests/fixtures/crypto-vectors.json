@@ -1,0 +1,21 @@
+{
+  "description": "AES-256-GCM 跨语言测试向量，格式 v1:base64(iv[12]||ciphertext||tag[16])，无 AAD",
+  "key": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+  "vectors": [
+    {
+      "plaintext": "sk-test-1234567890abcdef",
+      "iv": "AAECAwQFBgcICQoL",
+      "cipher": "v1:AAECAwQFBgcICQoLNGn7b6CWtja8c6S/hN9PVbrm5laTHzoa9APoUhrCgxq44w0o7TSCVg=="
+    },
+    {
+      "plaintext": "中文密钥-🔑",
+      "iv": "BwcHBwcHBwcHBwcH",
+      "cipher": "v1:BwcHBwcHBwcHBwcH69ILuvmIMltAdIElraFrDzA7cOVGvXukZLVeCqHWzNGZ"
+    },
+    {
+      "plaintext": "",
+      "iv": "AQEBAQEBAQEBAQEB",
+      "cipher": "v1:AQEBAQEBAQEBAQEBkiLOpzpIVvcZ2XABWQ0rTw=="
+    }
+  ]
+}

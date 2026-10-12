@@ -1,0 +1,9 @@
+{
+ "doc": "configmap",
+ "group": "I2",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 35,
+ "errors": []
+}

@@ -1,0 +1,172 @@
+{
+  "id": "d1",
+  "scenario": "free",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "我叫小林，是一名大三学生，正在准备考研",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “My name is Xiaolin. I’m a third-year college student preparing for graduate school entrance exams.”\n\nNice to meet you, Xiaolin. What subject are you planning to study?",
+      "summary": null
+    },
+    {
+      "text": "我想了解一下大语言模型是怎么训练出来的",
+      "tags": [
+        "substantive"
+      ],
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "Large language models are trained by learning patterns from huge amounts of text.\n\nFirst, during pretraining, the model reads text and repeatedly tries to predict the next word, adjusting billions of internal parameters when it makes mistakes. Then, during fine-tuning, people provide example conversations so it learns to follow instructions and answer more helpfully. Finally, human feedback is often used to teach it which answers are safer, clearer, and more useful. The model doesn’t store every sentence like a database; it mainly learns statistical patterns in language.",
+      "summary": null
+    },
+    {
+      "text": "那预训练和微调有什么区别",
+      "tags": [
+        "substantive"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "Pretraining builds broad language ability, while fine-tuning teaches specific behaviors.\n\nDuring pretraining, the model learns from massive, varied datasets by predicting missing or next tokens, so it develops general knowledge and language patterns. During fine-tuning, it trains on a smaller, carefully prepared dataset, such as question-and-answer examples, to follow instructions or specialize in a field. In short, pretraining teaches “what language and knowledge look like,” while fine-tuning teaches “how to respond for a particular purpose.”",
+      "summary": null
+    },
+    {
+      "text": "人类反馈强化学习又是什么",
+      "tags": [
+        "substantive"
+      ],
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "RLHF means “reinforcement learning from human feedback.”\n\nFirst, people compare several model answers and choose which ones are better. Then a separate reward model learns to predict those human preferences. Finally, the language model is trained to produce answers that receive higher rewards, while still trying to stay close to its original abilities. This helps make responses more helpful, safe, and aligned with human expectations, though it can also reflect human bias or inconsistent judgments.",
+      "summary": null
+    },
+    {
+      "text": "你能帮我把刚才说的总结一下吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "预训练：在海量文本上学习（预测下一个词）",
+        "微调：用特定任务或指令数据进一步训练",
+        "人类反馈强化学习：用人类偏好让回答更有用、更安全"
+      ],
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "Here’s a brief summary.\n\nLarge language models first go through pretraining, where they learn language patterns and general knowledge by predicting the next token from huge amounts of text. Then, during fine-tuning, they learn to follow instructions or perform specific tasks using smaller, carefully prepared datasets. Finally, RLHF uses human preferences to train a reward model and encourage the language model to give answers that are more helpful, safe, and aligned with people’s expectations.",
+      "summary": null
+    },
+    {
+      "text": "I like play basketball on weekend",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "You could say: “I like playing basketball on weekends.”\n\nThat sounds fun! Do you usually play with friends or on a school team?",
+      "summary": null
+    },
+    {
+      "text": "我最近在看一本科幻小说",
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’ve been reading a science fiction novel recently.”\n\nThat sounds interesting. What’s the title?",
+      "summary": null
+    },
+    {
+      "text": "等一下，我想换个话题，你喜欢什么音乐",
+      "tags": [
+        "after_interrupt"
+      ],
+      "i": 8,
+      "interrupted_kept": "You could say: “I’ve been reading a science fiction novel recently.”\n\nThat sounds interesting.",
+      "reply": "I don’t have personal tastes, but I enjoy talking about many kinds of music, especially jazz, classical music, and electronic music. What kind of music do you like?",
+      "summary": null
+    },
+    {
+      "text": "我比较喜欢周杰伦的歌",
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m a big fan of Jay Chou’s songs.”\n\nHis music blends pop, rock, and traditional Chinese elements in a really distinctive way. Which song do you like most?",
+      "summary": null
+    },
+    {
+      "text": "对了，考研的话你觉得每天学多久比较好",
+      "tags": [
+        "substantive"
+      ],
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "A steady three to six focused hours a day is a good starting point.\n\nWhat matters most is consistency and quality: study in focused blocks, take short breaks, and adjust the time around your energy and other responsibilities. As the exam gets closer, you can gradually increase your study time, but regular sleep and review are just as important.",
+      "summary": null
+    },
+    {
+      "text": "我英语不太好，有什么提高口语的办法",
+      "tags": [
+        "substantive"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "You could say: “My English isn’t very good. How can I improve my speaking?”\n\nTry speaking out loud for ten minutes every day, shadowing short English videos, and recording yourself to notice mistakes. Start with simple topics like your daily routine, studies, or hobbies, and focus on speaking regularly rather than being perfect.",
+      "summary": null
+    },
+    {
+      "text": "I want improve my speaking",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "You could say: “I want to improve my speaking.”\n\nThat’s a great goal. Try speaking out loud for ten minutes every day, and practice talking about familiar topics like your studies, hobbies, and daily routine.",
+      "summary": null
+    },
+    {
+      "text": "那我每天应该练多长时间口语",
+      "tags": [
+        "substantive"
+      ],
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "Fifteen to thirty minutes a day is a good target.\n\nStart with ten minutes if you’re busy, and focus on speaking aloud, shadowing, and recording yourself. Consistency matters more than studying for a long time once in a while.",
+      "summary": null
+    },
+    {
+      "text": "好的，谢谢你的建议",
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "You’re welcome, Xiaolin. Keep practicing a little every day, and you’ll gradually become more confident.",
+      "summary": null
+    },
+    {
+      "text": "今天有点累了",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m a little tired today.”\n\nThen take a good rest, Xiaolin. You’ve done enough for today.",
+      "summary": null
+    },
+    {
+      "text": "我之前说我在准备什么考试来着",
+      "tags": [
+        "recall"
+      ],
+      "answer": "考研（研究生入学考试）",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "You said you’re preparing for the graduate school entrance exam.",
+      "summary": "用户信息：用户叫小林（Xiaolin），是一名大三学生，正在准备考研。\n\n话题与要点：  \n1. 了解大语言模型训练：预训练通过预测下一个词学习语言模式；微调通过示例对话学习遵循指令；人类反馈帮助模型生成更安全、清晰、有用的回答。  \n2. 预训练与微调的区别：预训练使用海量多样数据培养通用语言和知识能力；微调使用较小的精心准备数据，训练特定行为或领域能力。  \n3. 人类反馈强化学习（RLHF）：人类比较并选择模型答案，奖励模型学习人类偏好，再训练语言模型获得更高奖励；可能受到人类偏见和判断不一致影响。\n\n用户的问题：大语言模型是怎么训练出来的？预训练和微调有什么区别？人类反馈强化学习又是什么？\n\n待办与约定：无"
+    },
+    {
+      "text": "你还记得我叫什么吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "小林",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "Your name is Xiaolin.",
+      "summary": "用户信息：用户叫小林（Xiaolin），是一名大三学生，正在准备考研。\n\n话题与要点：  \n1. 了解大语言模型训练：预训练通过预测下一个词学习语言模式；微调通过示例对话学习遵循指令；人类反馈帮助模型生成更安全、清晰、有用的回答。  \n2. 预训练与微调的区别：预训练使用海量多样数据培养通用语言和知识能力；微调使用较小的精心准备数据，训练特定行为或领域能力。  \n3. 人类反馈强化学习（RLHF）：人类比较并选择模型答案，奖励模型学习人类偏好，再训练语言模型获得更高奖励；可能受到人类偏见和判断不一致影响。\n\n用户的问题：大语言模型是怎么训练出来的？预训练和微调有什么区别？人类反馈强化学习又是什么？\n\n待办与约定：无"
+    }
+  ],
+  "greeting": "Hi, I’m Lumi, your friendly conversation partner. What would you like to talk about today?",
+  "compressions": 1
+}

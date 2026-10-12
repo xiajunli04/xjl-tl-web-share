@@ -1,0 +1,167 @@
+{
+  "id": "d6",
+  "scenario": "free",
+  "my": "en",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "Hi, I'm Sam, and I'm a nurse working night shifts.",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "Nice to meet you, Sam. Night-shift nursing sounds demanding—how do you usually unwind after a shift?",
+      "summary": null
+    },
+    {
+      "text": "Can you explain how sleep cycles work?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "Sleep cycles repeat about every 90 to 110 minutes, usually four to six times per night. Each cycle moves through light sleep, deeper restorative sleep, and REM sleep, when vivid dreaming is more common; deep sleep is concentrated earlier, while REM increases toward morning. Night shifts can disrupt this rhythm—do you find daytime sleep difficult?",
+      "summary": null
+    },
+    {
+      "text": "What's REM sleep exactly?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "REM stands for rapid eye movement. It’s a sleep stage with vivid dreaming, heightened brain activity, and temporary muscle paralysis, while breathing and heart rate become more variable. REM supports memory and emotional processing, and it tends to last longer in the later part of your sleep.",
+      "summary": null
+    },
+    {
+      "text": "How can night shift workers sleep better?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "Try keeping a consistent sleep schedule, even on days off, and make your room cool, dark, and quiet. Wear sunglasses on the way home, limit caffeine near the end of your shift, and avoid bright screens before bed. A short nap before work can help too.",
+      "summary": null
+    },
+    {
+      "text": "Could you sum up the tips you just gave me?",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "sleep cycles",
+        "what REM sleep is",
+        "sleep tips for night shift workers"
+      ],
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "Keep a regular sleep schedule, create a cool, dark, quiet bedroom, and reduce morning light with sunglasses. Limit late-shift caffeine and screens before bed, and consider a brief nap before work.",
+      "summary": null
+    },
+    {
+      "text": "I also have a cat named Biscuit.",
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "Biscuit is a delightful name for a cat. Does Biscuit keep you company after your night shifts, or are they more of a midnight troublemaker?",
+      "summary": null
+    },
+    {
+      "text": "She's always waking me up during the day.",
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "That’s tough when you’re trying to recover from a night shift. Try giving Biscuit a play session and a meal before bed, then use an automatic feeder or keep the bedroom door closed consistently. Is she waking you for food, attention, or just because she’s active?",
+      "summary": null
+    },
+    {
+      "text": "Any ideas to keep her quiet?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "Try a vigorous play session before bedtime, followed by food, since cats often settle after hunting and eating. An automatic feeder can handle early-morning hunger, and white noise may mask small sounds. Avoid rewarding wake-ups with attention, or she may learn to repeat them.",
+      "summary": null
+    },
+    {
+      "text": "What should I cook for a quick dinner?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "Try a quick chicken or tofu stir-fry with frozen vegetables and noodles—it’s nutritious and ready in about 15 minutes. If you’re exhausted, scrambled eggs on toast with avocado is even easier. What ingredients do you already have?",
+      "summary": null
+    },
+    {
+      "text": "Wait, actually, what about breakfast ideas?",
+      "tags": [
+        "after_interrupt",
+        "substantive"
+      ],
+      "i": 10,
+      "interrupted_kept": "Try a quick chicken or tofu stir-fry with frozen vegetables and noodles—it’s nutritious and ready in about 15 minutes.",
+      "reply": "For a quick breakfast, try overnight oats with yogurt, fruit, and nuts, or scrambled eggs with whole-grain toast and avocado. If you’re heading to a night shift, a breakfast burrito is easy to prepare ahead and reheat. What flavors do you usually enjoy?",
+      "summary": null
+    },
+    {
+      "text": "Do you like cooking?",
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "I don’t cook myself, but I enjoy helping people find simple, tasty recipes. I’m especially fond of one-pan meals because they’re quick and leave fewer dishes. What’s your favorite thing to cook?",
+      "summary": null
+    },
+    {
+      "text": "I'm thinking of taking a vacation next month.",
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "That sounds like a great way to recharge after night shifts. Are you imagining a relaxing beach trip, an outdoor adventure, or a city getaway?",
+      "summary": null
+    },
+    {
+      "text": "Somewhere warm, maybe Spain.",
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "Spain sounds wonderful, especially after working nights. You could consider the Canary Islands for reliable warmth, or Seville, Málaga, or Mallorca for sunshine, food, and culture. Are you looking for beaches, sightseeing, or a bit of both?",
+      "summary": null
+    },
+    {
+      "text": "What should I pack?",
+      "tags": [
+        "substantive"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "Pack light, breathable clothes, a swimsuit, comfortable walking shoes, sunglasses, sunscreen, and a light jacket for cooler evenings. Bring travel documents, chargers, any medications, and a plug adapter if needed. Are you planning mostly beach time or exploring cities?",
+      "summary": null
+    },
+    {
+      "text": "Thanks, that's helpful.",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You’re welcome! I hope you have a fantastic trip and plenty of sunshine. Spain sounds like a wonderful choice.",
+      "summary": null
+    },
+    {
+      "text": "Do you remember what my job is?",
+      "tags": [
+        "recall"
+      ],
+      "answer": "a nurse working night shifts",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "I remember that you work night shifts, but you haven’t told me your specific job. What do you do?",
+      "summary": null
+    },
+    {
+      "text": "And what's my name?",
+      "tags": [
+        "recall"
+      ],
+      "answer": "Sam",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "You haven’t told me your name yet. What would you like me to call you?",
+      "summary": null
+    }
+  ],
+  "greeting": "Hi, I’m Lumi, your friendly conversation partner. What would you like to chat about today?",
+  "compressions": 0
+}

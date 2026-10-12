@@ -1,0 +1,17 @@
+{
+ "doc": "service",
+ "group": "I1",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 6,
+   "category": "style",
+   "severity": "minor",
+   "span": "Service _无选择器_",
+   "explanation": "表达生硬，建议译为“不使用选择器的 Service”，更符合中文技术文档习惯。"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "doc": "deployment",
+ "group": "D0",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "major",
+   "span": "_部署_",
+   "explanation": "此处指 Kubernetes 的 Deployment 资源，按技术文档惯例应保留资源名 Deployment。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "此处指 Deployment 资源，但译为普通名词“部署”；应保留资源名 Deployment。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署控制器",
+   "explanation": "此处指 Deployment controller，资源名应保留为 Deployment，例如“Deployment 控制器”。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "此处指 Deployment 资源，但译为普通名词“部署”；应保留资源名 Deployment。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "现有部署",
+   "explanation": "此处指现有的 Deployment 资源，应保留资源名 Deployment。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "新的部署",
+   "explanation": "此处指新的 Deployment 资源，应保留资源名 Deployment。"
+  },
+  {
+   "segment": 4,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "此处指 Deployment 资源，但译为普通名词“部署”；应保留资源名 Deployment。"
+  },
+  {
+   "segment": 4,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "主代码库",
+   "explanation": "原文是 main repository，译为“主代码库”偏离了“主仓库”的含义。"
+  }
+ ]
+}

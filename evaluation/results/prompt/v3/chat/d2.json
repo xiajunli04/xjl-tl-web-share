@@ -1,0 +1,176 @@
+{
+  "id": "d2",
+  "scenario": "free",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "我下个月要去大阪出差，顺便玩两天",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m going to Osaka for a business trip next month, and I’ll stay for two extra days to explore.”\n\nThat sounds like a great plan. Osaka has amazing food and plenty to see.",
+      "summary": null
+    },
+    {
+      "text": "大阪有什么必去的地方",
+      "tags": [
+        "substantive"
+      ],
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "Dotonbori and Osaka Castle are the two classic must-see spots.\n\nFor food and atmosphere, visit Dotonbori at night and Kuromon Market during the day. Osaka Castle is great for history and a relaxed walk, while Umeda Sky Building offers a beautiful city view. If you like theme parks, Universal Studios Japan is worth a full day, but with only two days, I’d choose Dotonbori, Osaka Castle, and one food market.",
+      "summary": null
+    },
+    {
+      "text": "从关西机场到市区怎么走比较方便",
+      "tags": [
+        "substantive"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "The easiest option depends on where you’re staying. For Namba, take the Nankai Airport Express or Rapi:t; for Tennoji or Shin-Osaka, JR trains are convenient, and the airport limousine bus is handy if you have heavy luggage or your hotel is near Umeda. If you tell me your hotel area, I can suggest the best route.",
+      "summary": null
+    },
+    {
+      "text": "那住哪个区域比较好",
+      "tags": [
+        "substantive"
+      ],
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "Namba is probably the best area for your trip.\n\nIt’s convenient for airport access, Dotonbori, shopping, and restaurants, and it has a lively atmosphere at night. Umeda is better if your business meetings are in northern Osaka or if you prefer a more modern, quieter area with excellent train connections. Where will your meetings be held?",
+      "summary": null
+    },
+    {
+      "text": "帮我总结一下你刚才的建议",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "必去的景点",
+        "关西机场到市区的交通方式",
+        "推荐的住宿区域"
+      ],
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "Here’s a quick summary.\n\nYou’re going to Osaka next month for a business trip and plan to stay two extra days to explore. The main places to visit are Dotonbori, Osaka Castle, and Kuromon Market, while Universal Studios Japan is another option if you have a full day. From Kansai Airport, use the Nankai train for Namba, JR trains for Tennoji or Shin-Osaka, and an airport limousine bus if you have heavy luggage. Namba is the best area for convenience, food, shopping, and nightlife, while Umeda is better for meetings in northern Osaka and a quieter, more modern atmosphere.",
+      "summary": null
+    },
+    {
+      "text": "I am very exciting about this trip",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m very excited about this trip!”\n\nI’m excited for you too—Osaka should be a great mix of work, food, and sightseeing.",
+      "summary": null
+    },
+    {
+      "text": "我对日本料理很感兴趣，你推荐吃什么",
+      "tags": [
+        "substantive"
+      ],
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You should try takoyaki and okonomiyaki first.\n\nAlso try kushikatsu, Osaka-style udon, and fresh sushi at Kuromon Market. For a local experience, visit Dotonbori in the evening and try several small dishes instead of having one big meal.",
+      "summary": null
+    },
+    {
+      "text": "大阪烧和章鱼烧有什么区别",
+      "tags": [
+        "substantive"
+      ],
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "Okonomiyaki is a savory pancake, while takoyaki is a round ball-shaped snack.\n\nOkonomiyaki is cooked on a grill with cabbage, batter, and ingredients like pork or seafood, then topped with sauce, mayonnaise, seaweed, and bonito flakes. Takoyaki is made with a softer batter and a piece of octopus inside, then cooked in a special round mold. Both are popular, but okonomiyaki is more like a meal, while takoyaki is usually a snack.",
+      "summary": null
+    },
+    {
+      "text": "那里的人说话和东京有什么不同吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "Yes, Osaka speech sounds different from standard Tokyo Japanese.\n\nPeople in Osaka often use the Kansai dialect, which can sound more lively, casual, and expressive. You may hear “ookini” for “thank you” and “honma” for “really,” although many people also speak standard Japanese. You don’t need to worry—English, gestures, and simple Japanese will usually work in tourist areas.",
+      "summary": null
+    },
+    {
+      "text": "我日语只会说谢谢",
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "That’s a good start! In Japanese, say “arigatou” casually, or “arigatou gozaimasu” politely. You could also learn “sumimasen,” which means “excuse me” or “sorry” and is very useful when traveling.",
+      "summary": null
+    },
+    {
+      "text": "我应该带多少现金",
+      "tags": [
+        "substantive"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "Bring a small amount of Japanese yen, then withdraw more if needed.\n\nCards are widely accepted in Osaka, but cash is still useful for small restaurants, markets, and local shops. I’d carry enough for one day of meals and transport, plus a little emergency cash, and keep the rest on a card.",
+      "summary": null
+    },
+    {
+      "text": "等等，那里的地铁卡怎么买",
+      "tags": [
+        "after_interrupt",
+        "substantive"
+      ],
+      "i": 12,
+      "interrupted_kept": "Bring a small amount of Japanese yen, then withdraw more if needed.",
+      "reply": "You can buy an ICOCA card at ticket machines or ticket offices at Kansai Airport and major stations.\n\nChoose the English menu, select ICOCA, pay the card deposit and add some money, then tap in and out at the gates. It works on Osaka subways, trains, buses, and many convenience stores, so it’s the easiest choice for your trip.",
+      "summary": null
+    },
+    {
+      "text": "好的，我会记下来的",
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "You could say: “Okay, I’ll make a note of that.”\n\nThat sounds great. An ICOCA card will make getting around Osaka much easier.",
+      "summary": null
+    },
+    {
+      "text": "天气的话需要带伞吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "You should probably bring a compact umbrella.\n\nOsaka’s weather can change quickly, and rain is possible depending on the season. It’s also easy to buy a cheap umbrella at a convenience store if you need one.",
+      "summary": null
+    },
+    {
+      "text": "谢谢，你帮了我很多",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You could say: “Thank you, you’ve been a great help.”\n\nYou’re very welcome! I hope your Osaka trip goes smoothly and you have plenty of time to enjoy the food and sightseeing.",
+      "summary": null
+    },
+    {
+      "text": "我下个月要去哪个城市来着，你还记得吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "大阪",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "You’re going to Osaka next month for a business trip, with two extra days to explore.",
+      "summary": "用户信息：下个月要去大阪出差，顺便玩两天。\n\n话题与要点：大阪必去景点包括道顿堀（Dotonbori）和大阪城（Osaka Castle）；白天可去黑门市场（Kuromon Market），梅田蓝天大厦（Umeda Sky Building）适合看城市景色，环球影城日本（Universal Studios Japan）建议安排一整天。前往市区需根据住宿区域选择交通：去难波（Namba）可乘南海机场快线或Rapi:t，去天王寺或新大阪可乘JR，行李多或住梅田附近可选机场 limousine bus。住宿首选难波，方便机场、景点、购物和餐饮；若会议在大阪北部或偏好安静现代的区域，可考虑梅田（Umeda）。\n\n用户的问题：大阪有什么必去的地方？从关西机场到市区怎么走比较方便？住哪个区域比较好？\n\n待办与约定：用户可补充酒店区域和会议地点，以便进一步推荐机场路线及住宿区域。"
+    },
+    {
+      "text": "我去那边主要是为了什么",
+      "tags": [
+        "recall"
+      ],
+      "answer": "出差（顺便玩两天）",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "You’re mainly going to Osaka for a business trip.\n\nYou’ll also stay for two extra days to enjoy the food, sightseeing, and local culture.",
+      "summary": "用户信息：下个月要去大阪出差，顺便玩两天。\n\n话题与要点：大阪必去景点包括道顿堀（Dotonbori）和大阪城（Osaka Castle）；白天可去黑门市场（Kuromon Market），梅田蓝天大厦（Umeda Sky Building）适合看城市景色，环球影城日本（Universal Studios Japan）建议安排一整天。前往市区需根据住宿区域选择交通：去难波（Namba）可乘南海机场快线或Rapi:t，去天王寺或新大阪可乘JR，行李多或住梅田附近可选机场 limousine bus。住宿首选难波，方便机场、景点、购物和餐饮；若会议在大阪北部或偏好安静现代的区域，可考虑梅田（Umeda）。\n\n用户的问题：大阪有什么必去的地方？从关西机场到市区怎么走比较方便？住哪个区域比较好？\n\n待办与约定：用户可补充酒店区域和会议地点，以便进一步推荐机场路线及住宿区域。"
+    }
+  ],
+  "greeting": "Hi, I’m Lumi. What would you like to chat about today?",
+  "compressions": 1
+}

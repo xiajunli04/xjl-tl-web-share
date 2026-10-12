@@ -1,0 +1,24 @@
+{
+ "doc": "pods",
+ "group": "D2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "映像",
+   "explanation": "容器语境中 image 通常译为“镜像”，“映像”不符合常见技术术语用法。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "复制",
+   "explanation": "此处 replication 指 Pod 副本机制，译为“复制”容易被理解为拷贝操作，宜采用“副本”或“副本机制”等术语。"
+  }
+ ]
+}

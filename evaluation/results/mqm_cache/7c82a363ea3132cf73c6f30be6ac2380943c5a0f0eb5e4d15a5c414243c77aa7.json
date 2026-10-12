@@ -1,0 +1,31 @@
+{
+ "doc": "pods",
+ "group": "I3",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 6,
+   "category": "style",
+   "severity": "minor",
+   "span": "封装器",
+   "explanation": "“封装器”措辞生硬；此处可译为“封装”或“包装层”。"
+  },
+  {
+   "segment": 8,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "由统一管理的容器",
+   "explanation": "“co-managed”指由 Pod 共同管理的容器，不是“由统一管理的容器”。"
+  },
+  {
+   "segment": 9,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "提供复制",
+   "explanation": "此处的“replication”指通过多个副本实现冗余或扩展能力，“提供复制”不符合技术语境中的常见表达。"
+  }
+ ]
+}

@@ -1,0 +1,573 @@
+{
+ "doc": "service",
+ "group": "I1",
+ "run": 2,
+ "config": {
+  "title": "eval-service__I1__run2",
+  "format": "md",
+  "sourceLang": "en",
+  "targetLang": "zh",
+  "style": "faithful",
+  "strategy": "hybrid",
+  "options": {
+   "contextWindow": true,
+   "globalSummary": true,
+   "termExtraction": true,
+   "review": false
+  },
+  "confirmTerms": false,
+  "glossaryIds": [],
+  "modelConfigId": 2,
+  "reviewModelConfigId": null
+ },
+ "model": {
+  "id": 2,
+  "name": "GPT-5.6 Luna（OpenAI兼容）",
+  "provider": "OPENAI_COMPATIBLE",
+  "modelName": "gpt-5.6-luna",
+  "baseUrl": "https://subapi.orzle.xyz/v1",
+  "params": {
+   "timeoutSeconds": 30
+  }
+ },
+ "gitCommit": "4bf20536ea709c41a5a349040ad2ec853606b146-dirty",
+ "startedAt": "2026-10-03T14:40:45.526+00:00",
+ "finishedAt": "2026-10-03T14:42:05.929+00:00",
+ "taskId": 127,
+ "status": "COMPLETED",
+ "error": null,
+ "retries": 0,
+ "retryHistory": [],
+ "confirmation": null,
+ "usage": {
+  "promptTokens": 6432,
+  "completionTokens": 4658,
+  "latencyMs": 83637
+ },
+ "task": {
+  "id": 127,
+  "title": "eval-service__I1__run2",
+  "format": "md",
+  "charCount": 3864,
+  "sourceLang": "en",
+  "detectedLang": null,
+  "targetLang": "zh",
+  "style": "faithful",
+  "domain": "计算机",
+  "genre": "技术文档",
+  "glossaryIds": [],
+  "modelConfigId": 2,
+  "reviewModelConfigId": 3,
+  "strategy": "hybrid",
+  "confirmTerms": false,
+  "options": {
+   "contextWindow": true,
+   "globalSummary": true,
+   "termExtraction": true,
+   "review": false
+  },
+  "status": "COMPLETED",
+  "phase": "assembling",
+  "progressDone": 2,
+  "progressTotal": 2,
+  "summary": "本文介绍 Kubernetes 中 Service 的作用及其服务发现机制。由于 Pod 是临时资源，会动态创建和销毁且 IP 地址可能变化，客户端不应直接跟踪 Pod。Service 通过定义一组逻辑端点及访问策略，为 Pod 提供稳定的网络访问入口，实现前端与后端的解耦。文中还介绍了基于选择器的端点、无选择器的 Service、Ingress、Gateway API，以及通过 EndpointSlices 实现云原生服务发现的方式。",
+  "consistencyReport": {
+   "issues": [
+    {
+     "term": "Service",
+     "chosen": "Service",
+     "variants": [
+      {
+       "text": "Service",
+       "count": 6
+      },
+      {
+       "text": "服务",
+       "count": 2
+      }
+     ],
+     "fixedSegs": [
+      0
+     ],
+     "unresolvedSegs": [
+      1
+     ]
+    }
+   ]
+  },
+  "stats": {
+   "chunks": 2,
+   "refined": 0,
+   "compliance": {
+    "ok": 0,
+    "total": 0
+   },
+   "cachedChunks": 0
+  },
+  "errorCode": null,
+  "errorMessage": null,
+  "retryable": false,
+  "promptTokens": 6432,
+  "completionTokens": 4658,
+  "latencyMs": 83637,
+  "createdAt": "2026-10-03T14:40:45.538796Z",
+  "startedAt": "2026-10-03T14:40:45.711427Z",
+  "finishedAt": "2026-10-03T14:42:03.039389Z"
+ },
+ "segments": [
+  {
+   "seq": 0,
+   "blockType": "heading",
+   "level": 1,
+   "prefix": "# ",
+   "source": "Service",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 0,
+   "target": "Service",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 1,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "A key aim of Services in Kubernetes is that you don't need to modify your existing\napplication to use an unfamiliar service discovery mechanism.\nYou can run code in Pods, whether this is a code designed for a cloud-native world, or\nan older app you've containerized. You use a Service to make that set of Pods available\non the network so that clients can interact with it.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 0,
+   "target": "Kubernetes 中服务的一个主要目标是：你无需修改现有应用，即可使用一种不熟悉的服务发现机制。\n你可以在 Pod 中运行代码，无论这些代码是为云原生环境设计的，还是你已经容器化的旧应用。你可以使用服务使这组 Pod 在网络上可用，从而让客户端能够与其交互。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 2,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "If you use a Deployment to run your app,\nthat Deployment can create and destroy Pods dynamically. From one moment to the next,\nyou don't know how many of those Pods are working and healthy; you might not even know\nwhat those healthy Pods are named.\nKubernetes Pods are created and destroyed\nto match the desired state of your cluster. Pods are ephemeral resources (you should not\nexpect that an individual Pod is reliable and durable).",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 0,
+   "target": "如果你使用 Deployment 来运行应用，该 Deployment 可以动态创建和销毁 Pod。从某一时刻到下一时刻，你并不知道其中有多少个 Pod 正在正常运行且状态健康；你甚至可能不知道这些健康 Pod 的名称。\nKubernetes 会创建和销毁 Pod，以匹配集群的期望状态。Pod 是临时资源（你不应认为某个 Pod 具备可靠性和持久性）。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 3,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Each Pod gets its own IP address (Kubernetes expects network plugins to ensure this).\nFor a given Deployment in your cluster, the set of Pods running in one moment in\ntime could be different from the set of Pods running that application a moment later.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 0,
+   "target": "每个 Pod 都会获得自己的 IP 地址（Kubernetes 要求网络插件确保这一点）。\n对于集群中的某个 Deployment，在某一时刻运行的 Pod 集合，可能与片刻之后运行该应用的 Pod 集合不同。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 4,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "This leads to a problem: if some set of Pods (call them \"backends\") provides\nfunctionality to other Pods (call them \"frontends\") inside your cluster,\nhow do the frontends find out and keep track of which IP address to connect\nto, so that the frontend can use the backend part of the workload?",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 0,
+   "target": "这会引发一个问题：如果某组 Pod（称为“后端”）为集群内的其他 Pod（称为“前端”）提供功能，那么前端如何发现并持续跟踪应该连接到哪个 IP 地址，从而使用工作负载中的后端部分？",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 5,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Enter _Services_.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 0,
+   "target": "这就需要 _服务_。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 6,
+   "blockType": "heading",
+   "level": 2,
+   "prefix": "## ",
+   "source": "Services in Kubernetes",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "Kubernetes 中的服务",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 7,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "The Service API, part of Kubernetes, is an abstraction to help you expose groups of\nPods over a network. Each Service object defines a logical set of endpoints (usually\nthese endpoints are Pods) along with a policy about how to make those pods accessible.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "Service API 是 Kubernetes 的一部分，它是一种抽象机制，可帮助你通过网络公开 Pod 组。每个 Service 对象都会定义一组逻辑端点（通常这些端点是 Pod），以及如何使这些 Pod 可访问的策略。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 8,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "For example, consider a stateless image-processing backend which is running with\n3 replicas.  Those replicas are fungible&mdash;frontends do not care which backend\nthey use.  While the actual Pods that compose the backend set may change, the\nfrontend clients should not need to be aware of that, nor should they need to keep\ntrack of the set of backends themselves.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "例如，考虑一个无状态的图像处理后端，该后端运行着 3 个副本。这些副本是可互换的——前端并不关心使用的是哪个后端。尽管组成后端集合的实际 Pod 可能发生变化，前端客户端不应需要了解这些变化，也不应需要自行跟踪后端集合。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 9,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "The Service abstraction enables this decoupling.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "Service 抽象实现了这种解耦。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 10,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Canary deployments are a common use case for Services. To learn what's involved, follow the [Deploy a Release Using a Canary Deployment](/docs/tutorials/stateless-application/canary-deployment/) tutorial.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "金丝雀部署是 Service 的常见用例。要了解其中涉及的内容，请参阅[使用金丝雀部署发布版本](/docs/tutorials/stateless-application/canary-deployment/)教程。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 11,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "The set of Pods targeted by a Service is usually determined\nby a selector that you\ndefine.\nTo learn about other ways to define Service endpoints,\nsee [Services _without_ selectors](#services-without-selectors).",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "Service 目标 Pod 集合通常由你定义的选择器确定。\n要了解定义 Service 端点的其他方式，请参阅[Service _无选择器_](#services-without-selectors)。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 12,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "If your workload speaks HTTP, you might choose to use an\n[Ingress](/docs/concepts/services-networking/ingress/) to control how web traffic\nreaches that workload.\nIngress is not a Service type, but it acts as the entry point for your\ncluster. An Ingress lets you consolidate your routing rules into a single resource, so\nthat you can expose multiple components of your workload, running separately in your\ncluster, behind a single listener.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "如果你的工作负载使用 HTTP，你可以选择使用 [Ingress](/docs/concepts/services-networking/ingress/) 来控制 Web 流量如何到达该工作负载。\nIngress 不是一种 Service 类型，但它充当集群的入口点。Ingress 允许你将路由规则整合到单个资源中，这样，你就可以通过单个监听器公开工作负载的多个组件，而这些组件在集群中分别运行。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 13,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "The [Gateway](https://gateway-api.sigs.k8s.io/#what-is-the-gateway-api) API for Kubernetes\nprovides extra capabilities beyond Ingress and Service. You can add Gateway to your cluster -\nit is a family of extension APIs, implemented using\nCustomResourceDefinitions -\nand then use these to configure access to network services that are running in your cluster.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "适用于 Kubernetes 的 [Gateway](https://gateway-api.sigs.k8s.io/#what-is-the-gateway-api) API 提供了超越 Ingress 和 Service 的额外功能。你可以将 Gateway 添加到集群中——它是一组扩展 API，使用 CustomResourceDefinitions 实现——然后使用这些 API 配置对集群中运行的网络服务的访问。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 14,
+   "blockType": "heading",
+   "level": 3,
+   "prefix": "### ",
+   "source": "Cloud-native service discovery",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "云原生服务发现",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 15,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "If you're able to use Kubernetes APIs for service discovery in your application,\nyou can query the API server\nfor matching EndpointSlices. Kubernetes updates the EndpointSlices for a Service\nwhenever the set of Pods in a Service changes.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "如果你的应用能够使用 Kubernetes API 进行服务发现，则可以向 API 服务器查询匹配的 EndpointSlices。每当 Service 中的 Pod 集合发生变化时，Kubernetes 都会更新该 Service 的 EndpointSlices。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 16,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "For non-native applications, Kubernetes offers ways to place a network port or load\nbalancer in between your application and the backend Pods.",
+   "suffix": "\n\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "对于非原生应用，Kubernetes 提供了多种方式，可在你的应用与后端 Pod 之间放置网络端口或负载均衡器。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  },
+  {
+   "seq": 17,
+   "blockType": "paragraph",
+   "level": null,
+   "prefix": "",
+   "source": "Either way, your workload can use these [service discovery](#discovering-services)\nmechanisms to find the target it wants to connect to.",
+   "suffix": "\n",
+   "translatable": true,
+   "chunkIndex": 1,
+   "target": "无论采用哪种方式，你的工作负载都可以使用这些[服务发现](#discovering-services)机制来查找它想要连接的目标。",
+   "status": "DONE",
+   "reviewScore": null,
+   "reviewRounds": 0,
+   "compliance": [],
+   "edited": false
+  }
+ ],
+ "traces": [
+  {
+   "seq": 1,
+   "node": "parse",
+   "chunkIndex": null,
+   "status": "completed",
+   "summary": "解析 18 段（可翻译 18 段），切分为 2 块，源语言为英语（用户指定）",
+   "latencyMs": 10,
+   "promptTokens": null,
+   "completionTokens": null,
+   "createdAt": "2026-10-03T14:40:45.766663Z"
+  },
+  {
+   "seq": 2,
+   "node": "analyze",
+   "chunkIndex": null,
+   "status": "completed",
+   "summary": "生成全文摘要；领域：计算机；文体：技术文档；抽取 16 个候选术语",
+   "latencyMs": 39278,
+   "promptTokens": 1800,
+   "completionTokens": 1974,
+   "createdAt": "2026-10-03T14:41:25.353202Z"
+  },
+  {
+   "seq": 3,
+   "node": "align_terms",
+   "chunkIndex": null,
+   "status": "completed",
+   "summary": "术语库命中 0 条，抽取 12 条，合并后 12 条候选（过滤低频 4 条）；未开启人工确认，自动采用全部候选（抽取术语作为参考译法）",
+   "latencyMs": 16,
+   "promptTokens": null,
+   "completionTokens": null,
+   "createdAt": "2026-10-03T14:41:25.366794Z"
+  },
+  {
+   "seq": 4,
+   "node": "translate_chunk",
+   "chunkIndex": 0,
+   "status": "completed",
+   "summary": "第 1/2 块：翻译 6 段（未评审）",
+   "latencyMs": 13531,
+   "promptTokens": 1873,
+   "completionTokens": 628,
+   "createdAt": "2026-10-03T14:41:39.249462Z"
+  },
+  {
+   "seq": 5,
+   "node": "translate_chunk",
+   "chunkIndex": 1,
+   "status": "completed",
+   "summary": "第 2/2 块：翻译 12 段（未评审）",
+   "latencyMs": 30354,
+   "promptTokens": 2136,
+   "completionTokens": 1542,
+   "createdAt": "2026-10-03T14:41:56.076461Z"
+  },
+  {
+   "seq": 6,
+   "node": "consistency",
+   "chunkIndex": null,
+   "status": "completed",
+   "summary": "发现 1 处不一致，已修正 1 段，1 段未能自动修正",
+   "latencyMs": 6849,
+   "promptTokens": 623,
+   "completionTokens": 514,
+   "createdAt": "2026-10-03T14:42:02.994503Z"
+  }
+ ],
+ "terms": [
+  {
+   "id": 554,
+   "source": "Pods",
+   "target": "Pod",
+   "origin": "extracted",
+   "frequency": 17,
+   "status": "AUTO"
+  },
+  {
+   "id": 555,
+   "source": "Service",
+   "target": "服务",
+   "origin": "extracted",
+   "frequency": 11,
+   "status": "AUTO"
+  },
+  {
+   "id": 556,
+   "source": "Kubernetes",
+   "target": "Kubernetes",
+   "origin": "extracted",
+   "frequency": 9,
+   "status": "AUTO"
+  },
+  {
+   "id": 557,
+   "source": "Deployment",
+   "target": "Deployment",
+   "origin": "extracted",
+   "frequency": 4,
+   "status": "AUTO"
+  },
+  {
+   "id": 558,
+   "source": "Ingress",
+   "target": "Ingress",
+   "origin": "extracted",
+   "frequency": 4,
+   "status": "AUTO"
+  },
+  {
+   "id": 559,
+   "source": "service discovery",
+   "target": "服务发现",
+   "origin": "extracted",
+   "frequency": 4,
+   "status": "AUTO"
+  },
+  {
+   "id": 560,
+   "source": "frontends",
+   "target": "前端",
+   "origin": "extracted",
+   "frequency": 3,
+   "status": "AUTO"
+  },
+  {
+   "id": 561,
+   "source": "Pod",
+   "target": "Pod",
+   "origin": "extracted",
+   "frequency": 2,
+   "status": "AUTO"
+  },
+  {
+   "id": 562,
+   "source": "EndpointSlices",
+   "target": "EndpointSlices",
+   "origin": "extracted",
+   "frequency": 2,
+   "status": "AUTO"
+  },
+  {
+   "id": 563,
+   "source": "Gateway",
+   "target": "Gateway",
+   "origin": "extracted",
+   "frequency": 2,
+   "status": "AUTO"
+  },
+  {
+   "id": 564,
+   "source": "backends",
+   "target": "后端",
+   "origin": "extracted",
+   "frequency": 2,
+   "status": "AUTO"
+  },
+  {
+   "id": 565,
+   "source": "cloud-native",
+   "target": "云原生",
+   "origin": "extracted",
+   "frequency": 2,
+   "status": "AUTO"
+  }
+ ]
+}

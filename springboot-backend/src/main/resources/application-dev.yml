@@ -1,0 +1,13 @@
+# 开发环境：为缺失的环境变量提供仅限本地使用的默认值（与 .env.example 一致，非真实密钥）
+# 注意：不要把 mapper 包日志调到 debug，否则 SQL 参数（密码哈希、密钥密文）会进入日志
+spring:
+  datasource:
+    password: ${TL_APP_DB_PASSWORD:tl_app_pwd}
+
+app:
+  security:
+    jwt-secret: ${JWT_SECRET:dev-only-jwt-secret-please-change-0123456789}
+  crypto:
+    model-key-secret: ${MODEL_KEY_SECRET:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=}
+  ai:
+    internal-token: ${INTERNAL_TOKEN:dev-only-internal-token}

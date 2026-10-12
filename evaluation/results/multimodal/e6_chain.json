@@ -1,0 +1,82 @@
+{
+  "filler_only": {
+    "events": [
+      "transcript.partial",
+      "transcript.partial(hold)",
+      "transcript.discard"
+    ],
+    "finals": [],
+    "discards": [
+      "p1:1"
+    ],
+    "segments": 0,
+    "pass": true
+  },
+  "pause_900": {
+    "events": [
+      "transcript.final",
+      "transcript.partial",
+      "transcript.final"
+    ],
+    "finals": [
+      "请问。",
+      "去火车站怎么走？"
+    ],
+    "holdMs": [
+      0
+    ],
+    "segments": [
+      {
+        "text": "请问。",
+        "metrics": {
+          "mtMs": 4605,
+          "asrMs": 394,
+          "e2eMs": 6167,
+          "holdMs": 0,
+          "mtFirstMs": 4374,
+          "ttsFirstMs": 1141
+        }
+      },
+      {
+        "text": "去火车站怎么走？",
+        "metrics": {
+          "mtMs": 9920,
+          "asrMs": 631,
+          "e2eMs": 11385,
+          "holdMs": 0,
+          "mtFirstMs": 9559,
+          "ttsFirstMs": 1019
+        }
+      }
+    ],
+    "pass": true
+  },
+  "chat_yield": {
+    "events": [
+      "transcript.partial",
+      "transcript.partial[ai]",
+      "transcript.final[ai]",
+      "transcript.partial",
+      "transcript.final",
+      "reply.interrupted[ai]",
+      "transcript.partial[ai]",
+      "transcript.discard[ai]",
+      "transcript.partial[ai]",
+      "transcript.final[ai]"
+    ],
+    "withdrawn": "p1:3",
+    "discardRole": "assistant",
+    "eventsAfterDiscard": [],
+    "segmentSpeakers": [
+      "p1",
+      "ai",
+      "ai"
+    ],
+    "replies": [
+      "Hi, I’m Lumi. What would you like to talk about today?",
+      "You could say: “We’ll start with a canary release this time, covering 5% of users.”"
+    ],
+    "resumedReply": "p1:4",
+    "pass": true
+  }
+}

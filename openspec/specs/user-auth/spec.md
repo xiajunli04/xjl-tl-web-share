@@ -1,0 +1,110 @@
+# user-auth Specification
+
+## Purpose
+TBD - created by archiving change bootstrap-platform-foundation. Update Purpose after archive.
+## Requirements
+### Requirement: 用户注册
+系统 SHALL 允许匿名访客使用用户名和密码注册账号。用户名 MUST 为 4–32 位字母、数字或下划线，且在未删除用户中唯一；密码 MUST 为 8–64 位并同时包含字母和数字。密码 MUST 以 BCrypt 哈希存储。新用户默认分配 USER 角色、状态为启用。
+
+#### Scenario: 注册成功
+- **WHEN** 访客提交合法且未被占用的用户名和密码
+- **THEN** 系统创建用户，返回 code `00000` 和用户基本信息（不含密码哈希），该用户角色为 USER
+
+#### Scenario: 用户名已存在
+- **WHEN** 访客提交的用户名已被其他未删除用户占用
+- **THEN** 系统返回 HTTP 409、code `A0111`，不创建用户
+
+#### Scenario: 密码强度不足
+- **WHEN** 访客提交的密码少于 8 位或缺少字母/数字
+- **THEN** 系统返回 HTTP 400、code `A0410`，data 中包含 `password` 字段的错误信息
+
+### Requirement: 用户登录与令牌签发
+系统 SHALL 在用户名和密码校验通过且账号为启用状态时，签发访问令牌（JWT，有效期 2 小时）和刷新令牌（服务端存储，有效期 7 天）。登录失败时 MUST NOT 区分"账号不存在"和"密码错误"。
+
+#### Scenario: 登录成功
+- **WHEN** 用户提交正确的用户名和密码，且账号为启用状态
+- **THEN** 系统返回 `accessToken`、`refreshToken`、`expiresIn` 和当前用户信息（含角色），并记录一条成功的登录日志
+
+#### Scenario: 凭据错误
+- **WHEN** 用户提交不存在的用户名，或提交错误密码
+- **THEN** 两种情况都返回 HTTP 401、code `A0201`、相同的提示文案，并记录一条失败的登录日志
+
+#### Scenario: 账号已禁用
+- **WHEN** 被禁用的用户提交正确的用户名和密码
+- **THEN** 系统返回 HTTP 403、code `A0202`，不签发令牌
+
+### Requirement: 登录失败限流
+系统 SHALL 对同一用户名的连续登录失败进行限流：15 分钟内失败达到 5 次后，在剩余窗口期内 MUST 拒绝该用户名的登录请求。
+
+#### Scenario: 触发限流
+- **WHEN** 同一用户名在 15 分钟内连续登录失败 5 次后再次尝试登录（即使密码正确）
+- **THEN** 系统返回 HTTP 429、code `A0211`，不校验密码
+
+#### Scenario: 成功登录清零计数
+- **WHEN** 用户在达到限流阈值前登录成功
+- **THEN** 该用户名的失败计数被清零
+
+### Requirement: 令牌刷新与轮换
+系统 SHALL 允许使用有效的刷新令牌换取一对新的访问令牌和刷新令牌，旧刷新令牌 MUST 立即失效。
+
+#### Scenario: 刷新成功
+- **WHEN** 客户端提交一个有效的刷新令牌
+- **THEN** 系统返回新的 `accessToken` 和 `refreshToken`，原刷新令牌被删除
+
+#### Scenario: 刷新令牌被重复使用
+- **WHEN** 客户端提交一个已经用过（已轮换）或已过期的刷新令牌
+- **THEN** 系统返回 HTTP 401、code `A0232`
+
+### Requirement: 访问令牌校验
+系统 SHALL 对除注册、登录、刷新、API 文档以外的所有 `/api/**` 请求校验 `Authorization: Bearer` 访问令牌，并 MUST 区分"过期"与"无效/已吊销"两种失败。
+
+#### Scenario: 令牌过期
+- **WHEN** 请求携带一个签名正确但已过期的访问令牌
+- **THEN** 系统返回 HTTP 401、code `A0230`
+
+#### Scenario: 令牌无效
+- **WHEN** 请求未携带令牌、令牌签名错误，或令牌的 `jti` 在黑名单中
+- **THEN** 系统返回 HTTP 401、code `A0231`
+
+### Requirement: 退出登录与强制下线
+系统 SHALL 在用户退出时吊销其当前访问令牌和刷新令牌。在用户被禁用、密码被修改或重置、角色被修改时，系统 MUST 使该用户此前签发的全部令牌失效。
+
+#### Scenario: 主动退出
+- **WHEN** 已登录用户调用退出接口
+- **THEN** 当前访问令牌在剩余有效期内不可再用（返回 `A0231`），对应刷新令牌被删除
+
+#### Scenario: 被强制下线
+- **WHEN** 管理员禁用某用户，或该用户修改了自己的密码
+- **THEN** 该用户在此之前签发的访问令牌访问任何受保护接口都返回 `A0231`，其全部刷新令牌失效
+
+### Requirement: 当前用户信息
+系统 SHALL 提供接口返回当前登录用户的 id、用户名、昵称、邮箱、角色列表和最近登录时间。
+
+#### Scenario: 查询当前用户
+- **WHEN** 已登录用户请求 `GET /api/auth/me`
+- **THEN** 系统返回该用户信息，不包含密码哈希
+
+### Requirement: 前端会话管理与路由守卫
+Web 前端 SHALL 在访问令牌过期时自动用刷新令牌续期一次，并发请求只触发一次刷新；刷新失败 MUST 清空本地会话并跳转登录页。
+
+路由守卫规则：
+- 未登录用户访问受保护页面时，MUST 被重定向到登录页，登录后返回原页面；
+- 根路径 `/` 是公开的产品首页，MUST NOT 要求登录；
+- 登录时没有 redirect 参数（或参数不安全）时，默认进入 `/translate`。
+
+#### Scenario: 静默续期
+- **WHEN** 前端请求收到 code `A0230`，且本地持有有效的刷新令牌
+- **THEN** 前端完成一次刷新后自动重试原请求，用户无感知
+
+#### Scenario: 未登录访问受保护页面
+- **WHEN** 未登录用户直接访问 `/profile`
+- **THEN** 前端跳转到 `/login?redirect=/profile`，登录成功后回到 `/profile`
+
+#### Scenario: 访问首页不需要登录
+- **WHEN** 未登录用户访问 `/`
+- **THEN** 页面展示产品首页，不跳转登录页
+
+#### Scenario: 默认登录去向
+- **WHEN** 用户直接打开 `/login` 并登录成功
+- **THEN** 前端进入 `/translate`
+

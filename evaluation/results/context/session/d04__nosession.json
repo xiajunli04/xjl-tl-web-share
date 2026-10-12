@@ -1,0 +1,87 @@
+{
+ "dialogue": "d04",
+ "condition": "nosession",
+ "sessionId": null,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:34:56.703+00:00",
+ "finishedAt": "2026-10-03T17:36:03.916+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "Our technician, David, will visit your home on Friday.",
+   "translation": "我们的技术人员 David 将于周五上门服务。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 808,
+    "completionTokens": 104
+   },
+   "latencyMs": 15805,
+   "recordId": 2582,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "He will call you about thirty minutes before arriving.",
+   "translation": "他会在到达前约三十分钟给你打电话。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 753,
+    "completionTokens": 72
+   },
+   "latencyMs": 13517,
+   "recordId": 2583,
+   "sessionTurns": 0
+  },
+  {
+   "index": 2,
+   "source": "If the time doesn't work for you, just let him know.",
+   "translation": "如果这个时间对你不合适，就直接告诉他。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 760,
+    "completionTokens": 72
+   },
+   "latencyMs": 9100,
+   "recordId": 2584,
+   "sessionTurns": 0
+  },
+  {
+   "index": 3,
+   "source": "Please make sure someone over 18 is present.",
+   "translation": "请确保有一名18岁以上的人在场。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 750,
+    "completionTokens": 172
+   },
+   "latencyMs": 15945,
+   "recordId": 2585,
+   "sessionTurns": 0
+  },
+  {
+   "index": 4,
+   "source": "David will bring the spare parts, so you don't need to buy anything.",
+   "translation": "David 会带备件来，所以你不需要购买任何东西。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 767,
+    "completionTokens": 77
+   },
+   "latencyMs": 12416,
+   "recordId": 2586,
+   "sessionTurns": 0
+  }
+ ]
+}

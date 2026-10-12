@@ -1,0 +1,24 @@
+{
+ "doc": "volumes",
+ "group": "I3",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 281,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "但[持久卷](/docs/concepts/storage/persistent-volumes/) 的存在超出\n任何单个 Pod 的生命周期",
+   "explanation": "“存在超出”语序不自然，建议改为“但持久卷的生命周期超出任何单个 Pod 的生命周期”。"
+  },
+  {
+   "segment": 6,
+   "category": "style",
+   "severity": "minor",
+   "span": "但有关相关机制，请参阅",
+   "explanation": "“有关”和“相关”语义重复，措辞不够简洁自然。"
+  }
+ ]
+}

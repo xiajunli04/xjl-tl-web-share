@@ -1,0 +1,31 @@
+{
+ "doc": "service",
+ "group": "D5",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "服务 API",
+   "explanation": "此处指 Kubernetes 的 Service API，作为 API 名称保留英文更符合技术文档惯例。"
+  },
+  {
+   "segment": 8,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "网关",
+   "explanation": "链接名称指 Kubernetes 的 Gateway API；译为“网关”会弱化其作为专有 API 名称的指向。"
+  },
+  {
+   "segment": 10,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "端点切片",
+   "explanation": "EndpointSlices 是 Kubernetes API 资源名，建议保留英文资源名。"
+  }
+ ]
+}

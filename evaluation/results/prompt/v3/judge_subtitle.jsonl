@@ -1,0 +1,20 @@
+{"id": "t01", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕保留了英文示范句，并附上中文意思，内容与原句一致。"}
+{"id": "t01", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "保留了英文示范句，并附上中文释义，字幕仅对应当前句子。"}
+{"id": "t02", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 4, "note": "字幕只翻译了当前句，并结合上下文将“one”译为靠窗座位，意思基本准确。"}
+{"id": "t02", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了当前句，并结合上下文将“one”明确为靠窗座位。"}
+{"id": "t03", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "完整保留了英文示范句，并在括号中附上中文意思。"}
+{"id": "t04", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了本句，并将 It 正确指向这道菜，语义准确自然。"}
+{"id": "t04", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕准确翻译了这一句，且将 It 指代为这道菜，没有添加额外内容。"}
+{"id": "t05", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕仅翻译本句，“博物馆”由上下文补出，“平时通常”准确表达了平日一般的意思。"}
+{"id": "t05", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "准确表达了博物馆平日通常十点关门，未添加其他内容。"}
+{"id": "t06", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕保留了英文示范句，并附上对应中文释义，没有添加额外内容。"}
+{"id": "t06", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "保留了英文示范句，并在括号中附上中文意思。"}
+{"id": "t07", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕准确翻译了这一句，并将 it 译为“模型”，没有添加或重复其他内容。"}
+{"id": "t03", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕保留了英文示范句，并附上对应的中文释义，内容准确且没有额外信息。"}
+{"id": "t07", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "准确译出第二阶段是微调及其使模型适应特定任务的作用，且未添加其他内容。"}
+{"id": "t09", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕准确简短地翻译了应答，符合预期。"}
+{"id": "t09", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕简短准确地翻译了应答，符合预期。"}
+{"id": "t08", "run": 2, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了这一句，准确表达了地铁更便宜但耗时更长。"}
+{"id": "t10", "run": 2, "coach_kept": true, "only_this": true, "meets_expect": true, "faithful": 5, "note": "两处英文原句均保留，示范句也附有中文释义，且未添加其他内容。"}
+{"id": "t08", "run": 1, "coach_kept": null, "only_this": true, "meets_expect": true, "faithful": 5, "note": "字幕只翻译了本句，准确表达了地铁更便宜但耗时更长。"}
+{"id": "t10", "run": 1, "coach_kept": true, "only_this": true, "meets_expect": false, "faithful": 2, "note": "保留了示范句并附中文释义，但漏掉了句首的英文原句 “I very like it” 及其对应内容。"}

@@ -1,0 +1,10 @@
+{
+  "label": "v2",
+  "adapter": "v2",
+  "prompt_version": "interpret-v2/chat-v2/memory-v1",
+  "model": "gpt-5.6-luna",
+  "judge_model": "gpt-6-luna",
+  "commit": "8289d5e",
+  "updated_at": "2026-10-06T05:48:17+00:00",
+  "note": "同传与字幕示例与评测集同源，分数虚高，结论以 v4 为准"
+}

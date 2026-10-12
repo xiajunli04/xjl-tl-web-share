@@ -1,0 +1,87 @@
+{
+ "dialogue": "d08",
+ "condition": "session",
+ "sessionId": 10,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:45:11.783+00:00",
+ "finishedAt": "2026-10-03T17:46:24.020+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "My colleagues and I ordered twelve lunch boxes for the team meeting.",
+   "translation": "我和同事们为团队会议订了十二份午餐盒。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 763,
+    "completionTokens": 168
+   },
+   "latencyMs": 12132,
+   "recordId": 2627,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "They arrived on time, but three were missing the sauce.",
+   "translation": "它们准时送达了，但其中三份没有配酱汁。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 985,
+    "completionTokens": 139
+   },
+   "latencyMs": 13443,
+   "recordId": 2628,
+   "sessionTurns": 1
+  },
+  {
+   "index": 2,
+   "source": "Two of my colleagues are vegetarian, and theirs were fine.",
+   "translation": "我的两位同事是素食者，他们的那两份没有问题。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1073,
+    "completionTokens": 117
+   },
+   "latencyMs": 15039,
+   "recordId": 2629,
+   "sessionTurns": 2
+  },
+  {
+   "index": 3,
+   "source": "Could you send the sauce separately, or refund those three?",
+   "translation": "你们可以单独补发酱汁，或者为那三份退款吗？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1155,
+    "completionTokens": 121
+   },
+   "latencyMs": 13115,
+   "recordId": 2630,
+   "sessionTurns": 3
+  },
+  {
+   "index": 4,
+   "source": "We'll order from you again next week if it's sorted out.",
+   "translation": "如果这件事能得到解决，我们下周还会再向你们订购。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1243,
+    "completionTokens": 137
+   },
+   "latencyMs": 17905,
+   "recordId": 2631,
+   "sessionTurns": 4
+  }
+ ]
+}

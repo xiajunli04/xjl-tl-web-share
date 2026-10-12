@@ -1,0 +1,24 @@
+{
+ "doc": "deployment",
+ "group": "D4",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 725,
+ "errors": [
+  {
+   "segment": 10,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "该容器运行 `nginx`\n    [Docker Hub](https://hub.docker.com/) 版本为 1.14.2 的镜像",
+   "explanation": "语序不自然，容易读成容器在运行 Docker Hub；应明确表达该容器运行的是 Docker Hub 上的 nginx 1.14.2 镜像。"
+  },
+  {
+   "segment": 23,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "部署发布状态",
+   "explanation": "“rollout status”在 Kubernetes 语境中通常指部署的滚动更新状态，译为“发布状态”不够准确。"
+  }
+ ]
+}

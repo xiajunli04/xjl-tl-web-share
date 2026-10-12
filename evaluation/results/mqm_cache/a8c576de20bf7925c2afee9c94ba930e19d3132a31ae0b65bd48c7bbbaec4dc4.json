@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "I1",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "style",
+   "severity": "minor",
+   "span": "你的用例未涵盖在下文中",
+   "explanation": "表达略显生硬，可改为“如果下文未涵盖你的用例”。"
+  }
+ ]
+}

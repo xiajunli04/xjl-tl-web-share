@@ -1,0 +1,38 @@
+{
+ "doc": "pods",
+ "group": "D3",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "style",
+   "severity": "minor",
+   "span": "其他隔离方面",
+   "explanation": "“facets of isolation”译为“隔离方面”较生硬，可改为“其他隔离机制”或“其他隔离特性”。"
+  },
+  {
+   "segment": 7,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "具有单一整体的单元",
+   "explanation": "表达冗余且不自然；“single cohesive unit”可译为“一个紧密协作的整体”。"
+  },
+  {
+   "segment": 8,
+   "category": "style",
+   "severity": "minor",
+   "span": "归组",
+   "explanation": "“归组”在此处措辞生硬，可改为“将……组合在一起”。"
+  },
+  {
+   "segment": 9,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "实现副本",
+   "explanation": "“provide replication”指提供复制或冗余能力，并非“实现副本”；可译为“实现冗余”。"
+  }
+ ]
+}

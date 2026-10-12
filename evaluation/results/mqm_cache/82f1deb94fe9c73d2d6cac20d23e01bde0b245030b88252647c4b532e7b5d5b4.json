@@ -1,0 +1,17 @@
+{
+ "doc": "pods",
+ "group": "D3",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 7,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "更多总体资源",
+   "explanation": "表达不够自然，建议改为“更多总资源”或“更多资源总量”。"
+  }
+ ]
+}

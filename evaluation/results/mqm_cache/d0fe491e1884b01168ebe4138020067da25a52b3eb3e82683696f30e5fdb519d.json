@@ -1,0 +1,17 @@
+{
+ "doc": "service",
+ "group": "D0",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 243,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "服务",
+   "explanation": "此处的 Service 是 Kubernetes 资源名，通常保留英文；译为普通名词“服务”与正文中的写法不一致。"
+  }
+ ]
+}

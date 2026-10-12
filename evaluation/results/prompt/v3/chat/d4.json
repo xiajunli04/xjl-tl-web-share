@@ -1,0 +1,171 @@
+{
+  "id": "d4",
+  "scenario": "business",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "你好，我是星辰科技的王磊，负责海外采购",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “Hello, I’m Lei Wang from Xingchen Technology, and I oversee international procurement.”\n\nIt’s a pleasure to meet you, Mr. Wang. I’m responsible for business development on our side, and I’d like to understand your procurement needs and explore how we can work together.",
+      "summary": null
+    },
+    {
+      "text": "我们这次主要想谈一下智能手表的代工合作",
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "That sounds like a promising opportunity. We can discuss the smartwatch specifications, expected order volume, production timeline, quality standards, and pricing to see whether our capabilities match your needs.",
+      "summary": null
+    },
+    {
+      "text": "你们的月产能大概是多少",
+      "tags": [
+        "substantive"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "Our monthly capacity depends on the model, specifications, and order volume, so I don’t want to give you an inaccurate figure. If you share your expected quantity and target launch date, we can confirm the available capacity and production schedule.",
+      "summary": null
+    },
+    {
+      "text": "我们第一批订单大概五千台，价格能做到多少",
+      "tags": [
+        "substantive"
+      ],
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "We can quote for 5,000 units, but the price depends on the model, features, materials, and packaging. Please share your target specifications, and we’ll prepare a formal quotation with our most competitive price.",
+      "summary": null
+    },
+    {
+      "text": "这个价格有点高，能不能再降一些",
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "We may be able to reduce it somewhat. For a 5,000-unit initial order, we can review the specifications, packaging, and payment terms to find savings, while keeping the required quality level; could you share your target unit price?",
+      "summary": null
+    },
+    {
+      "text": "交货期一般要多久",
+      "tags": [
+        "substantive"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "The usual lead time depends on the specifications and production schedule. After confirming the design, samples, and deposit, we would typically need time for material preparation, production, and quality inspection; once we review your requirements, we can provide a firm delivery date.",
+      "summary": null
+    },
+    {
+      "text": "如果我们订一万台呢",
+      "tags": [
+        "substantive"
+      ],
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "For 10,000 units, we can usually offer a better unit price and prioritize production capacity. We would still need to confirm the specifications, packaging, and payment terms before committing to a final quotation and delivery schedule; is 10,000 units a firm order quantity?",
+      "summary": null
+    },
+    {
+      "text": "质量问题你们怎么处理",
+      "tags": [
+        "substantive"
+      ],
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "We handle quality issues through inspection, warranty support, and corrective action. We conduct inspections during production and before shipment, and for confirmed defects, we can agree on repair, replacement, or a credit according to the contract; we can provide the detailed quality standards for your review.",
+      "summary": null
+    },
+    {
+      "text": "能把刚才谈到的条件总结一下吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "月产能",
+        "五千台的报价",
+        "降价或一万台的报价",
+        "交货期",
+        "质量问题的处理方式"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "Certainly. We discussed an OEM partnership for smartwatches, with an initial order of about 5,000 units and a possible increase to 10,000 units. The unit price depends on the model, features, materials, packaging, and payment terms, but a larger order or adjusted specifications may allow us to reduce the price. Monthly capacity and delivery time depend on the confirmed specifications and production schedule, so we will provide a firm schedule after reviewing the requirements, samples, and deposit. For quality, we will conduct in-process and pre-shipment inspections, and handle confirmed defects through repair, replacement, or credit according to the contract.",
+      "summary": null
+    },
+    {
+      "text": "We hope can start next month",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "You could say: “We hope to start production next month.”\n\nThat may be possible, provided we finalize the specifications, approve the sample, and receive the deposit in time. When would you be able to send the final product requirements?",
+      "summary": null
+    },
+    {
+      "text": "付款方式有哪些",
+      "tags": [
+        "substantive"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "We can discuss several payment options. Commonly, we use a deposit before production, with the balance paid before shipment; for larger orders, we may also consider a letter of credit or other agreed terms, subject to approval.",
+      "summary": null
+    },
+    {
+      "text": "我们需要先看样品",
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "Of course, sample approval should come first. We’ll prepare a sample based on your specifications, confirm the sample cost and lead time, and then move to mass production after your written approval.",
+      "summary": null
+    },
+    {
+      "text": "样品要收费吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "Yes, samples are normally charged separately, including the sample and shipping costs. However, we can discuss refunding or crediting the sample fee against the mass-production order, depending on the final order quantity.",
+      "summary": null
+    },
+    {
+      "text": "好的，我回去和团队商量一下",
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "That sounds good. Please discuss the specifications, target price, order quantity, and timeline with your team, and we’ll be ready to prepare a sample and formal quotation once you’re ready.",
+      "summary": null
+    },
+    {
+      "text": "下次会面你们方便什么时候",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "We’re flexible next week and can arrange a meeting at a time convenient for your team. Please suggest a preferred day and time, and we’ll confirm it.",
+      "summary": null
+    },
+    {
+      "text": "你还记得我是哪家公司的吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "星辰科技",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "Yes, you’re Lei Wang from Xingchen Technology, responsible for international procurement. We’re discussing an OEM partnership for smartwatches.",
+      "summary": "用户信息：王磊，来自星辰科技，负责海外采购。\n\n话题与要点：双方首次商务会面，讨论潜在合作的时间线、范围和价格。  \n用户希望洽谈智能手表代工合作，需进一步确认规格、订单量、生产周期、质量标准和价格。  \n月产能取决于型号、规格和订单量；需提供预计数量和目标上市日期后确认产能与排期。  \n首批订单约5,000台；报价取决于型号、功能、材料和包装，确认规格后可提供正式报价及最具竞争力的价格。\n\n用户的问题：你们的月产能大概是多少？价格能做到多少？\n\n待办与约定：用户提供智能手表目标规格、预计数量及目标上市日期；Lumi据此确认可用产能和生产计划，并准备5,000台的正式报价。"
+    },
+    {
+      "text": "我们一开始说要合作什么产品",
+      "tags": [
+        "recall"
+      ],
+      "answer": "智能手表（代工）",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "We initially discussed an OEM partnership for smartwatches. Specifically, you’re considering an initial order of about 5,000 units, with the possibility of increasing it to 10,000 units.",
+      "summary": "用户信息：王磊，来自星辰科技，负责海外采购。\n\n话题与要点：双方首次商务会面，讨论潜在合作的时间线、范围和价格。  \n用户希望洽谈智能手表代工合作，需进一步确认规格、订单量、生产周期、质量标准和价格。  \n月产能取决于型号、规格和订单量；需提供预计数量和目标上市日期后确认产能与排期。  \n首批订单约5,000台；报价取决于型号、功能、材料和包装，确认规格后可提供正式报价及最具竞争力的价格。\n\n用户的问题：你们的月产能大概是多少？价格能做到多少？\n\n待办与约定：用户提供智能手表目标规格、预计数量及目标上市日期；Lumi据此确认可用产能和生产计划，并准备5,000台的正式报价。"
+    }
+  ],
+  "greeting": "It’s a pleasure to meet you. Thank you for visiting us today; I’d like to discuss our potential partnership, including the timeline, scope, and pricing.",
+  "compressions": 1
+}

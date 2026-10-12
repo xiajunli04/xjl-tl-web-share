@@ -1,0 +1,31 @@
+{
+ "doc": "pods",
+ "group": "I2",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 134,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "Pod",
+   "explanation": "原文为复数“Pods”，译文使用单数，未保留标题所指资源的复数形式。"
+  },
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "_Pod_",
+   "explanation": "原文“_Pods_”为复数，译文使用单数“_Pod_”，与原文数量不一致。"
+  },
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "共同驻留",
+   "explanation": "“co-located”指位于同一位置或共同部署；“共同驻留”未准确表达这一含义。"
+  }
+ ]
+}

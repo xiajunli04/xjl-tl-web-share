@@ -1,0 +1,17 @@
+{
+ "doc": "pods",
+ "group": "I1",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "映像",
+   "explanation": "Kubernetes 技术文档中通常将 image 译为“镜像”；“映像”不符合该领域的常用术语。"
+  }
+ ]
+}

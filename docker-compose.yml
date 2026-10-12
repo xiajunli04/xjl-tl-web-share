@@ -1,0 +1,41 @@
+name: xjl-tl
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_SUPERUSER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_SUPERUSER_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-xjl_tl}
+      TL_APP_DB_USER: ${TL_APP_DB_USER:-tl_app}
+      TL_APP_DB_PASSWORD: ${TL_APP_DB_PASSWORD:-tl_app_pwd}
+      TL_AI_DB_USER: ${TL_AI_DB_USER:-tl_ai}
+      TL_AI_DB_PASSWORD: ${TL_AI_DB_PASSWORD:-tl_ai_pwd}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docker/postgres/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - "${REDIS_PORT:-6380}:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  pgdata:
+  redisdata:

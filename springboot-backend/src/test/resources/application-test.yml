@@ -1,0 +1,17 @@
+# 测试环境：仅测试用密钥
+app:
+  security:
+    jwt-secret: test-only-jwt-secret-0123456789abcdef0123456789
+  crypto:
+    model-key-secret: AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=
+  ai:
+    internal-token: test-internal-token
+  media:
+    storage-dir: ${java.io.tmpdir}/tl-test-storage
+    segment-wait-timeout: 2s
+  doc:
+    # 仅流式测试上下文（StreamingTestBase）启动事件消费者，避免多个缓存的 Spring 上下文争抢同一消费组
+    consumer-enabled: false
+spring:
+  datasource:
+    password: tl_app_pwd

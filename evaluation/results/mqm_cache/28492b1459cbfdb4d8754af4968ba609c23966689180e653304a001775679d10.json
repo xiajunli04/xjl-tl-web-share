@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "D3",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "Deployment",
+   "explanation": "原文标题为复数“Deployments”，译文误用了单数形式。"
+  }
+ ]
+}

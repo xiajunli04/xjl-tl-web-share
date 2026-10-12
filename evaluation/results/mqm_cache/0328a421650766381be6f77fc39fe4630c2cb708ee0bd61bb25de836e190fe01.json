@@ -1,0 +1,59 @@
+{
+ "doc": "deployment",
+ "group": "D4",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "标题指 Kubernetes 的 Deployment 资源，按技术文档惯例应保留资源名 Deployment。"
+  },
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "major",
+   "span": "_部署_",
+   "explanation": "Deployment 是 Kubernetes 资源名，译为“部署”会模糊其作为特定资源的含义。"
+  },
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "major",
+   "span": "副本集",
+   "explanation": "ReplicaSet 是 Kubernetes 资源名，建议保留英文资源名 ReplicaSet。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "此处指 Kubernetes 的 Deployment 资源，却译为普通名词“部署”；本段多处同类用法应统一保留 Deployment。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "副本集",
+   "explanation": "ReplicaSets 是 Kubernetes 资源名，建议保留英文资源名 ReplicaSets。"
+  },
+  {
+   "segment": 4,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "此处指由 Deployment 管理的 Kubernetes 资源，译为“部署”会模糊资源名，应保留 Deployment。"
+  },
+  {
+   "segment": 4,
+   "category": "terminology",
+   "severity": "major",
+   "span": "副本集",
+   "explanation": "ReplicaSets 是 Kubernetes 资源名，建议保留英文资源名 ReplicaSets。"
+  }
+ ]
+}

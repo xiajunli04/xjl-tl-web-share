@@ -1,0 +1,24 @@
+{
+ "doc": "configmap",
+ "group": "I2",
+ "chunk": 3,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 340,
+ "errors": [
+  {
+   "segment": 6,
+   "category": "style",
+   "severity": "minor",
+   "span": "容器命令和参数内部",
+   "explanation": "语序生硬，未清楚表达在容器的命令和参数中使用。"
+  },
+  {
+   "segment": 10,
+   "category": "style",
+   "severity": "minor",
+   "span": "对所使用的数据进行不同的建模方式",
+   "explanation": "表达不够自然，可改为“以不同方式对所使用的数据建模”。"
+  }
+ ]
+}

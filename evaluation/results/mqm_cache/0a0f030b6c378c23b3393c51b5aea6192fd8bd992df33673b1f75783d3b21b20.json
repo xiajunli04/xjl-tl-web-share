@@ -1,0 +1,31 @@
+{
+ "doc": "pods",
+ "group": "D4",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": ")\n，",
+   "explanation": "链接与逗号之间出现换行，导致标点与前文分离。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "位于同一位置的容器",
+   "explanation": "“co-located containers”直译为“位于同一位置的容器”不符合技术文档惯用表达，建议译为“共同驻留的容器”等。"
+  },
+  {
+   "segment": 8,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "位于同一位置",
+   "explanation": "“co-located”直译为“位于同一位置”不符合技术文档惯用表达，建议译为“共同驻留”等。"
+  }
+ ]
+}

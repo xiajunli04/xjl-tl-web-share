@@ -1,0 +1,38 @@
+[
+  {
+    "source": "宫保鸡丁",
+    "target": "Kung Pao Chicken",
+    "sourceLang": "zh",
+    "targetLang": "en"
+  },
+  {
+    "source": "麻婆豆腐",
+    "target": "Mapo Tofu",
+    "sourceLang": "zh",
+    "targetLang": "en"
+  },
+  {
+    "source": "小笼包",
+    "target": "Xiaolongbao",
+    "sourceLang": "zh",
+    "targetLang": "en"
+  },
+  {
+    "source": "Caesar Salad",
+    "target": "凯撒沙拉",
+    "sourceLang": "en",
+    "targetLang": "zh"
+  },
+  {
+    "source": "親子丼",
+    "target": "亲子丼",
+    "sourceLang": "ja",
+    "targetLang": "zh"
+  },
+  {
+    "source": "非常口",
+    "target": "紧急出口",
+    "sourceLang": "ja",
+    "targetLang": "zh"
+  }
+]

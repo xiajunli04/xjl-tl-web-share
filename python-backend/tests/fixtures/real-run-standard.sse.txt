@@ -1,0 +1,171 @@
+event: start
+data: {"requestId":"real-run-std-002"}
+
+event: node
+data: {"seq":1,"node":"analyze","status":"started"}
+
+event: detect
+data: {"lang":"en","confidence":0.9976,"method":"lingua"}
+
+event: terms
+data: {"hits":[{"source":"machine learning","target":"机器学习","glossaryId":1},{"source":"GPU","target":"图形处理器","glossaryId":1},{"source":"epoch","target":"训练轮次","glossaryId":1}],"skippedGlossaries":[2]}
+
+event: node
+data: {"seq":2,"node":"analyze","status":"completed","summary":"识别为英语（100%），命中 3 条术语，跳过 1 个语言对不符的术语库，含占位符 2 个","latencyMs":22}
+
+event: node
+data: {"seq":3,"node":"plan","status":"started"}
+
+event: plan
+data: {"path":"standard","domain":"计算机","reason":"用户指定标准模式；领域判定为计算机"}
+
+event: node
+data: {"seq":4,"node":"plan","status":"completed","summary":"标准路径 · 计算机","latencyMs":4395,"usage":{"promptTokens":97,"completionTokens":6}}
+
+event: node
+data: {"seq":5,"node":"retrieve","status":"started"}
+
+event: node
+data: {"seq":6,"node":"retrieve","status":"completed","summary":"上下文包：3 条术语，领域=计算机，风格=忠实","latencyMs":0}
+
+event: node
+data: {"seq":7,"node":"translate","status":"started"}
+
+event: delta
+data: {"round":0,"text":"机器"}
+
+event: delta
+data: {"round":0,"text":"学习"}
+
+event: delta
+data: {"round":0,"text":"模型"}
+
+event: delta
+data: {"round":0,"text":"通常"}
+
+event: delta
+data: {"round":0,"text":"在"}
+
+event: delta
+data: {"round":0,"text":"图"}
+
+event: delta
+data: {"round":0,"text":"形"}
+
+event: delta
+data: {"round":0,"text":"处理"}
+
+event: delta
+data: {"round":0,"text":"器"}
+
+event: delta
+data: {"round":0,"text":"上"}
+
+event: delta
+data: {"round":0,"text":"进行"}
+
+event: delta
+data: {"round":0,"text":"训练"}
+
+event: delta
+data: {"round":0,"text":"。"}
+
+event: delta
+data: {"round":0,"text":"每"}
+
+event: delta
+data: {"round":0,"text":"个"}
+
+event: delta
+data: {"round":0,"text":"训练"}
+
+event: delta
+data: {"round":0,"text":"轮"}
+
+event: delta
+data: {"round":0,"text":"次"}
+
+event: delta
+data: {"round":0,"text":"大"}
+
+event: delta
+data: {"round":0,"text":"约"}
+
+event: delta
+data: {"round":0,"text":"需要"}
+
+event: delta
+data: {"round":0,"text":" "}
+
+event: delta
+data: {"round":0,"text":"30"}
+
+event: delta
+data: {"round":0,"text":" 分"}
+
+event: delta
+data: {"round":0,"text":"钟"}
+
+event: delta
+data: {"round":0,"text":"。\n"}
+
+event: delta
+data: {"round":0,"text":"{name"}
+
+event: delta
+data: {"round":0,"text":"}"}
+
+event: delta
+data: {"round":0,"text":"，"}
+
+event: delta
+data: {"round":0,"text":"您好"}
+
+event: delta
+data: {"round":0,"text":"，"}
+
+event: delta
+data: {"round":0,"text":"您的"}
+
+event: delta
+data: {"round":0,"text":"任务"}
+
+event: delta
+data: {"round":0,"text":" %"}
+
+event: delta
+data: {"round":0,"text":"s"}
+
+event: delta
+data: {"round":0,"text":" 已"}
+
+event: delta
+data: {"round":0,"text":"完成"}
+
+event: delta
+data: {"round":0,"text":"。"}
+
+event: node
+data: {"seq":8,"node":"translate","status":"completed","summary":"首译完成","latencyMs":3529,"usage":{"promptTokens":338,"completionTokens":42}}
+
+event: node
+data: {"seq":9,"node":"review","status":"started"}
+
+event: review
+data: {"round":0,"score":100,"passed":true,"issues":[]}
+
+event: node
+data: {"seq":10,"node":"review","status":"completed","summary":"第 0 轮评审 100 分，通过","latencyMs":4046,"usage":{"promptTokens":793,"completionTokens":64}}
+
+event: node
+data: {"seq":11,"node":"refine","status":"skipped","summary":"评审通过，无需修正"}
+
+event: node
+data: {"seq":12,"node":"finalize","status":"started"}
+
+event: node
+data: {"seq":13,"node":"finalize","status":"completed","summary":"术语遵循 3/3","latencyMs":0}
+
+event: final
+data: {"translation":"机器学习模型通常在图形处理器上进行训练。每个训练轮次大约需要 30 分钟。\n{name}，您好，您的任务 %s 已完成。","sourceLang":"en","targetLang":"zh","path":"standard","domain":"计算机","compliance":[{"source":"machine learning","target":"机器学习","compliant":true},{"source":"GPU","target":"图形处理器","compliant":true},{"source":"epoch","target":"训练轮次","compliant":true}],"usage":{"promptTokens":1228,"completionTokens":112},"latencyMs":12047}
+

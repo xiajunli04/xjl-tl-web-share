@@ -1,0 +1,20 @@
+{
+  "sessionId": 45,
+  "lines": [
+    {
+      "say": "这个报价包含运费吗？",
+      "asr": "这个报价包含运费吗？",
+      "lang": "zh",
+      "translation": "Does this quote include shipping?"
+    },
+    {
+      "say": "No, that's extra.",
+      "asr": "No, that's extra.",
+      "lang": "en",
+      "translation": "不，那是额外收费的。"
+    }
+  ],
+  "checks": {
+    "answerUsesQuestionContext": true
+  }
+}

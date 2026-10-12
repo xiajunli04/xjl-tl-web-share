@@ -1,0 +1,40 @@
+schema: spec-driven
+
+# Project context — shown to AI when creating artifacts.
+context: |
+  项目：译桥 · LinguaBridge，基于Agent的多语言翻译平台（本科毕业设计，单人开发，周期约一学期）。
+  题目与要求见 docs/信息.txt；总体设计、架构决策与变更路线图见 docs/总体设计.md（创建任何 change 前必读）。
+
+  工程结构（monorepo）：
+  - web/                 前端：Next.js 16.3（App Router）+ React 19.2 + TypeScript + Tailwind CSS v4 + shadcn/ui
+  - springboot-backend/  管理平台/业务中枢：Java 25 + Spring Boot 4.1 + Spring Security(JWT) + MyBatis-Plus 3.5.17 + Flyway + springdoc-openapi
+  - python-backend/      AI能力层：Python 3.12+ + FastAPI + LangGraph 1.x + OpenAI SDK(兼容协议) + Anthropic SDK，uv 管理依赖
+  - 数据：PostgreSQL 17 + pgvector；Redis 7（队列/缓存/进度/限流）；docker compose 编排本地依赖
+
+  核心架构决策：
+  - 浏览器只访问 Spring；Spring 是业务数据唯一写入方（biz schema）；Python 只读 biz 中的术语表与模型配置，读写 ai schema（翻译记忆向量、LangGraph checkpoint）
+  - Flyway（Spring 侧）是全部业务表 DDL 的唯一来源（含 ai schema 业务表）；LangGraph checkpoint 表由其 setup() 自建
+  - 短文本：同步 HTTP + SSE 流式；长文档：Redis Stream 异步任务 + worker + 进度推送
+  - 上下文策略：篇章上下文为主、会话上下文为辅，共用 ContextMemory 抽象（短期窗口 + 长期摘要 + 实体表）
+  - 所有翻译调用统一传入 TranslationContext 上下文包（terms / tm_examples / domain_hint / style / doc_memory / session_ctx）
+  - LLM 统一走 OpenAI 兼容协议（默认 DeepSeek，备选 Qwen/Qwen-MT），Anthropic SDK 可选；模型配置由管理员在后台维护，API Key 用 AES-GCM 加密存储
+  - Spring 对外统一响应 Result<T>{code,message,data,traceId}，全局异常处理 + 业务错误码；Python 内部接口用 X-Internal-Token 鉴权且不对外暴露
+
+  约定：
+  - 产物与代码注释使用中文，标识符使用英文
+  - Commit 格式 `<类型>:<中文描述>`，类型限 feat/fix/update/refactor/docs
+  - 每个 change 必须可独立演示和验证
+  - 前端 UI/UX 标准：风格主流、高级、优雅，必须有动效（motion 库，克制统一并尊重 prefers-reduced-motion）；严禁一整页平铺所有内容，用标签页/分步向导/抽屉/可折叠分区/主从布局组织信息；统一设计令牌，支持暗色模式，有空状态、骨架屏和错误状态的设计
+
+rules:
+  proposal:
+    - 必须包含「非目标」小节，明确本次不做的内容
+    - 说明与 docs/总体设计.md 路线图中其他 change 的依赖关系
+  design:
+    - 涉及 web 的 change 必须包含「UI/UX」小节：信息架构（页面如何分区、分层）、关键交互流程、动效清单
+    - 涉及跨服务交互时给出接口契约（路径、方法、请求/响应结构、错误码）
+    - 关键取舍用「决策 / 备选方案 / 理由」格式记录
+  tasks:
+    - 涉及 web 的任务要包含 UI/UX 验收：用截图核对布局没有整页平铺，动效生效且尊重 reduced-motion
+    - 按 web / springboot-backend / python-backend / infra 分组
+    - 每个任务粒度不超过半天，且包含可执行的验证方式

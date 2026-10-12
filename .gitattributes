@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.ico binary
+*.jar binary
+
+# 契约测试夹具：保留原始字节（含 CRLF），禁止换行转换
+docs/contracts/fixtures/** -text

@@ -1,0 +1,87 @@
+{
+ "dialogue": "d07",
+ "condition": "session",
+ "sessionId": 9,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:42:40.206+00:00",
+ "finishedAt": "2026-10-03T17:43:53.909+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "We noticed a login to your account from a new device.",
+   "translation": "我们注意到您的账户有一台新设备登录。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 806,
+    "completionTokens": 146
+   },
+   "latencyMs": 18820,
+   "recordId": 2617,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "If it was you, no action is needed.",
+   "translation": "如果是您本人，则无需采取任何操作。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 912,
+    "completionTokens": 78
+   },
+   "latencyMs": 10110,
+   "recordId": 2618,
+   "sessionTurns": 1
+  },
+  {
+   "index": 2,
+   "source": "If not, please reset your password right away.",
+   "translation": "如果不是您本人，请立即重置您的密码。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1029,
+    "completionTokens": 77
+   },
+   "latencyMs": 13612,
+   "recordId": 2619,
+   "sessionTurns": 2
+  },
+  {
+   "index": 3,
+   "source": "You can also review all active sessions on the security page.",
+   "translation": "您还可以在安全页面查看所有活跃会话。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1105,
+    "completionTokens": 81
+   },
+   "latencyMs": 12010,
+   "recordId": 2620,
+   "sessionTurns": 3
+  },
+  {
+   "index": 4,
+   "source": "Sign out of the ones you don't recognize.",
+   "translation": "退出您不认识的会话。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1167,
+    "completionTokens": 237
+   },
+   "latencyMs": 18659,
+   "recordId": 2621,
+   "sessionTurns": 4
+  }
+ ]
+}

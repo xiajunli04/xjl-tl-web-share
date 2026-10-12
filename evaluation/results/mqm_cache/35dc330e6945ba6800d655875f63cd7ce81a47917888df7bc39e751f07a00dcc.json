@@ -1,0 +1,24 @@
+{
+ "doc": "pods",
+ "group": "I2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "_复制_",
+   "explanation": "此处是 Kubernetes 中的 replication 概念，通常译为“副本”或“副本机制”；“复制”容易与数据复制混淆。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "复制出的 Pod",
+   "explanation": "Replicated Pods 通常译为“副本 Pod”或“Pod 副本”；“复制出的 Pod”不符合该领域的常用术语表达。"
+  }
+ ]
+}

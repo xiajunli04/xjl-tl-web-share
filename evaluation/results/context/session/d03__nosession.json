@@ -1,0 +1,87 @@
+{
+ "dialogue": "d03",
+ "condition": "nosession",
+ "sessionId": null,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:32:12.293+00:00",
+ "finishedAt": "2026-10-03T17:33:43.191+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "I returned the blue jacket on Monday.",
+   "translation": "我在周一退回了那件蓝色夹克。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 796,
+    "completionTokens": 70
+   },
+   "latencyMs": 12431,
+   "recordId": 2572,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "When will I get my money back?",
+   "translation": "我什么时候能拿回我的钱？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 788,
+    "completionTokens": 29
+   },
+   "latencyMs": 10025,
+   "recordId": 2573,
+   "sessionTurns": 0
+  },
+  {
+   "index": 2,
+   "source": "The tracking page says you received it on Wednesday.",
+   "translation": "物流追踪页面显示您于星期三签收了包裹。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 804,
+    "completionTokens": 152
+   },
+   "latencyMs": 12738,
+   "recordId": 2574,
+   "sessionTurns": 0
+  },
+  {
+   "index": 3,
+   "source": "The black one I kept fits perfectly, by the way.",
+   "translation": "顺便说一下，我留下的那件黑色的非常合身。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 760,
+    "completionTokens": 84
+   },
+   "latencyMs": 13784,
+   "recordId": 2575,
+   "sessionTurns": 0
+  },
+  {
+   "index": 4,
+   "source": "Could you refund it to my original card instead of store credit?",
+   "translation": "可以将款项退回我的原支付卡，而不是以店铺余额的形式吗？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1687,
+    "completionTokens": 323
+   },
+   "latencyMs": 41129,
+   "recordId": 2576,
+   "sessionTurns": 0
+  }
+ ]
+}

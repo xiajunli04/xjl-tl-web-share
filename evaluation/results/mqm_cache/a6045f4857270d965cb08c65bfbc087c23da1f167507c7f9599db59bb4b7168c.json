@@ -1,0 +1,52 @@
+{
+ "doc": "deployment",
+ "group": "I1",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 725,
+ "errors": [
+  {
+   "segment": 5,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "创建了一个 ReplicaSet，该 ReplicaSet 创建三个副本 Pod",
+   "explanation": "原文表示 Deployment 会创建 ReplicaSet，而 ReplicaSet 会创建三个副本 Pod；译文将第二个“创建”的主语写成 ReplicaSet，语义基本相同，但句式容易误解为 ReplicaSet 创建的是“副本 Pod”这一特殊类型。"
+  },
+  {
+   "segment": 9,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "使用 `app: nginx` 进行标记，所依据的是 `.metadata.labels` 字段",
+   "explanation": "表达生硬且句序不自然，可改为“通过 `.metadata.labels` 字段为 Pod 添加 `app: nginx` 标签”。"
+  },
+  {
+   "segment": 10,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "运行来自[Docker Hub](https://hub.docker.com/) 的",
+   "explanation": "链接与“的”之间多了不必要的空格，属于标点排版瑕疵。"
+  },
+  {
+   "segment": 18,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "ready/desired",
+   "explanation": "原文要求说明该格式表示“就绪副本数/期望副本数”，译文保留英文且未解释两部分含义，读者难以理解字段格式。"
+  },
+  {
+   "segment": 23,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "发布状态",
+   "explanation": "此处 rollout 指 Deployment 的滚动更新过程，技术文档中通常译为“推出状态”或“滚动更新状态”；“发布状态”不够准确。"
+  },
+  {
+   "segment": 32,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "可供用户使用的副本数量",
+   "explanation": "ReplicaSet 输出中的 READY 表示已就绪的副本数，并非笼统表示可供用户使用的副本数；译文与原文相同表述虽沿用原文，但在本段字段说明中未准确体现 READY 的含义。"
+  }
+ ]
+}

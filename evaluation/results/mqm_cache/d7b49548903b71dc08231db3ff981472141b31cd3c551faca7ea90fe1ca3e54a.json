@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "I3",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "你可以在 Deployment 中描述",
+   "explanation": "原文陈述用户在 Deployment 中描述期望状态，译文加入“可以”，将陈述改成了能力或许可表达。"
+  }
+ ]
+}

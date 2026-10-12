@@ -1,0 +1,17 @@
+{
+ "doc": "volumes",
+ "group": "D3",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 144,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "非平凡应用",
+   "explanation": "“non-trivial applications”指较复杂或非简单的应用，“非平凡应用”是生硬的直译，不符合中文技术文档惯例。"
+  }
+ ]
+}

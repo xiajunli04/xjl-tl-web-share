@@ -1,0 +1,171 @@
+{
+  "id": "d4",
+  "scenario": "business",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "你好，我是星辰科技的王磊，负责海外采购",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “Hello, I’m Lei Wang from Xingchen Technology, and I’m responsible for international procurement.” It’s a pleasure to meet you, Mr. Wang. Could you tell me a little about your current procurement needs?",
+      "summary": null
+    },
+    {
+      "text": "我们这次主要想谈一下智能手表的代工合作",
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "You could say: “We’d mainly like to discuss an OEM partnership for smartwatches.” That sounds like a promising opportunity. Could you share your expected order volume, key specifications, and target launch date?",
+      "summary": null
+    },
+    {
+      "text": "你们的月产能大概是多少",
+      "tags": [
+        "substantive"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "You could say: “What is your approximate monthly production capacity?” Our current capacity is around 100,000 units per month, and we can scale up for larger orders with advance planning. What volume are you targeting?",
+      "summary": null
+    },
+    {
+      "text": "我们第一批订单大概五千台，价格能做到多少",
+      "tags": [
+        "substantive"
+      ],
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "You could say: “Our initial order would be around 5,000 units. What price could you offer?” For 5,000 units, our preliminary estimate is around 28 dollars per unit, depending on the specifications, packaging, and certification requirements. Could you share your target features?",
+      "summary": null
+    },
+    {
+      "text": "这个价格有点高，能不能再降一些",
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "You could say: “That price is a little high. Could you offer a lower price?” We may be able to reduce it to around 26 dollars per unit if the specifications remain standard. Would you be open to discussing the main cost drivers?",
+      "summary": null
+    },
+    {
+      "text": "交货期一般要多久",
+      "tags": [
+        "substantive"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "You could say: “What is the usual lead time?” For an initial order of 5,000 units, we typically need 30 to 45 days after receiving the deposit and confirming the final specifications. When would you ideally like the goods delivered?",
+      "summary": null
+    },
+    {
+      "text": "如果我们订一万台呢",
+      "tags": [
+        "substantive"
+      ],
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You could say: “What if we ordered 10,000 units?” For that volume, we could likely offer around 24.50 dollars per unit, with a lead time of approximately 35 to 45 days. Would you prefer standard packaging or custom packaging?",
+      "summary": null
+    },
+    {
+      "text": "质量问题你们怎么处理",
+      "tags": [
+        "substantive"
+      ],
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "You could say: “How do you handle quality issues?” We conduct inspections during production and before shipment, and our warranty covers manufacturing defects; depending on the situation, we can repair, replace, or credit defective units. Would you like to review our quality standards and warranty terms?",
+      "summary": null
+    },
+    {
+      "text": "能把刚才谈到的条件总结一下吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "月产能",
+        "五千台的报价",
+        "降价或一万台的报价",
+        "交货期",
+        "质量问题的处理方式"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "You could say: “Could you summarize the terms we discussed?” To recap, the preliminary price is 26 dollars per unit for 5,000 units, or 24.50 dollars for 10,000 units; lead time is 30 to 45 days for 5,000 units and 35 to 45 days for 10,000, subject to final specifications. Manufacturing defects are covered by repair, replacement, or credit.",
+      "summary": null
+    },
+    {
+      "text": "We hope can start next month",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "You could say: “We hope to start next month.” That should be feasible if we finalize the specifications and sign the agreement soon. Would you like us to prepare a formal quotation and proposed schedule?",
+      "summary": null
+    },
+    {
+      "text": "付款方式有哪些",
+      "tags": [
+        "substantive"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "You could say: “What payment terms do you offer?” Our standard terms are a 30% deposit upon order confirmation and the remaining 70% before shipment. For larger orders, we can also discuss a letter of credit or other arrangements.",
+      "summary": null
+    },
+    {
+      "text": "我们需要先看样品",
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "You could say: “We need to review samples first.” Certainly—we can provide samples within seven to ten working days after confirming the specifications, and the sample fee can be refunded with a bulk order. Which features would you like included in the sample?",
+      "summary": null
+    },
+    {
+      "text": "样品要收费吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "You could say: “Is there a charge for the sample?” Yes, the sample fee is 80 dollars per unit, plus shipping, and we’ll refund it after you place a bulk order. Would you like us to send one sample or several for testing?",
+      "summary": null
+    },
+    {
+      "text": "好的，我回去和团队商量一下",
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "You could say: “Okay, I’ll discuss it with my team.” That sounds good. I’ll prepare the quotation and sample details for your review. When would be a convenient time for us to follow up?",
+      "summary": null
+    },
+    {
+      "text": "下次会面你们方便什么时候",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "You could say: “When would be convenient for you to meet next time?” We’re available next Tuesday or Wednesday afternoon, but we can adjust to your schedule. Which time works better for your team?",
+      "summary": null
+    },
+    {
+      "text": "你还记得我是哪家公司的吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "星辰科技",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "You could say: “Do you remember which company I represent?” I don’t think you’ve mentioned your company name yet. Could you remind me?",
+      "summary": null
+    },
+    {
+      "text": "我们一开始说要合作什么产品",
+      "tags": [
+        "recall"
+      ],
+      "answer": "智能手表（代工）",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "You could say: “What product did we discuss partnering on at the beginning?” We haven’t specified the product yet; we’ve only discussed quantities, pricing, samples, delivery, and payment terms.",
+      "summary": null
+    }
+  ],
+  "greeting": "Thank you for coming in today. I’m glad we could meet to discuss a potential partnership, including the project timeline and pricing.",
+  "compressions": 0
+}

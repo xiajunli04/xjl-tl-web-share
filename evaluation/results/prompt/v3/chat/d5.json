@@ -1,0 +1,164 @@
+{
+  "id": "d5",
+  "scenario": "interview",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "你好，我来面试前端开发岗位",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "You could say: “Hello, I’m here to interview for the front-end developer position.”\n\nGreat, let’s begin. Could you briefly introduce yourself and tell me about your front-end development experience?",
+      "summary": null
+    },
+    {
+      "text": "我叫陈晨，去年毕业于华中科技大学，学的是软件工程",
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "Thank you, Chen Chen. Could you tell me about a front-end project you worked on, including your role and the technologies you used?",
+      "summary": null
+    },
+    {
+      "text": "I have two years experience of React",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "You could say: “I have two years of experience with React.”\n\nThat’s a solid foundation. Could you describe one React project you worked on and explain your specific responsibilities?",
+      "summary": null
+    },
+    {
+      "text": "我做过一个电商后台管理系统，负责前端架构",
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "That sounds like valuable experience, especially taking responsibility for the front-end architecture. What was the biggest challenge you faced while building the system, and how did you solve it?",
+      "summary": null
+    },
+    {
+      "text": "最大的挑战是性能优化，首屏加载从五秒降到一秒半",
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "You could say: “The biggest challenge was performance optimization. I reduced the initial load time from five seconds to one and a half seconds.”\n\nThat’s a strong, measurable result. What specific techniques did you use to improve the loading performance?",
+      "summary": null
+    },
+    {
+      "text": "我离职是因为想做更有挑战的产品",
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "That’s understandable. What interests you most about this role, and what kind of challenging product would you like to work on next?",
+      "summary": null
+    },
+    {
+      "text": "我的优点是学习能力强，缺点是有时候太追求细节",
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "Thank you for sharing that. Being detail-oriented can be a strength when you balance it with deadlines. We’ve covered the main questions, so what questions do you have for me about the role or the team?",
+      "summary": null
+    },
+    {
+      "text": "等一下，我能先问一个问题吗",
+      "tags": [
+        "after_interrupt"
+      ],
+      "i": 8,
+      "interrupted_kept": "Thank you for sharing that.",
+      "reply": "Of course. Please go ahead and ask your question.",
+      "summary": null
+    },
+    {
+      "text": "你们团队用什么技术栈",
+      "tags": [
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": null,
+      "reply": "Our exact stack depends on the product, but we generally use React, TypeScript, and modern build tools, with RESTful APIs on the backend. We also care about testing, performance, and code quality. Do you have any other questions for us?",
+      "summary": null
+    },
+    {
+      "text": "这个岗位需要经常加班吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "It depends on project deadlines, but we aim to maintain a healthy work-life balance and avoid regular overtime. There may occasionally be extra hours during important releases, with advance communication whenever possible.",
+      "summary": null
+    },
+    {
+      "text": "你能总结一下我刚才回答里的亮点和不足吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "电商后台管理系统的前端架构经验",
+        "首屏加载从 5 秒优化到 1.5 秒",
+        "离职原因：想做更有挑战的产品",
+        "优点学习能力强、缺点过于追求细节"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "Your strongest point was giving a clear, measurable result: you reduced the initial load time from five seconds to one and a half seconds. One improvement is to add more specific details about your role, such as the optimization techniques you used and how you managed the front-end architecture.",
+      "summary": null
+    },
+    {
+      "text": "我期望的薪资是两万左右",
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "You could say: “My salary expectation is around 20,000 yuan per month.”\n\nThat’s clear and reasonable. I’ll note that your expectation is around 20,000 yuan, depending on the overall compensation package and responsibilities.",
+      "summary": null
+    },
+    {
+      "text": "什么时候能知道结果",
+      "tags": [
+        "substantive"
+      ],
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "We usually share the result within a few business days after the final interview, but I can’t promise an exact timeline. If you haven’t heard back by then, it’s perfectly fine to follow up with the recruiter.",
+      "summary": null
+    },
+    {
+      "text": "I'm very looking forward to join your team",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’m really looking forward to joining your team.”\n\nThat enthusiasm is great. Thank you for your time today; we’ll be in touch about the interview result.",
+      "summary": null
+    },
+    {
+      "text": "谢谢你的时间",
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "Thank you for your time as well, Chen Chen. It was a pleasure speaking with you, and I wish you the best of luck.",
+      "summary": null
+    },
+    {
+      "text": "我是哪所学校毕业的来着",
+      "tags": [
+        "recall"
+      ],
+      "answer": "华中科技大学",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "You graduated from Huazhong University of Science and Technology with a degree in Software Engineering.",
+      "summary": "用户信息：陈晨；去年毕业于华中科技大学，专业是软件工程；应聘前端开发岗位；有两年 React 经验；参与过电商后台管理系统，负责前端架构。\n\n话题与要点：Lumi 建议用英文表达求职意向：“Hello, I’m here to interview for the front-end developer position.”；建议将经历表述为：“I have two years of experience with React.”；Lumi 认为负责前端架构是有价值的经验，并继续询问项目中遇到的最大挑战及解决方式。\n\n用户的问题：无。\n\n待办与约定：继续回答电商后台管理系统建设过程中遇到的最大挑战，以及具体解决方法。"
+    },
+    {
+      "text": "我应聘的是什么岗位",
+      "tags": [
+        "recall"
+      ],
+      "answer": "前端开发",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "You’re applying for a front-end developer position.",
+      "summary": "用户信息：陈晨；去年毕业于华中科技大学，专业是软件工程；应聘前端开发岗位；有两年 React 经验；参与过电商后台管理系统，负责前端架构。\n\n话题与要点：Lumi 建议用英文表达求职意向：“Hello, I’m here to interview for the front-end developer position.”；建议将经历表述为：“I have two years of experience with React.”；Lumi 认为负责前端架构是有价值的经验，并继续询问项目中遇到的最大挑战及解决方式。\n\n用户的问题：无。\n\n待办与约定：继续回答电商后台管理系统建设过程中遇到的最大挑战，以及具体解决方法。"
+    }
+  ],
+  "greeting": "Welcome, and thank you for joining us today. I’m Lumi, your interviewer, and I’d like to start by hearing a little about yourself.",
+  "compressions": 1
+}

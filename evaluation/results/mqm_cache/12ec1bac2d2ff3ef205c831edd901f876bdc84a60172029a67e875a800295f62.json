@@ -1,0 +1,38 @@
+{
+ "doc": "service",
+ "group": "D4",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 243,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "服务",
+   "explanation": "此处指 Kubernetes 的 Service 资源，按技术文档惯例宜保留资源名 Service。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "部署",
+   "explanation": "此处指 Kubernetes 的 Deployment 资源，宜保留资源名 Deployment。"
+  },
+  {
+   "segment": 4,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "部署",
+   "explanation": "此处指 Kubernetes 的 Deployment 资源，宜保留资源名 Deployment。"
+  },
+  {
+   "segment": 6,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "服务",
+   "explanation": "此处指 Kubernetes 的 Services 资源，宜保留资源名 Services。"
+  }
+ ]
+}

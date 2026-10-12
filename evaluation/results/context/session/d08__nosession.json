@@ -1,0 +1,87 @@
+{
+ "dialogue": "d08",
+ "condition": "nosession",
+ "sessionId": null,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:43:53.911+00:00",
+ "finishedAt": "2026-10-03T17:45:11.715+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "My colleagues and I ordered twelve lunch boxes for the team meeting.",
+   "translation": "我和同事们为团队会议订了十二份午餐盒。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 763,
+    "completionTokens": 170
+   },
+   "latencyMs": 21572,
+   "recordId": 2622,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "They arrived on time, but three were missing the sauce.",
+   "translation": "它们准时送达了，但其中三份没有酱汁。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 810,
+    "completionTokens": 99
+   },
+   "latencyMs": 8608,
+   "recordId": 2623,
+   "sessionTurns": 0
+  },
+  {
+   "index": 2,
+   "source": "Two of my colleagues are vegetarian, and theirs were fine.",
+   "translation": "我的两位同事是素食者，他们的那份没问题。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 760,
+    "completionTokens": 318
+   },
+   "latencyMs": 17845,
+   "recordId": 2624,
+   "sessionTurns": 0
+  },
+  {
+   "index": 3,
+   "source": "Could you send the sauce separately, or refund those three?",
+   "translation": "您可以单独寄送酱料，或者为那三份退款吗？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 812,
+    "completionTokens": 173
+   },
+   "latencyMs": 15315,
+   "recordId": 2625,
+   "sessionTurns": 0
+  },
+  {
+   "index": 4,
+   "source": "We'll order from you again next week if it's sorted out.",
+   "translation": "如果问题得到解决，我们下周还会向您订购。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 808,
+    "completionTokens": 134
+   },
+   "latencyMs": 13458,
+   "recordId": 2626,
+   "sessionTurns": 0
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "doc": "deployment",
+ "group": "I3",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 170,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "以上线 ReplicaSet",
+   "explanation": "此处的 rollout 指 Deployment 的推出或滚动更新过程，不是将 ReplicaSet“上线”。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "major",
+   "span": "上线状态",
+   "explanation": "“rollout”译为“上线”不符合 Kubernetes 技术语境，宜译为“推出状态”或“滚动更新状态”。"
+  },
+  {
+   "segment": 4,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "扩展该 ReplicaSet，同时缩减旧的 ReplicaSet",
+   "explanation": "scale up/down 在此指对 ReplicaSet 扩容和缩容，“扩展/缩减”不是常用的技术表述。"
+  },
+  {
+   "segment": 6,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "扩展 Deployment",
+   "explanation": "scale up Deployment 通常译为“扩容 Deployment”，此处“扩展”不够符合领域惯例。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "major",
+   "span": "暂停 Deployment 的上线",
+   "explanation": "rollout 指 Deployment 的推出或滚动更新过程，并非“上线”。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "major",
+   "span": "恢复上线",
+   "explanation": "此处应表达恢复 Deployment 的推出或滚动更新过程，“恢复上线”容易误解为重新上线。"
+  },
+  {
+   "segment": 8,
+   "category": "terminology",
+   "severity": "major",
+   "span": "上线卡住",
+   "explanation": "rollout 指推出或滚动更新过程，“上线卡住”未准确表达 rollout 卡滞。"
+  }
+ ]
+}

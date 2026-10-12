@@ -1,0 +1,24 @@
+{
+ "doc": "volumes",
+ "group": "I1",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 281,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": ")]的生命周期",
+   "explanation": "链接标记后多出一个右方括号，导致 Markdown 标记和标点格式错误。"
+  },
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": ")]的存在时间",
+   "explanation": "链接标记后多出一个右方括号，导致 Markdown 标记和标点格式错误。"
+  }
+ ]
+}

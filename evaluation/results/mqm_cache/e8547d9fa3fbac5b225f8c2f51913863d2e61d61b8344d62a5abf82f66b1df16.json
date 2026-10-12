@@ -1,0 +1,17 @@
+{
+ "doc": "pods",
+ "group": "I3",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 201,
+ "errors": [
+  {
+   "segment": 9,
+   "category": "locale",
+   "severity": "minor",
+   "span": "[网络](#pod-networking) 和[存储](#pod-storage)",
+   "explanation": "中文行文中链接两侧通常不需添加空格，空格使用不一致。"
+  }
+ ]
+}

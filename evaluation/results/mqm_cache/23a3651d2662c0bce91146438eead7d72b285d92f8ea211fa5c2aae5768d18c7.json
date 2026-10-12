@@ -1,0 +1,17 @@
+{
+ "doc": "service",
+ "group": "D4",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 11,
+   "category": "accuracy",
+   "severity": "major",
+   "span": "非云原生应用",
+   "explanation": "“non-native applications”指非 Kubernetes 原生应用，并不等同于“非云原生应用”，译文缩小并改变了原文所指范围。"
+  }
+ ]
+}

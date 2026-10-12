@@ -1,0 +1,38 @@
+{
+ "doc": "volumes",
+ "group": "I2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 281,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": ")]类型",
+   "explanation": "链接末尾多出一个右方括号，导致 Markdown 标记格式错误。"
+  },
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "数据都会在容器重启期间保留",
+   "explanation": "原文表示数据在容器重启后仍得以保留；译文的“重启期间”将时间关系表述为重启过程中。"
+  },
+  {
+   "segment": 5,
+   "category": "fluency",
+   "severity": "minor",
+   "span": ")]。",
+   "explanation": "链接末尾多出一个右方括号，导致 Markdown 标记格式错误。"
+  },
+  {
+   "segment": 6,
+   "category": "fluency",
+   "severity": "minor",
+   "span": ")]）。",
+   "explanation": "链接末尾多出一个右方括号，导致 Markdown 标记格式错误。"
+  }
+ ]
+}

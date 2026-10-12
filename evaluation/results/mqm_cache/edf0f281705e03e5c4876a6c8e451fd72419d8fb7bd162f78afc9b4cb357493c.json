@@ -1,0 +1,31 @@
+{
+ "doc": "pods",
+ "group": "D3",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 134,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "豌豆荚中的 pod",
+   "explanation": "此处的 pod 是普通名词双关，并非需保留的产品名或代码标识符；保留英文导致内容未完全翻译。"
+  },
+  {
+   "segment": 3,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "配置",
+   "explanation": "将 specification 译为“配置”不够准确；此处指 Pod 的运行规范或规约。"
+  },
+  {
+   "segment": 3,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "模拟了",
+   "explanation": "models 在此表示“表示”或“建模为”，译为“模拟”容易让人理解为进行仿真。"
+  }
+ ]
+}

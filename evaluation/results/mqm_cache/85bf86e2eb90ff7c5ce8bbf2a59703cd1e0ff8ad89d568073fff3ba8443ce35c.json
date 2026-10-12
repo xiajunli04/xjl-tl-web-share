@@ -1,0 +1,17 @@
+{
+ "doc": "configmap",
+ "group": "I1",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 35,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "ConfigMap",
+   "explanation": "原文为复数资源名“ConfigMaps”，译文改为单数形式，未保留原文标题中的复数含义。"
+  }
+ ]
+}

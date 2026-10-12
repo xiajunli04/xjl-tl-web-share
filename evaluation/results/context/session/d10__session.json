@@ -1,0 +1,87 @@
+{
+ "dialogue": "d10",
+ "condition": "session",
+ "sessionId": 12,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:49:24.498+00:00",
+ "finishedAt": "2026-10-03T17:50:32.109+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "Your flight to Osaka has been delayed by four hours.",
+   "translation": "您飞往大阪的航班已延误四小时。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 804,
+    "completionTokens": 117
+   },
+   "latencyMs": 16160,
+   "recordId": 2647,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "You can rebook it free of charge until midnight.",
+   "translation": "您可以在午夜前免费改签。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 964,
+    "completionTokens": 97
+   },
+   "latencyMs": 12224,
+   "recordId": 2648,
+   "sessionTurns": 1
+  },
+  {
+   "index": 2,
+   "source": "The 6:40 one tomorrow still has seats.",
+   "translation": "明天6:40的航班仍有座位。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 984,
+    "completionTokens": 104
+   },
+   "latencyMs": 14685,
+   "recordId": 2649,
+   "sessionTurns": 2
+  },
+  {
+   "index": 3,
+   "source": "If you take it, we'll cover one night at the airport hotel.",
+   "translation": "如果您选择乘坐该航班，我们将承担您在机场酒店住宿一晚的费用。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1125,
+    "completionTokens": 137
+   },
+   "latencyMs": 11534,
+   "recordId": 2650,
+   "sessionTurns": 3
+  },
+  {
+   "index": 4,
+   "source": "Your bags will be transferred automatically.",
+   "translation": "您的行李将自动转运。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1187,
+    "completionTokens": 70
+   },
+   "latencyMs": 12185,
+   "recordId": 2651,
+   "sessionTurns": 4
+  }
+ ]
+}

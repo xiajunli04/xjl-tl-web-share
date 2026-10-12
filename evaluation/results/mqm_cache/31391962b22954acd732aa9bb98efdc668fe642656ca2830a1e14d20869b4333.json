@@ -1,0 +1,24 @@
+{
+ "doc": "pods",
+ "group": "I1",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 6,
+   "category": "style",
+   "severity": "minor",
+   "span": "封装器",
+   "explanation": "“封装器”在此处措辞生硬，可改为“封装”或“包装”。"
+  },
+  {
+   "segment": 7,
+   "category": "style",
+   "severity": "minor",
+   "span": "共置容器",
+   "explanation": "“共置”较生硬，技术文档中可用“共同部署”等更自然的表达。"
+  }
+ ]
+}

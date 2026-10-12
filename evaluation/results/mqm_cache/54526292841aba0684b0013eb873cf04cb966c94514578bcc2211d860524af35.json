@@ -1,0 +1,31 @@
+{
+ "doc": "pods",
+ "group": "D0",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "style",
+   "severity": "minor",
+   "span": "在集群中的每个节点内安装",
+   "explanation": "技术文档中通常说在节点上安装；“节点内”措辞不自然。"
+  },
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "\n，以便",
+   "explanation": "换行将逗号与前文分开，标点衔接不自然。"
+  },
+  {
+   "segment": 7,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "紧密统一的单元",
+   "explanation": "“紧密统一”搭配生硬，未能自然表达 cohesive unit 的含义。"
+  }
+ ]
+}

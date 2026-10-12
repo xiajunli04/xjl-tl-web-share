@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "I2",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 725,
+ "errors": [
+  {
+   "segment": 10,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "[Docker Hub](https://hub.docker.com/)]",
+   "explanation": "链接后多出一个右方括号，属于标点错误。"
+  }
+ ]
+}

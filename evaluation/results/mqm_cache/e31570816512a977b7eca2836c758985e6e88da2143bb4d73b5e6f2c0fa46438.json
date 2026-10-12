@@ -1,0 +1,17 @@
+{
+ "doc": "configmap",
+ "group": "D3",
+ "chunk": 3,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 340,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "单行值",
+   "explanation": "原文指某些键具有单个值，并非值只有一行；“单行值”改变了描述的含义。"
+  }
+ ]
+}

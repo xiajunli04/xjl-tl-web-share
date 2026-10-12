@@ -1,0 +1,31 @@
+{
+ "doc": "deployment",
+ "group": "I3",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 725,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "三个 `nginx` 个 Pod",
+   "explanation": "量词“个”与英文标识符之间的表达不自然，应为“三个 `nginx` Pod”。"
+  },
+  {
+   "segment": 10,
+   "category": "fluency",
+   "severity": "major",
+   "span": "[Docker Hub](https://hub.docker.com/)] 镜像的 1.14.2 版本",
+   "explanation": "链接后多出一个右方括号，破坏 Markdown 格式并影响阅读。"
+  },
+  {
+   "segment": 23,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "上线状态",
+   "explanation": "此处 rollout 指 Deployment 的滚动更新过程或部署进度，“上线状态”不够准确；宜译为“滚动更新状态”。"
+  }
+ ]
+}

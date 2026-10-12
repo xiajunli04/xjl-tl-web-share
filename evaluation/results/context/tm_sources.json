@@ -1,0 +1,7 @@
+{
+ "pods": 136,
+ "deployment": 137,
+ "service": 138,
+ "configmap": 139,
+ "volumes": 140
+}

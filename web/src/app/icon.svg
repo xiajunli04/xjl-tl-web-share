@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>译桥 · LinguaBridge · 双向语言桥</title>
+  <defs>
+    <linearGradient id="base" x1="8" y1="2" x2="58" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#34306B"/><stop offset=".55" stop-color="#211D49"/><stop offset="1" stop-color="#131329"/></linearGradient>
+    <linearGradient id="forward" x1="14" y1="18" x2="45" y2="42" gradientUnits="userSpaceOnUse"><stop stop-color="#F4F1FF"/><stop offset="1" stop-color="#C1B4FF"/></linearGradient>
+    <linearGradient id="return" x1="49" y1="46" x2="23" y2="25" gradientUnits="userSpaceOnUse"><stop stop-color="#A5B4FC"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <linearGradient id="rim" x1="8" y1="0" x2="56" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#C4B5FD" stop-opacity=".5"/><stop offset="1" stop-color="#C4B5FD" stop-opacity=".08"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="url(#base)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="17.5" stroke="url(#rim)"/>
+  <path d="M15 18H31L46 38H35L24 25H15V18Z" fill="url(#forward)"/>
+  <path d="M49 46H33L18 26H29L40 39H49V46Z" fill="url(#return)"/>
+  <path d="M15 18V32L22 25V18H15Z" fill="url(#forward)"/>
+  <path d="M49 46V32L42 39V46H49Z" fill="url(#return)"/>
+</svg>

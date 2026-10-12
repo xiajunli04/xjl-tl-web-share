@@ -1,0 +1,17 @@
+{
+ "doc": "volumes",
+ "group": "I3",
+ "chunk": 2,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 281,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "的存在超出",
+   "explanation": "表达不通顺，建议改为“其生命周期超出”。"
+  }
+ ]
+}

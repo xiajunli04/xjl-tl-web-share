@@ -1,0 +1,9 @@
+{
+  "label": "baseline",
+  "adapter": "baseline",
+  "prompt_version": "baseline",
+  "model": "gpt-5.6-luna",
+  "judge_model": "gpt-6-luna",
+  "commit": "95ca6b6",
+  "updated_at": "2026-10-06T04:31:11+00:00"
+}

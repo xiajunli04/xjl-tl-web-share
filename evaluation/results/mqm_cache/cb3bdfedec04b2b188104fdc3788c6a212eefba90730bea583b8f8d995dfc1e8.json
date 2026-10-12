@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "D2",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "terminology",
+   "severity": "major",
+   "span": "部署",
+   "explanation": "此处“Deployments”指 Kubernetes 的 Deployment 资源类型，按技术文档惯例应保留英文资源名；译为“部署”会与一般意义上的部署混淆。"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "doc": "pods",
+ "group": "I2",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "]",
+   "explanation": "链接结束后多出一个右方括号，属于标点错误。"
+  },
+  {
+   "segment": 7,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "]",
+   "explanation": "链接结束后多出一个右方括号，属于标点错误。"
+  },
+  {
+   "segment": 8,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "多个共置且统一管理的多个容器",
+   "explanation": "“多个”重复，表达冗余。"
+  },
+  {
+   "segment": 9,
+   "category": "fluency",
+   "severity": "minor",
+   "span": "]",
+   "explanation": "链接结束后多出一个右方括号，属于标点错误。"
+  }
+ ]
+}

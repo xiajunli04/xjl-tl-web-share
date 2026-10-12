@@ -1,0 +1,24 @@
+{
+ "doc": "deployment",
+ "group": "I1",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 170,
+ "errors": [
+  {
+   "segment": 7,
+   "category": "style",
+   "severity": "minor",
+   "span": "应用多个修复",
+   "explanation": "“应用修复”搭配生硬；此处指对 PodTemplateSpec 进行多项修改。"
+  },
+  {
+   "segment": 8,
+   "category": "style",
+   "severity": "minor",
+   "span": "作为发布已卡住的指示",
+   "explanation": "“作为……的指示”表达不自然，可改为“作为发布卡住的指示信号”。"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "doc": "volumes",
+ "group": "D3",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 156,
+ "errors": [
+  {
+   "segment": 1,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "卷",
+   "explanation": "Kubernetes 文档中 Volume 通常译为“卷”或“存储卷”；单独标题译为“卷”虽可理解，但未体现该术语的技术语境。"
+  }
+ ]
+}

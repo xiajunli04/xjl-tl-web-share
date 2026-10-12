@@ -1,0 +1,38 @@
+{
+ "doc": "pods",
+ "group": "D4",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 3,
+   "category": "style",
+   "severity": "minor",
+   "span": "其他隔离方面",
+   "explanation": "“facets of isolation”译为“隔离方面”表达生硬，技术语境中可译为“其他隔离特性”。"
+  },
+  {
+   "segment": 7,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "共同位于同一位置",
+   "explanation": "“co-located”在此指容器部署在同一 Pod 中，译为“共同位于同一位置”不符合技术文档惯用表达。"
+  },
+  {
+   "segment": 8,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "共同位于同一位置",
+   "explanation": "“co-located”在此指容器部署在同一 Pod 中，译为“共同位于同一位置”不符合技术文档惯用表达。"
+  },
+  {
+   "segment": 9,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "弹性",
+   "explanation": "此处“resilience”指系统的韧性或故障恢复能力，不是通常表示伸缩能力的“弹性”。"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "dialogue": "d09",
+ "condition": "session",
+ "sessionId": 11,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:47:18.755+00:00",
+ "finishedAt": "2026-10-03T17:48:18.398+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "I adopted a kitten named Momo last month.",
+   "translation": "我上个月领养了一只名叫 Momo 的小猫。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 803,
+    "completionTokens": 70
+   },
+   "latencyMs": 10272,
+   "recordId": 2637,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "She refuses to eat the dry food I bought from you.",
+   "translation": "她拒绝吃我从你们这里购买的干粮。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 976,
+    "completionTokens": 94
+   },
+   "latencyMs": 11892,
+   "recordId": 2638,
+   "sessionTurns": 1
+  },
+  {
+   "index": 2,
+   "source": "Do you have a smaller size so I can try a different flavor?",
+   "translation": "你们有更小规格的吗？这样我可以试试其他口味。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1061,
+    "completionTokens": 82
+   },
+   "latencyMs": 12849,
+   "recordId": 2639,
+   "sessionTurns": 2
+  },
+  {
+   "index": 3,
+   "source": "The vet said she should gain a little weight.",
+   "translation": "兽医说她应该稍微增重一点。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1133,
+    "completionTokens": 127
+   },
+   "latencyMs": 13581,
+   "recordId": 2640,
+   "sessionTurns": 3
+  },
+  {
+   "index": 4,
+   "source": "Momo does like the salmon treats, though.",
+   "translation": "不过，Momo 确实喜欢三文鱼零食。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 1205,
+    "completionTokens": 96
+   },
+   "latencyMs": 9714,
+   "recordId": 2641,
+   "sessionTurns": 4
+  }
+ ]
+}

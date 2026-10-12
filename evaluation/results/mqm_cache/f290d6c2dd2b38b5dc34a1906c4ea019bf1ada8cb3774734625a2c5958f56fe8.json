@@ -1,0 +1,24 @@
+{
+ "doc": "pods",
+ "group": "I3",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 230,
+ "errors": [
+  {
+   "segment": 2,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "节点内",
+   "explanation": "原文表示在每个节点上安装运行时；“节点内”容易理解为安装在节点内部，表达不够准确。"
+  },
+  {
+   "segment": 9,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "复制能力",
+   "explanation": "此处指通过多个副本实现冗余或扩展容量，译为“复制能力”不符合该语境下的常用技术表达。"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "doc": "deployment",
+ "group": "I3",
+ "chunk": 0,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 80,
+ "errors": [
+  {
+   "segment": 4,
+   "category": "accuracy",
+   "severity": "minor",
+   "span": "代码库",
+   "explanation": "“repository”应译为“代码仓库”或“仓库”；“代码库”可能指代码集合，未准确体现仓库这一含义。"
+  }
+ ]
+}

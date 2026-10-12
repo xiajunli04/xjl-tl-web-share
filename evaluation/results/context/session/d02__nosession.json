@@ -1,0 +1,87 @@
+{
+ "dialogue": "d02",
+ "condition": "nosession",
+ "sessionId": null,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:29:59.426+00:00",
+ "finishedAt": "2026-10-03T17:30:56.884+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "I'm writing on behalf of my mother, Linda Chen.",
+   "translation": "我谨代表我的母亲 Linda Chen 写信。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 752,
+    "completionTokens": 100
+   },
+   "latencyMs": 13697,
+   "recordId": 2562,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "She placed an order two days ago but hasn't received a confirmation email.",
+   "translation": "她两天前下了一笔订单，但尚未收到确认邮件。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 815,
+    "completionTokens": 37
+   },
+   "latencyMs": 7272,
+   "recordId": 2563,
+   "sessionTurns": 0
+  },
+  {
+   "index": 2,
+   "source": "Could you resend it to her new address?",
+   "translation": "你能把它重新寄到她的新地址吗？",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 747,
+    "completionTokens": 91
+   },
+   "latencyMs": 13459,
+   "recordId": 2564,
+   "sessionTurns": 0
+  },
+  {
+   "index": 3,
+   "source": "The old one has been closed for months.",
+   "translation": "旧的那个已经关闭好几个月了。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 745,
+    "completionTokens": 72
+   },
+   "latencyMs": 10771,
+   "recordId": 2565,
+   "sessionTurns": 0
+  },
+  {
+   "index": 4,
+   "source": "Please address her as Mrs. Chen in the reply.",
+   "translation": "请在回复中称呼她为陈太太。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 753,
+    "completionTokens": 66
+   },
+   "latencyMs": 11829,
+   "recordId": 2566,
+   "sessionTurns": 0
+  }
+ ]
+}

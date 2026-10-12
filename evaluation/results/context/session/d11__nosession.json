@@ -1,0 +1,87 @@
+{
+ "dialogue": "d11",
+ "condition": "nosession",
+ "sessionId": null,
+ "mode": "standard",
+ "modelConfigId": 2,
+ "gitCommit": "fd27c664f141e761ae4378def49360c1f65bd5a3",
+ "startedAt": "2026-10-03T17:50:32.111+00:00",
+ "finishedAt": "2026-10-03T17:51:42.684+00:00",
+ "turns": [
+  {
+   "index": 0,
+   "source": "The sofa and the two armchairs will be delivered on Saturday morning.",
+   "translation": "沙发和两把扶手椅将于周六上午送达。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 819,
+    "completionTokens": 83
+   },
+   "latencyMs": 14568,
+   "recordId": 2652,
+   "sessionTurns": 0
+  },
+  {
+   "index": 1,
+   "source": "The driver will need help carrying the larger one upstairs.",
+   "translation": "司机需要有人帮忙把较大的那个搬上楼。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 804,
+    "completionTokens": 79
+   },
+   "latencyMs": 9954,
+   "recordId": 2653,
+   "sessionTurns": 0
+  },
+  {
+   "index": 2,
+   "source": "The chairs can go in the elevator.",
+   "translation": "这些椅子可以放进电梯。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 742,
+    "completionTokens": 82
+   },
+   "latencyMs": 10207,
+   "recordId": 2654,
+   "sessionTurns": 0
+  },
+  {
+   "index": 3,
+   "source": "Please measure the doorway before then.",
+   "translation": "请在那之前测量门口。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 738,
+    "completionTokens": 133
+   },
+   "latencyMs": 18308,
+   "recordId": 2655,
+   "sessionTurns": 0
+  },
+  {
+   "index": 4,
+   "source": "If it's narrower than 80 cm, we can remove the legs.",
+   "translation": "如果宽度小于80厘米，我们可以拆下腿。",
+   "ok": true,
+   "error": null,
+   "path": "standard",
+   "usage": {
+    "promptTokens": 813,
+    "completionTokens": 207
+   },
+   "latencyMs": 16966,
+   "recordId": 2656,
+   "sessionTurns": 0
+  }
+ ]
+}

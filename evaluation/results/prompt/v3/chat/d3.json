@@ -1,0 +1,171 @@
+{
+  "id": "d3",
+  "scenario": "restaurant",
+  "my": "zh",
+  "ai": "en",
+  "turns": [
+    {
+      "text": "你好，两个人",
+      "i": 1,
+      "interrupted_kept": null,
+      "reply": "Of course, a table for two. Please have a seat—would you like to start with some water, tea, or coffee?",
+      "summary": null
+    },
+    {
+      "text": "我们想先喝点东西，有什么推荐",
+      "tags": [
+        "substantive"
+      ],
+      "i": 2,
+      "interrupted_kept": null,
+      "reply": "I recommend our fresh lemonade or jasmine tea. We also have iced coffee and sparkling water. Would you prefer something refreshing, warm, or caffeinated?",
+      "summary": null
+    },
+    {
+      "text": "那来两杯柠檬茶吧",
+      "i": 3,
+      "interrupted_kept": null,
+      "reply": "Certainly. Would you like two lemonades or two jasmine teas?",
+      "summary": null
+    },
+    {
+      "text": "我朋友对花生过敏",
+      "i": 4,
+      "interrupted_kept": null,
+      "reply": "Thank you for telling me. I’ll note the peanut allergy and inform our kitchen to prevent cross-contact. Just to confirm, would you like two lemonades or two jasmine teas?",
+      "summary": null
+    },
+    {
+      "text": "你们有什么招牌菜",
+      "tags": [
+        "substantive"
+      ],
+      "i": 5,
+      "interrupted_kept": null,
+      "reply": "Our signature dishes are the house roast chicken, 22 dollars, and the seafood noodles, 19 dollars. We also recommend the mushroom risotto, 17 dollars, and we can prepare these without peanuts for your friend.",
+      "summary": null
+    },
+    {
+      "text": "这个菜辣吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 6,
+      "interrupted_kept": null,
+      "reply": "Which dish do you mean—the seafood noodles or another one? I can check the spice level and make sure it’s peanut-free.",
+      "summary": null
+    },
+    {
+      "text": "I want a not spicy one",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 7,
+      "interrupted_kept": null,
+      "reply": "You could say: “I’d like something that isn’t spicy.”\n\nOur mushroom risotto is mild and can be made peanut-free. Would you like to order that?",
+      "summary": null
+    },
+    {
+      "text": "那就来一份这个，再来一份炒饭",
+      "i": 8,
+      "interrupted_kept": null,
+      "reply": "Certainly—one mushroom risotto for $17 and one vegetable fried rice for $15, both mild and peanut-free. Would you like the fried rice with vegetables or chicken?",
+      "summary": null
+    },
+    {
+      "text": "等等，我想问一下有没有素食",
+      "tags": [
+        "after_interrupt",
+        "substantive"
+      ],
+      "i": 9,
+      "interrupted_kept": "Certainly—one mushroom risotto for $17 and one vegetable fried rice for $15, both mild and peanut-free.",
+      "reply": "Yes, we have vegetarian options. The mushroom risotto and vegetable fried rice can both be prepared vegetarian and peanut-free; the fried rice normally includes egg. Would you like it without egg too?",
+      "summary": null
+    },
+    {
+      "text": "好的，素食也来一份",
+      "i": 10,
+      "interrupted_kept": null,
+      "reply": "You could say: “Okay, I’d like one vegetarian dish as well.”\n\nCertainly. Would you like an additional vegetarian fried rice for $15, or should I make the original fried rice vegetarian?",
+      "summary": null
+    },
+    {
+      "text": "能帮我复述一下我们点了什么吗",
+      "tags": [
+        "summary"
+      ],
+      "keypoints": [
+        "两杯柠檬茶",
+        "一道不辣的菜（顾客选定的那道）",
+        "一份炒饭",
+        "一份素食菜"
+      ],
+      "i": 11,
+      "interrupted_kept": null,
+      "reply": "Here’s what I have so far. You ordered one mushroom risotto for $17 and one vegetable fried rice for $15, both mild and peanut-free. Your friend has a peanut allergy, and you asked for vegetarian food; the fried rice normally includes egg. We still need to confirm whether you want the original fried rice made vegetarian or an additional vegetarian fried rice, and whether your drinks are two lemonades or two jasmine teas.",
+      "summary": null
+    },
+    {
+      "text": "上菜大概要多久",
+      "tags": [
+        "substantive"
+      ],
+      "i": 12,
+      "interrupted_kept": null,
+      "reply": "It usually takes about 20 minutes, though it may vary with the kitchen. I’ll let you know if there’s any delay.",
+      "summary": null
+    },
+    {
+      "text": "可以先上饮料吗",
+      "i": 13,
+      "interrupted_kept": null,
+      "reply": "Certainly, we can serve the drinks first. Would you like two lemonades or two jasmine teas?",
+      "summary": null
+    },
+    {
+      "text": "Thanks, the food is very delicious",
+      "tags": [
+        "wrong_l2"
+      ],
+      "i": 14,
+      "interrupted_kept": null,
+      "reply": "I’m glad you’re enjoying the food! Please let me know if you need anything else.",
+      "summary": null
+    },
+    {
+      "text": "我们可以分开付吗",
+      "tags": [
+        "substantive"
+      ],
+      "i": 15,
+      "interrupted_kept": null,
+      "reply": "Yes, we can split the bill. Would you like to divide it evenly or have each person pay for their own items?",
+      "summary": null
+    },
+    {
+      "text": "我刚才说我朋友对什么过敏来着",
+      "tags": [
+        "recall"
+      ],
+      "answer": "花生",
+      "i": 16,
+      "interrupted_kept": null,
+      "reply": "Your friend is allergic to peanuts.",
+      "summary": "用户信息：两个人；朋友对花生过敏。  \n话题与要点：用户想先喝点东西，Lumi 推荐 fresh lemonade、jasmine tea、iced coffee 和 sparkling water；用户说“那来两杯柠檬茶吧”，Lumi 询问是两杯 lemonades 还是两杯 jasmine teas；Lumi 已记录花生过敏，并会通知厨房避免交叉接触。  \n用户的问题：有什么推荐？  \n待办与约定：确认“两杯柠檬茶”具体是 two lemonades 还是 two jasmine teas；为朋友注意花生过敏及交叉接触。"
+    },
+    {
+      "text": "那我们点的炒饭里有花生吗",
+      "tags": [
+        "recall"
+      ],
+      "answer": "应结合花生过敏回答（确认不含花生或承诺确认），不能忽略过敏信息",
+      "i": 17,
+      "interrupted_kept": null,
+      "reply": "No, I noted that the fried rice should be peanut-free. I’ll confirm with the kitchen to prevent cross-contact before serving it.",
+      "summary": "用户信息：两个人；朋友对花生过敏。  \n话题与要点：用户想先喝点东西，Lumi 推荐 fresh lemonade、jasmine tea、iced coffee 和 sparkling water；用户说“那来两杯柠檬茶吧”，Lumi 询问是两杯 lemonades 还是两杯 jasmine teas；Lumi 已记录花生过敏，并会通知厨房避免交叉接触。  \n用户的问题：有什么推荐？  \n待办与约定：确认“两杯柠檬茶”具体是 two lemonades 还是 two jasmine teas；为朋友注意花生过敏及交叉接触。"
+    }
+  ],
+  "greeting": "Welcome! Please have a seat and take a look at our menu. What would you like to drink?",
+  "compressions": 1
+}

@@ -1,0 +1,34 @@
+{
+  "sessionId": 44,
+  "turns": [
+    {
+      "say": "我叫小林，下个月要去大阪出差。",
+      "asr": "我叫小林，下个月要去大阪出差。",
+      "reply": "You could say: “My name is Xiaolin, and I’m going to Osaka on a business trip next month.” That sounds exciting—have you been to Osaka before?"
+    },
+    {
+      "say": "大阪有什么好吃的推荐吗？",
+      "asr": "大阪有什么好吃的推荐吗？",
+      "reply": "Osaka is famous for takoyaki, okonomiyaki, and kushikatsu. For a local experience, try takoyaki in Dotonbori, okonomiyaki around Namba, and kushikatsu in Shinsekai. If you like noodles, kitsune udon is another Osaka classic."
+    },
+    {
+      "say": "那里的地铁方便吗？",
+      "asr": "那里的地铁方便吗？",
+      "reply": "Yes, Osaka’s subway is very convenient, especially around the city center. Most signs include English, and you can use an IC card like ICOCA to make travel easier. Note that some popular areas also use JR or private railways, not just the subway."
+    }
+  ],
+  "greeting": "Hi, I’m Lumi. What would you like to talk about today?",
+  "resume": {
+    "say": "你还记得我叫什么、下个月要去哪个城市吗？",
+    "asr": "你还记得我叫什么？下个月要去哪个城市吗？",
+    "reply": "Yes, your name is Xiaolin, and you’re going to Osaka next month for a business trip.",
+    "greetedAgain": false,
+    "memoryEventsToBrowser": 0
+  },
+  "checks": {
+    "noGreetingAfterReconnect": true,
+    "remembersName": true,
+    "remembersCity": true,
+    "noMemoryEventToBrowser": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "doc": "service",
+ "group": "D6",
+ "chunk": 1,
+ "model": "gpt-6-luna",
+ "prompt": "gemba-mqm-zh-v1",
+ "sourceWords": 374,
+ "errors": [
+  {
+   "segment": 5,
+   "category": "terminology",
+   "severity": "minor",
+   "span": "金丝雀 Deployment",
+   "explanation": "此处的 deployment 指部署方式，而非 Kubernetes Deployment 资源；保留英文导致术语使用不当且表达不自然，应译为“金丝雀部署”。"
+  }
+ ]
+}

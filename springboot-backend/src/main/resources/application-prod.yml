@@ -1,0 +1,6 @@
+# 生产环境：关闭接口文档，所有密钥必须通过环境变量提供
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
